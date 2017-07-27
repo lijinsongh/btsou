@@ -1,0 +1,763 @@
+[ 2017-06-24T08:49:52+08:00 ] 127.0.0.1 /xingzheng/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003211s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.031613s ]
+
+[ 2017-06-24T08:49:52+08:00 ] 127.0.0.1 /xingzheng/index.php?s=/login/login.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.019627s ]
+INFO: [ route_check ] --END-- [ RunTime:0.019938s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001700s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: usermsg E:\wamp\www\xingzheng\Admin\Runtime\Cache\27e9c4fddbdacc085a84cce69c1ba206.php 第 41 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.117092s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.117413s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001554s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001554s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001325s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001916s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006999s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003762s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004224s ]
+
+[ 2017-06-24T08:49:57+08:00 ] 127.0.0.1 /xingzheng/index.php?s=/login/dologin.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002405s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002697s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001695s ]
+SQL: SHOW COLUMNS FROM `s_user` [ RunTime:0.235685s ]
+SQL: SELECT * FROM `s_user` WHERE ( username = 'admin' and password = 'accp06072' )  [ RunTime:0.042308s ]
+NOTIC: [8] Undefined index: id E:\wamp\www\xingzheng\Admin\Lib\Action\LoginAction.class.php 第 17 行.
+
+[ 2017-06-24T08:49:57+08:00 ] 127.0.0.1 /xingzheng/index.php?s=/index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001663s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001970s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001232s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001492s ]
+SQL: SHOW COLUMNS FROM `s_menu` [ RunTime:0.051645s ]
+SQL: SELECT * FROM `s_menu`  [ RunTime:0.004880s ]
+SQL: SELECT COUNT(*) AS tp_count FROM s_employeesinfo a left join s_job b on a.jobid = b.id left join s_partment c on a.partid = c.id WHERE (  DATE_FORMAT(a.brithday,'%m') = '06'  ) LIMIT 1   [ RunTime:0.033480s ]
+ERR: 1146:Table 'jd_public_sys.s_employeesinfo' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM s_employeesinfo a left join s_job b on a.jobid = b.id left join s_partment c on a.partid = c.id WHERE (  DATE_FORMAT(a.brithday,'%m') = '06'  ) LIMIT 1  
+NOTIC: [8] Undefined variable: page E:\wamp\www\xingzheng\Admin\Lib\Action\IndexAction.class.php 第 9 行.
+NOTIC: [8] Trying to get property of non-object E:\wamp\www\xingzheng\Admin\Lib\Action\IndexAction.class.php 第 9 行.
+NOTIC: [8] Undefined variable: page E:\wamp\www\xingzheng\Admin\Lib\Action\IndexAction.class.php 第 9 行.
+NOTIC: [8] Trying to get property of non-object E:\wamp\www\xingzheng\Admin\Lib\Action\IndexAction.class.php 第 9 行.
+SQL: SELECT * FROM s_employeesinfo a left join s_job b on a.jobid = b.id left join s_partment c on a.partid = c.id WHERE (  DATE_FORMAT(a.brithday,'%m') = '06'  )  [ RunTime:0.001029s ]
+ERR: 1146:Table 'jd_public_sys.s_employeesinfo' doesn't exist
+ [ SQL语句 ] : SELECT * FROM s_employeesinfo a left join s_job b on a.jobid = b.id left join s_partment c on a.partid = c.id WHERE (  DATE_FORMAT(a.brithday,'%m') = '06'  ) 
+SQL: SELECT COUNT(*) AS tp_count FROM s_employeesinfo a left join s_job b on a.jobid = b.id left join s_partment c on a.partid = c.id WHERE (  DATE_FORMAT(a.turnrighttime,'%Y-%m') = '2017-06' and a.state = 1 ) LIMIT 1   [ RunTime:0.000946s ]
+ERR: 1146:Table 'jd_public_sys.s_employeesinfo' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM s_employeesinfo a left join s_job b on a.jobid = b.id left join s_partment c on a.partid = c.id WHERE (  DATE_FORMAT(a.turnrighttime,'%Y-%m') = '2017-06' and a.state = 1 ) LIMIT 1  
+NOTIC: [8] Undefined variable: page E:\wamp\www\xingzheng\Admin\Lib\Action\IndexAction.class.php 第 14 行.
+NOTIC: [8] Trying to get property of non-object E:\wamp\www\xingzheng\Admin\Lib\Action\IndexAction.class.php 第 14 行.
+NOTIC: [8] Undefined variable: page E:\wamp\www\xingzheng\Admin\Lib\Action\IndexAction.class.php 第 14 行.
+NOTIC: [8] Trying to get property of non-object E:\wamp\www\xingzheng\Admin\Lib\Action\IndexAction.class.php 第 14 行.
+SQL: SELECT * FROM s_employeesinfo a left join s_job b on a.jobid = b.id left join s_partment c on a.partid = c.id WHERE (  DATE_FORMAT(a.turnrighttime,'%Y-%m') = '2017-06'  and a.state = 1 )  [ RunTime:0.000972s ]
+ERR: 1146:Table 'jd_public_sys.s_employeesinfo' doesn't exist
+ [ SQL语句 ] : SELECT * FROM s_employeesinfo a left join s_job b on a.jobid = b.id left join s_partment c on a.partid = c.id WHERE (  DATE_FORMAT(a.turnrighttime,'%Y-%m') = '2017-06'  and a.state = 1 ) 
+SQL: SELECT COUNT(*) AS tp_count FROM s_employeesinfo a left join s_job b on a.jobid = b.id left join s_partment c on a.partid = c.id left join s_departure d on a.id = d.eid WHERE (  DATE_FORMAT(d.departuredate,'%Y-%m') = '2017-06' and a.state = 3 ) LIMIT 1   [ RunTime:0.000791s ]
+ERR: 1146:Table 'jd_public_sys.s_employeesinfo' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM s_employeesinfo a left join s_job b on a.jobid = b.id left join s_partment c on a.partid = c.id left join s_departure d on a.id = d.eid WHERE (  DATE_FORMAT(d.departuredate,'%Y-%m') = '2017-06' and a.state = 3 ) LIMIT 1  
+NOTIC: [8] Undefined variable: page E:\wamp\www\xingzheng\Admin\Lib\Action\IndexAction.class.php 第 20 行.
+NOTIC: [8] Trying to get property of non-object E:\wamp\www\xingzheng\Admin\Lib\Action\IndexAction.class.php 第 20 行.
+NOTIC: [8] Undefined variable: page E:\wamp\www\xingzheng\Admin\Lib\Action\IndexAction.class.php 第 20 行.
+NOTIC: [8] Trying to get property of non-object E:\wamp\www\xingzheng\Admin\Lib\Action\IndexAction.class.php 第 20 行.
+SQL: SELECT * FROM s_employeesinfo a left join s_job b on a.jobid = b.id left join s_partment c on a.partid = c.id left join s_departure d on a.id = d.eid WHERE (  DATE_FORMAT(d.departuredate,'%Y-%m') = '2017-06'  and a.state = 3 )  [ RunTime:0.000942s ]
+ERR: 1146:Table 'jd_public_sys.s_employeesinfo' doesn't exist
+ [ SQL语句 ] : SELECT * FROM s_employeesinfo a left join s_job b on a.jobid = b.id left join s_partment c on a.partid = c.id left join s_departure d on a.id = d.eid WHERE (  DATE_FORMAT(d.departuredate,'%Y-%m') = '2017-06'  and a.state = 3 ) 
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.108090s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.108417s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001300s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001329s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000963s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001433s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005763s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001575s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001841s ]
+
+[ 2017-06-24T08:50:01+08:00 ] 127.0.0.1 /xingzheng/index.php?s=PublicMenu/menuset
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001935s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002183s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001580s ]
+SQL: SHOW COLUMNS FROM `s_menu` [ RunTime:0.008864s ]
+SQL: SELECT * FROM `s_menu`  [ RunTime:0.000833s ]
+SQL: SHOW COLUMNS FROM `s_pmenu` [ RunTime:0.079108s ]
+SQL: SELECT * FROM `s_pmenu` WHERE ( parentid = 0 )  [ RunTime:0.000640s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: toastr E:\wamp\www\xingzheng\Admin\Runtime\Cache\4ea6cf19eeca16ec385d2a70179d081c.php 第 15 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.157824s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.158102s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001612s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001273s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001522s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001609s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006886s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001565s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001852s ]
+
+[ 2017-06-24T08:50:03+08:00 ] 127.0.0.1 /xingzheng/index.php?s=PublicMenu/getonelevelpmenu&order=asc&_=1498265403338
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002340s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002723s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003147s ]
+SQL: SHOW COLUMNS FROM `s_menu` [ RunTime:0.009707s ]
+SQL: SELECT * FROM `s_menu`  [ RunTime:0.001320s ]
+SQL: SHOW COLUMNS FROM `s_pmenu` [ RunTime:0.007693s ]
+SQL: SELECT * FROM `s_pmenu` WHERE ( parentid = 0 )  [ RunTime:0.000822s ]
+
+[ 2017-06-24T08:50:08+08:00 ] 127.0.0.1 /xingzheng/index.php?s=PublicMenu/addpublicmenu
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001613s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001867s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001559s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001820s ]
+SQL: SHOW COLUMNS FROM `s_menu` [ RunTime:0.008074s ]
+SQL: SELECT * FROM `s_menu`  [ RunTime:0.001047s ]
+SQL: SHOW COLUMNS FROM `s_pmenu` [ RunTime:0.008986s ]
+SQL: UPDATE `s_pmenu` SET `name`='个人中心',`parentid`=0,`url`='http://www.sohu.com1' WHERE ( `id` = 3 ) [ RunTime:0.379802s ]
+
+[ 2017-06-24T08:50:09+08:00 ] 127.0.0.1 /xingzheng/index.php?s=PublicMenu/menuset
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001785s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002109s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001239s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001472s ]
+SQL: SHOW COLUMNS FROM `s_menu` [ RunTime:0.007904s ]
+SQL: SELECT * FROM `s_menu`  [ RunTime:0.000881s ]
+SQL: SHOW COLUMNS FROM `s_pmenu` [ RunTime:0.007197s ]
+SQL: SELECT * FROM `s_pmenu` WHERE ( parentid = 0 )  [ RunTime:0.000713s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: toastr E:\wamp\www\xingzheng\Admin\Runtime\Cache\4ea6cf19eeca16ec385d2a70179d081c.php 第 15 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.037459s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037728s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001565s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001175s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001345s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001752s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006786s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001537s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001844s ]
+
+[ 2017-06-24T08:50:10+08:00 ] 127.0.0.1 /xingzheng/index.php?s=PublicMenu/getonelevelpmenu&order=asc&_=1498265409861
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002507s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002869s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001487s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001712s ]
+SQL: SHOW COLUMNS FROM `s_menu` [ RunTime:0.009707s ]
+SQL: SELECT * FROM `s_menu`  [ RunTime:0.001058s ]
+SQL: SHOW COLUMNS FROM `s_pmenu` [ RunTime:0.007570s ]
+SQL: SELECT * FROM `s_pmenu` WHERE ( parentid = 0 )  [ RunTime:0.001098s ]
+
+[ 2017-06-24T09:32:14+08:00 ] 127.0.0.1 /xingzheng/index.php?s=SystemManager/menulist
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002699s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003027s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001950s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002181s ]
+SQL: SHOW COLUMNS FROM `s_menu` [ RunTime:0.011032s ]
+SQL: SELECT * FROM `s_menu`  [ RunTime:0.001050s ]
+SQL: SELECT * FROM `s_menu` WHERE ( parentid = 0 )  [ RunTime:0.000755s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: toastr E:\wamp\www\xingzheng\Admin\Runtime\Cache\061cd74bd58c26695ba80a1c2a6dadac.php 第 15 行.
+NOTIC: [8] Undefined index: realname E:\wamp\www\xingzheng\Admin\Runtime\Cache\061cd74bd58c26695ba80a1c2a6dadac.php 第 151 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.058578s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058842s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002515s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001866s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001292s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001731s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008222s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001792s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002071s ]
+
+[ 2017-06-24T09:32:14+08:00 ] 127.0.0.1 /xingzheng/index.php?s=SystemManager/getonelevel&order=asc&_=1498267934424
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002353s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002654s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001791s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001991s ]
+SQL: SHOW COLUMNS FROM `s_menu` [ RunTime:0.011892s ]
+SQL: SELECT * FROM `s_menu`  [ RunTime:0.000977s ]
+SQL: SELECT * FROM `s_menu` WHERE ( parentid = 0 )  [ RunTime:0.000888s ]
+
+[ 2017-06-24T09:35:47+08:00 ] 127.0.0.1 /xingzheng/index.php?s=SystemManager/menulist
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002045s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002300s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001921s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002179s ]
+SQL: SHOW COLUMNS FROM `s_menu` [ RunTime:0.009998s ]
+SQL: SELECT * FROM `s_menu`  [ RunTime:0.001039s ]
+SQL: SELECT * FROM `s_menu` WHERE ( parentid = 0 )  [ RunTime:0.000883s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: toastr E:\wamp\www\xingzheng\Admin\Runtime\Cache\061cd74bd58c26695ba80a1c2a6dadac.php 第 15 行.
+NOTIC: [8] Undefined index: realname E:\wamp\www\xingzheng\Admin\Runtime\Cache\061cd74bd58c26695ba80a1c2a6dadac.php 第 151 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.041749s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041992s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001800s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001927s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001196s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001841s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007522s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002196s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002450s ]
+
+[ 2017-06-24T09:35:47+08:00 ] 127.0.0.1 /xingzheng/index.php?s=SystemManager/getonelevel&order=asc&_=1498268147626
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002568s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002885s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002147s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002402s ]
+SQL: SHOW COLUMNS FROM `s_menu` [ RunTime:0.010032s ]
+SQL: SELECT * FROM `s_menu`  [ RunTime:0.001094s ]
+SQL: SELECT * FROM `s_menu` WHERE ( parentid = 0 )  [ RunTime:0.000794s ]
+
+[ 2017-06-24T09:36:47+08:00 ] 127.0.0.1 /xingzheng/index.php?s=AdminBackstage/mediaSetup
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002092s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002714s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001792s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002214s ]
+SQL: SHOW COLUMNS FROM `s_menu` [ RunTime:0.010194s ]
+SQL: SELECT * FROM `s_menu`  [ RunTime:0.001131s ]
+NOTIC: [8] Undefined index: medianame E:\wamp\www\xingzheng\Admin\Lib\Action\AdminBackstageAction.class.php 第 7 行.
+NOTIC: [8] Undefined variable: and E:\wamp\www\xingzheng\Admin\Lib\Action\AdminBackstageAction.class.php 第 11 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `s_media` WHERE ( id is not null ) LIMIT 1   [ RunTime:0.046296s ]
+NOTIC: [8] Undefined variable: and E:\wamp\www\xingzheng\Admin\Lib\Action\AdminBackstageAction.class.php 第 13 行.
+SQL: SELECT * FROM `s_media` WHERE ( id is not null ) LIMIT 0,5   [ RunTime:0.000759s ]
+SQL: SELECT * FROM `s_media`  [ RunTime:0.000660s ]
+NOTIC: [8] Undefined index: shoppername E:\wamp\www\xingzheng\Admin\Lib\Action\AdminBackstageAction.class.php 第 21 行.
+NOTIC: [8] Undefined variable: andshopper E:\wamp\www\xingzheng\Admin\Lib\Action\AdminBackstageAction.class.php 第 25 行.
+SQL: SELECT COUNT(*) AS tp_count FROM s_media a,s_shopper b WHERE ( b.mid = a.id ) LIMIT 1   [ RunTime:0.100116s ]
+NOTIC: [8] Undefined variable: andshopper E:\wamp\www\xingzheng\Admin\Lib\Action\AdminBackstageAction.class.php 第 27 行.
+SQL: SELECT b.*,a.medianame FROM s_media a,s_shopper b WHERE ( b.mid = a.id ) LIMIT 0,5   [ RunTime:0.001045s ]
+NOTIC: [8] Undefined index: adname E:\wamp\www\xingzheng\Admin\Lib\Action\AdminBackstageAction.class.php 第 31 行.
+NOTIC: [8] Undefined variable: andad E:\wamp\www\xingzheng\Admin\Lib\Action\AdminBackstageAction.class.php 第 35 行.
+SQL: SELECT COUNT(*) AS tp_count FROM s_shopper a,s_ad b WHERE ( b.sid = a.id ) LIMIT 1   [ RunTime:0.000972s ]
+NOTIC: [8] Undefined variable: andad E:\wamp\www\xingzheng\Admin\Lib\Action\AdminBackstageAction.class.php 第 37 行.
+SQL: SELECT b.*,a.shoppername FROM s_shopper a,s_ad b WHERE ( b.sid = a.id ) LIMIT 0,5   [ RunTime:0.000951s ]
+SQL: SELECT * FROM `s_shopper`  [ RunTime:0.000734s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: toastr E:\wamp\www\xingzheng\Admin\Runtime\Cache\2bbcb84132165172104d10a162b6d927.php 第 17 行.
+NOTIC: [8] Undefined index: realname E:\wamp\www\xingzheng\Admin\Runtime\Cache\2bbcb84132165172104d10a162b6d927.php 第 154 行.
+NOTIC: [8] Undefined index: medianame E:\wamp\www\xingzheng\Admin\Runtime\Cache\2bbcb84132165172104d10a162b6d927.php 第 181 行.
+NOTIC: [8] Undefined index: shoppername E:\wamp\www\xingzheng\Admin\Runtime\Cache\2bbcb84132165172104d10a162b6d927.php 第 221 行.
+NOTIC: [8] Undefined index: shoppername E:\wamp\www\xingzheng\Admin\Runtime\Cache\2bbcb84132165172104d10a162b6d927.php 第 264 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.059316s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059579s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001523s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001361s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001443s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001652s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006787s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001883s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002205s ]
+
+[ 2017-06-24T09:37:03+08:00 ] 127.0.0.1 /xingzheng/index.php?s=Service/serviceteam
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002178s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002495s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003118s ]
+SQL: SHOW COLUMNS FROM `s_menu` [ RunTime:0.011107s ]
+SQL: SELECT * FROM `s_menu`  [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `s_user` [ RunTime:0.010094s ]
+SQL: SELECT * FROM `s_user` WHERE ( teamid = 0 and state = 2 )  [ RunTime:0.000646s ]
+SQL: SHOW COLUMNS FROM `s_team` [ RunTime:0.010286s ]
+SQL: SELECT * FROM `s_team`  [ RunTime:0.000487s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: toastr E:\wamp\www\xingzheng\Admin\Runtime\Cache\ef5bd44f5c8f9694a2aff04d18c89794.php 第 15 行.
+NOTIC: [8] Undefined index: realname E:\wamp\www\xingzheng\Admin\Runtime\Cache\ef5bd44f5c8f9694a2aff04d18c89794.php 第 151 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.091282s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.091554s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001553s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001552s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001236s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001598s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006612s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002042s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002351s ]
+
+[ 2017-06-24T09:37:04+08:00 ] 127.0.0.1 /xingzheng/index.php?s=Service/getteamer/tid/7&order=asc
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003858s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004310s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001913s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002192s ]
+SQL: SHOW COLUMNS FROM `s_menu` [ RunTime:0.010477s ]
+SQL: SELECT * FROM `s_menu`  [ RunTime:0.001253s ]
+SQL: SELECT a.*,b.realname,b.id as uid FROM s_team_user a,s_user b WHERE ( a.uid = b.id and a.tid = 7 )  [ RunTime:0.001237s ]
+
+[ 2017-06-24T09:37:04+08:00 ] 127.0.0.1 /xingzheng/index.php?s=Service/getteamer/tid/8&order=asc
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003673s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004033s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002171s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002421s ]
+SQL: SHOW COLUMNS FROM `s_menu` [ RunTime:0.009798s ]
+SQL: SELECT * FROM `s_menu`  [ RunTime:0.001073s ]
+SQL: SELECT a.*,b.realname,b.id as uid FROM s_team_user a,s_user b WHERE ( a.uid = b.id and a.tid = 8 )  [ RunTime:0.000889s ]
+
+[ 2017-06-24T09:37:05+08:00 ] 127.0.0.1 /xingzheng/index.php?s=Service/serviceteam
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002157s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002518s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001658s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001899s ]
+SQL: SHOW COLUMNS FROM `s_menu` [ RunTime:0.009264s ]
+SQL: SELECT * FROM `s_menu`  [ RunTime:0.001160s ]
+SQL: SHOW COLUMNS FROM `s_user` [ RunTime:0.009657s ]
+SQL: SELECT * FROM `s_user` WHERE ( teamid = 0 and state = 2 )  [ RunTime:0.000827s ]
+SQL: SHOW COLUMNS FROM `s_team` [ RunTime:0.008970s ]
+SQL: SELECT * FROM `s_team`  [ RunTime:0.000750s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: toastr E:\wamp\www\xingzheng\Admin\Runtime\Cache\ef5bd44f5c8f9694a2aff04d18c89794.php 第 15 行.
+NOTIC: [8] Undefined index: realname E:\wamp\www\xingzheng\Admin\Runtime\Cache\ef5bd44f5c8f9694a2aff04d18c89794.php 第 151 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.046982s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047248s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001910s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001696s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001203s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001760s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007362s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001810s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002050s ]
+
+[ 2017-06-24T09:37:06+08:00 ] 127.0.0.1 /xingzheng/index.php?s=Service/getteamer/tid/7&order=asc
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003606s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004158s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002194s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002472s ]
+SQL: SHOW COLUMNS FROM `s_menu` [ RunTime:0.010490s ]
+SQL: SELECT * FROM `s_menu`  [ RunTime:0.001050s ]
+SQL: SELECT a.*,b.realname,b.id as uid FROM s_team_user a,s_user b WHERE ( a.uid = b.id and a.tid = 7 )  [ RunTime:0.000795s ]
+
+[ 2017-06-24T09:37:06+08:00 ] 127.0.0.1 /xingzheng/index.php?s=Service/getteamer/tid/8&order=asc
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002369s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002746s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002539s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002960s ]
+SQL: SHOW COLUMNS FROM `s_menu` [ RunTime:0.012545s ]
+SQL: SELECT * FROM `s_menu`  [ RunTime:0.001016s ]
+SQL: SELECT a.*,b.realname,b.id as uid FROM s_team_user a,s_user b WHERE ( a.uid = b.id and a.tid = 8 )  [ RunTime:0.001186s ]
+
+[ 2017-06-24T09:37:07+08:00 ] 127.0.0.1 /xingzheng/index.php?s=Service/serviceteam
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001921s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002279s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001731s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001961s ]
+SQL: SHOW COLUMNS FROM `s_menu` [ RunTime:0.008886s ]
+SQL: SELECT * FROM `s_menu`  [ RunTime:0.001090s ]
+SQL: SHOW COLUMNS FROM `s_user` [ RunTime:0.010453s ]
+SQL: SELECT * FROM `s_user` WHERE ( teamid = 0 and state = 2 )  [ RunTime:0.000940s ]
+SQL: SHOW COLUMNS FROM `s_team` [ RunTime:0.009275s ]
+SQL: SELECT * FROM `s_team`  [ RunTime:0.000711s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: toastr E:\wamp\www\xingzheng\Admin\Runtime\Cache\ef5bd44f5c8f9694a2aff04d18c89794.php 第 15 行.
+NOTIC: [8] Undefined index: realname E:\wamp\www\xingzheng\Admin\Runtime\Cache\ef5bd44f5c8f9694a2aff04d18c89794.php 第 151 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.045569s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045877s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001755s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001507s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001364s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001900s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007291s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001786s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002076s ]
+
+[ 2017-06-24T09:37:07+08:00 ] 127.0.0.1 /xingzheng/index.php?s=Service/getteamer/tid/7&order=asc
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002823s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003368s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002003s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002322s ]
+SQL: SHOW COLUMNS FROM `s_menu` [ RunTime:0.010352s ]
+SQL: SELECT * FROM `s_menu`  [ RunTime:0.001092s ]
+SQL: SELECT a.*,b.realname,b.id as uid FROM s_team_user a,s_user b WHERE ( a.uid = b.id and a.tid = 7 )  [ RunTime:0.001184s ]
+
+[ 2017-06-24T09:37:07+08:00 ] 127.0.0.1 /xingzheng/index.php?s=Service/getteamer/tid/8&order=asc
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003231s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003698s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001742s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002028s ]
+SQL: SHOW COLUMNS FROM `s_menu` [ RunTime:0.011507s ]
+SQL: SELECT * FROM `s_menu`  [ RunTime:0.001127s ]
+SQL: SELECT a.*,b.realname,b.id as uid FROM s_team_user a,s_user b WHERE ( a.uid = b.id and a.tid = 8 )  [ RunTime:0.000867s ]
+
+[ 2017-06-24T09:37:22+08:00 ] 127.0.0.1 /xingzheng/index.php?s=Service/serviceteam
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002114s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002423s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001693s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001951s ]
+SQL: SHOW COLUMNS FROM `s_menu` [ RunTime:0.009025s ]
+SQL: SELECT * FROM `s_menu`  [ RunTime:0.001047s ]
+SQL: SHOW COLUMNS FROM `s_user` [ RunTime:0.010118s ]
+SQL: SELECT * FROM `s_user` WHERE ( teamid = 0 and state = 2 )  [ RunTime:0.000845s ]
+SQL: SHOW COLUMNS FROM `s_team` [ RunTime:0.009932s ]
+SQL: SELECT * FROM `s_team`  [ RunTime:0.000663s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: toastr E:\wamp\www\xingzheng\Admin\Runtime\Cache\ef5bd44f5c8f9694a2aff04d18c89794.php 第 15 行.
+NOTIC: [8] Undefined index: realname E:\wamp\www\xingzheng\Admin\Runtime\Cache\ef5bd44f5c8f9694a2aff04d18c89794.php 第 151 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.050152s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050419s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001738s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001650s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001358s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001874s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007344s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001758s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002028s ]
+
+[ 2017-06-24T09:37:23+08:00 ] 127.0.0.1 /xingzheng/index.php?s=Service/getteamer/tid/7&order=asc
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003365s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003937s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002607s ]
+SQL: SHOW COLUMNS FROM `s_menu` [ RunTime:0.011060s ]
+SQL: SELECT * FROM `s_menu`  [ RunTime:0.001070s ]
+SQL: SELECT a.*,b.realname,b.id as uid FROM s_team_user a,s_user b WHERE ( a.uid = b.id and a.tid = 7 )  [ RunTime:0.000883s ]
+
+[ 2017-06-24T09:37:23+08:00 ] 127.0.0.1 /xingzheng/index.php?s=Service/getteamer/tid/8&order=asc
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002401s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002934s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002694s ]
+SQL: SHOW COLUMNS FROM `s_menu` [ RunTime:0.012535s ]
+SQL: SELECT * FROM `s_menu`  [ RunTime:0.001058s ]
+SQL: SELECT a.*,b.realname,b.id as uid FROM s_team_user a,s_user b WHERE ( a.uid = b.id and a.tid = 8 )  [ RunTime:0.000752s ]
+
+[ 2017-06-24T09:37:24+08:00 ] 127.0.0.1 /xingzheng/index.php?s=Service/serviceteam
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001876s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002195s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001610s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001841s ]
+SQL: SHOW COLUMNS FROM `s_menu` [ RunTime:0.009477s ]
+SQL: SELECT * FROM `s_menu`  [ RunTime:0.001080s ]
+SQL: SHOW COLUMNS FROM `s_user` [ RunTime:0.009933s ]
+SQL: SELECT * FROM `s_user` WHERE ( teamid = 0 and state = 2 )  [ RunTime:0.000892s ]
+SQL: SHOW COLUMNS FROM `s_team` [ RunTime:0.009485s ]
+SQL: SELECT * FROM `s_team`  [ RunTime:0.000563s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: toastr E:\wamp\www\xingzheng\Admin\Runtime\Cache\ef5bd44f5c8f9694a2aff04d18c89794.php 第 15 行.
+NOTIC: [8] Undefined index: realname E:\wamp\www\xingzheng\Admin\Runtime\Cache\ef5bd44f5c8f9694a2aff04d18c89794.php 第 151 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.048301s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048668s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002303s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001890s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001076s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001713s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007789s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001876s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002193s ]
+
+[ 2017-06-24T09:37:24+08:00 ] 127.0.0.1 /xingzheng/index.php?s=Service/getteamer/tid/7&order=asc
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003179s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003686s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002490s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002777s ]
+SQL: SHOW COLUMNS FROM `s_menu` [ RunTime:0.012153s ]
+SQL: SELECT * FROM `s_menu`  [ RunTime:0.001517s ]
+SQL: SELECT a.*,b.realname,b.id as uid FROM s_team_user a,s_user b WHERE ( a.uid = b.id and a.tid = 7 )  [ RunTime:0.001280s ]
+
+[ 2017-06-24T09:37:24+08:00 ] 127.0.0.1 /xingzheng/index.php?s=Service/getteamer/tid/8&order=asc
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003031s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003428s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002113s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002376s ]
+SQL: SHOW COLUMNS FROM `s_menu` [ RunTime:0.011466s ]
+SQL: SELECT * FROM `s_menu`  [ RunTime:0.001666s ]
+SQL: SELECT a.*,b.realname,b.id as uid FROM s_team_user a,s_user b WHERE ( a.uid = b.id and a.tid = 8 )  [ RunTime:0.000752s ]
+
+[ 2017-06-24T09:37:24+08:00 ] 127.0.0.1 /xingzheng/index.php?s=Service/bindlocation
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002668s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003051s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002757s ]
+SQL: SHOW COLUMNS FROM `s_menu` [ RunTime:0.010778s ]
+SQL: SELECT * FROM `s_menu`  [ RunTime:0.001166s ]
+NOTIC: [8] Undefined index: realname E:\wamp\www\xingzheng\Admin\Lib\Action\ServiceAction.class.php 第 92 行.
+NOTIC: [8] Undefined variable: and E:\wamp\www\xingzheng\Admin\Lib\Action\ServiceAction.class.php 第 96 行.
+SQL: SELECT COUNT(*) AS tp_count FROM s_user a,s_ad b,s_shopper c WHERE ( a.id = b.userid and b.sid = c.id ) LIMIT 1   [ RunTime:0.000761s ]
+NOTIC: [8] Undefined variable: and E:\wamp\www\xingzheng\Admin\Lib\Action\ServiceAction.class.php 第 98 行.
+SQL: SELECT a.*,b.adname,b.id as adid,c.shoppername FROM s_user a,s_ad b,s_shopper c WHERE ( a.id = b.userid and b.sid = c.id ) LIMIT 0,20   [ RunTime:0.001272s ]
+SQL: SHOW COLUMNS FROM `s_user` [ RunTime:0.009963s ]
+SQL: SELECT * FROM `s_user` WHERE ( state = 2 )  [ RunTime:0.000826s ]
+SQL: SHOW COLUMNS FROM `s_ad` [ RunTime:0.010906s ]
+SQL: SELECT * FROM `s_ad` WHERE ( status = 0 )  [ RunTime:0.000797s ]
+SQL: SELECT * FROM `s_ad`  [ RunTime:0.000960s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: toastr E:\wamp\www\xingzheng\Admin\Runtime\Cache\5175abff8444a8c2ff7a4e1a82b4bee1.php 第 17 行.
+NOTIC: [8] Undefined index: realname E:\wamp\www\xingzheng\Admin\Runtime\Cache\5175abff8444a8c2ff7a4e1a82b4bee1.php 第 169 行.
+NOTIC: [8] Undefined index: realname E:\wamp\www\xingzheng\Admin\Runtime\Cache\5175abff8444a8c2ff7a4e1a82b4bee1.php 第 196 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.058558s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058825s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001858s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001710s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001312s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001817s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007474s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001909s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002178s ]
+
+[ 2017-06-24T09:37:27+08:00 ] 127.0.0.1 /xingzheng/index.php?s=Service/mallSetup
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002354s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002704s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002247s ]
+SQL: SHOW COLUMNS FROM `s_menu` [ RunTime:0.011171s ]
+SQL: SELECT * FROM `s_menu`  [ RunTime:0.001062s ]
+NOTIC: [8] Undefined index: realname E:\wamp\www\xingzheng\Admin\Lib\Action\ServiceAction.class.php 第 159 行.
+NOTIC: [8] Undefined variable: and E:\wamp\www\xingzheng\Admin\Lib\Action\ServiceAction.class.php 第 163 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `s_user` WHERE ( id is not null and state = 2 and http is not null ) LIMIT 1   [ RunTime:0.000914s ]
+NOTIC: [8] Undefined variable: and E:\wamp\www\xingzheng\Admin\Lib\Action\ServiceAction.class.php 第 165 行.
+SQL: SELECT * FROM `s_user` WHERE ( id is not null and state = 2 and http is not null ) LIMIT 0,20   [ RunTime:0.000802s ]
+SQL: SHOW COLUMNS FROM `s_user` [ RunTime:0.009206s ]
+SQL: SELECT * FROM `s_user` WHERE ( state = 2 )  [ RunTime:0.000876s ]
+SQL: SHOW COLUMNS FROM `s_ad` [ RunTime:0.009811s ]
+SQL: SELECT * FROM `s_ad` WHERE ( status = 0 )  [ RunTime:0.000837s ]
+SQL: SELECT * FROM `s_ad`  [ RunTime:0.001009s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: toastr E:\wamp\www\xingzheng\Admin\Runtime\Cache\feddedcf78cc17ad52a7fbb28005b4d6.php 第 17 行.
+NOTIC: [8] Undefined index: realname E:\wamp\www\xingzheng\Admin\Runtime\Cache\feddedcf78cc17ad52a7fbb28005b4d6.php 第 154 行.
+NOTIC: [8] Undefined index: realname E:\wamp\www\xingzheng\Admin\Runtime\Cache\feddedcf78cc17ad52a7fbb28005b4d6.php 第 181 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.048082s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048424s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001625s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001597s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001189s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001824s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006978s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001907s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002230s ]
+
+[ 2017-06-24T09:37:42+08:00 ] 127.0.0.1 /xingzheng/index.php?s=OtherSetup/proxySetup
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002686s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003018s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001732s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001971s ]
+SQL: SHOW COLUMNS FROM `s_menu` [ RunTime:0.009646s ]
+SQL: SELECT * FROM `s_menu`  [ RunTime:0.001028s ]
+NOTIC: [8] Undefined index: search E:\wamp\www\xingzheng\Admin\Lib\Action\OtherSetupAction.class.php 第 66 行.
+NOTIC: [8] Undefined index: starttime E:\wamp\www\xingzheng\Admin\Lib\Action\OtherSetupAction.class.php 第 72 行.
+NOTIC: [8] Undefined index: endtime E:\wamp\www\xingzheng\Admin\Lib\Action\OtherSetupAction.class.php 第 76 行.
+NOTIC: [8] Undefined index: status E:\wamp\www\xingzheng\Admin\Lib\Action\OtherSetupAction.class.php 第 80 行.
+NOTIC: [8] Undefined index: status E:\wamp\www\xingzheng\Admin\Lib\Action\OtherSetupAction.class.php 第 83 行.
+NOTIC: [8] Undefined variable: and E:\wamp\www\xingzheng\Admin\Lib\Action\OtherSetupAction.class.php 第 87 行.
+SQL: SELECT COUNT(*) AS tp_count FROM s_daili a,s_ad b,s_fans c WHERE ( a.adid = b.id and a.openid = c.openid ) LIMIT 1   [ RunTime:0.001147s ]
+NOTIC: [8] Undefined variable: and E:\wamp\www\xingzheng\Admin\Lib\Action\OtherSetupAction.class.php 第 89 行.
+SQL: SELECT a.*,b.adname,c.openid,c.mall FROM s_daili a,s_ad b,s_fans c WHERE ( a.adid = b.id and a.openid = c.openid ) LIMIT 0,20   [ RunTime:0.000864s ]
+ERR: 模板不存在[./Admin/Tpl/OtherSetup/proxysetup.html]
+
+[ 2017-06-24T09:38:37+08:00 ] 127.0.0.1 /xingzheng/index.php?s=Login/logoff
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002026s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002364s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001616s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001850s ]
+
+[ 2017-06-24T09:38:37+08:00 ] 127.0.0.1 /xingzheng/index.php?s=/login/login.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001903s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002202s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001703s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001988s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: usermsg E:\wamp\www\xingzheng\Admin\Runtime\Cache\27e9c4fddbdacc085a84cce69c1ba206.php 第 41 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018715s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018982s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001286s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001272s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001017s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001892s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006315s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002318s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002661s ]
+
+[ 2017-06-24T09:38:41+08:00 ] 127.0.0.1 /xingzheng/index.php?s=/login/dologin.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002034s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002343s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001498s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001770s ]
+SQL: SHOW COLUMNS FROM `s_user` [ RunTime:0.008628s ]
+SQL: SELECT * FROM `s_user` WHERE ( username = 'admin' and password = 'accp06072' )  [ RunTime:0.000894s ]
+NOTIC: [8] Undefined index: id E:\wamp\www\xingzheng\Admin\Lib\Action\LoginAction.class.php 第 17 行.
+
+[ 2017-06-24T09:38:41+08:00 ] 127.0.0.1 /xingzheng/index.php?s=/index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002011s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002314s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001731s ]
+SQL: SHOW COLUMNS FROM `s_menu` [ RunTime:0.008683s ]
+SQL: SELECT * FROM `s_menu`  [ RunTime:0.001063s ]
+SQL: SELECT COUNT(*) AS tp_count FROM s_employeesinfo a left join s_job b on a.jobid = b.id left join s_partment c on a.partid = c.id WHERE (  DATE_FORMAT(a.brithday,'%m') = '06'  ) LIMIT 1   [ RunTime:0.000843s ]
+ERR: 1146:Table 'jd_public_sys.s_employeesinfo' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM s_employeesinfo a left join s_job b on a.jobid = b.id left join s_partment c on a.partid = c.id WHERE (  DATE_FORMAT(a.brithday,'%m') = '06'  ) LIMIT 1  
+NOTIC: [8] Undefined variable: page E:\wamp\www\xingzheng\Admin\Lib\Action\IndexAction.class.php 第 9 行.
+NOTIC: [8] Trying to get property of non-object E:\wamp\www\xingzheng\Admin\Lib\Action\IndexAction.class.php 第 9 行.
+NOTIC: [8] Undefined variable: page E:\wamp\www\xingzheng\Admin\Lib\Action\IndexAction.class.php 第 9 行.
+NOTIC: [8] Trying to get property of non-object E:\wamp\www\xingzheng\Admin\Lib\Action\IndexAction.class.php 第 9 行.
+SQL: SELECT * FROM s_employeesinfo a left join s_job b on a.jobid = b.id left join s_partment c on a.partid = c.id WHERE (  DATE_FORMAT(a.brithday,'%m') = '06'  )  [ RunTime:0.000594s ]
+ERR: 1146:Table 'jd_public_sys.s_employeesinfo' doesn't exist
+ [ SQL语句 ] : SELECT * FROM s_employeesinfo a left join s_job b on a.jobid = b.id left join s_partment c on a.partid = c.id WHERE (  DATE_FORMAT(a.brithday,'%m') = '06'  ) 
+SQL: SELECT COUNT(*) AS tp_count FROM s_employeesinfo a left join s_job b on a.jobid = b.id left join s_partment c on a.partid = c.id WHERE (  DATE_FORMAT(a.turnrighttime,'%Y-%m') = '2017-06' and a.state = 1 ) LIMIT 1   [ RunTime:0.000581s ]
+ERR: 1146:Table 'jd_public_sys.s_employeesinfo' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM s_employeesinfo a left join s_job b on a.jobid = b.id left join s_partment c on a.partid = c.id WHERE (  DATE_FORMAT(a.turnrighttime,'%Y-%m') = '2017-06' and a.state = 1 ) LIMIT 1  
+NOTIC: [8] Undefined variable: page E:\wamp\www\xingzheng\Admin\Lib\Action\IndexAction.class.php 第 14 行.
+NOTIC: [8] Trying to get property of non-object E:\wamp\www\xingzheng\Admin\Lib\Action\IndexAction.class.php 第 14 行.
+NOTIC: [8] Undefined variable: page E:\wamp\www\xingzheng\Admin\Lib\Action\IndexAction.class.php 第 14 行.
+NOTIC: [8] Trying to get property of non-object E:\wamp\www\xingzheng\Admin\Lib\Action\IndexAction.class.php 第 14 行.
+SQL: SELECT * FROM s_employeesinfo a left join s_job b on a.jobid = b.id left join s_partment c on a.partid = c.id WHERE (  DATE_FORMAT(a.turnrighttime,'%Y-%m') = '2017-06'  and a.state = 1 )  [ RunTime:0.000571s ]
+ERR: 1146:Table 'jd_public_sys.s_employeesinfo' doesn't exist
+ [ SQL语句 ] : SELECT * FROM s_employeesinfo a left join s_job b on a.jobid = b.id left join s_partment c on a.partid = c.id WHERE (  DATE_FORMAT(a.turnrighttime,'%Y-%m') = '2017-06'  and a.state = 1 ) 
+SQL: SELECT COUNT(*) AS tp_count FROM s_employeesinfo a left join s_job b on a.jobid = b.id left join s_partment c on a.partid = c.id left join s_departure d on a.id = d.eid WHERE (  DATE_FORMAT(d.departuredate,'%Y-%m') = '2017-06' and a.state = 3 ) LIMIT 1   [ RunTime:0.000677s ]
+ERR: 1146:Table 'jd_public_sys.s_employeesinfo' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM s_employeesinfo a left join s_job b on a.jobid = b.id left join s_partment c on a.partid = c.id left join s_departure d on a.id = d.eid WHERE (  DATE_FORMAT(d.departuredate,'%Y-%m') = '2017-06' and a.state = 3 ) LIMIT 1  
+NOTIC: [8] Undefined variable: page E:\wamp\www\xingzheng\Admin\Lib\Action\IndexAction.class.php 第 20 行.
+NOTIC: [8] Trying to get property of non-object E:\wamp\www\xingzheng\Admin\Lib\Action\IndexAction.class.php 第 20 行.
+NOTIC: [8] Undefined variable: page E:\wamp\www\xingzheng\Admin\Lib\Action\IndexAction.class.php 第 20 行.
+NOTIC: [8] Trying to get property of non-object E:\wamp\www\xingzheng\Admin\Lib\Action\IndexAction.class.php 第 20 行.
+SQL: SELECT * FROM s_employeesinfo a left join s_job b on a.jobid = b.id left join s_partment c on a.partid = c.id left join s_departure d on a.id = d.eid WHERE (  DATE_FORMAT(d.departuredate,'%Y-%m') = '2017-06'  and a.state = 3 )  [ RunTime:0.000926s ]
+ERR: 1146:Table 'jd_public_sys.s_employeesinfo' doesn't exist
+ [ SQL语句 ] : SELECT * FROM s_employeesinfo a left join s_job b on a.jobid = b.id left join s_partment c on a.partid = c.id left join s_departure d on a.id = d.eid WHERE (  DATE_FORMAT(d.departuredate,'%Y-%m') = '2017-06'  and a.state = 3 ) 
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.028434s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028763s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001410s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001883s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001265s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001354s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006816s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001458s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001710s ]
+
+[ 2017-06-24T09:38:52+08:00 ] 127.0.0.1 /xingzheng/index.php?s=SystemManager/rolelist
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001991s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002283s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001841s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002155s ]
+SQL: SHOW COLUMNS FROM `s_menu` [ RunTime:0.008458s ]
+SQL: SELECT * FROM `s_menu`  [ RunTime:0.001016s ]
+SQL: SHOW COLUMNS FROM `s_role` [ RunTime:0.009795s ]
+SQL: SELECT * FROM `s_role`  [ RunTime:0.000505s ]
+SQL: SELECT * FROM `s_menu` WHERE ( parentid = 0 )  [ RunTime:0.000830s ]
+SQL: SELECT * FROM `s_menu` WHERE ( parentid != 0 )  [ RunTime:0.000956s ]
+NOTIC: [8] Undefined variable: count E:\wamp\www\xingzheng\Admin\Lib\Action\SystemManagerAction.class.php 第 172 行.
+NOTIC: [8] Undefined variable: count E:\wamp\www\xingzheng\Admin\Lib\Action\SystemManagerAction.class.php 第 173 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: toastr E:\wamp\www\xingzheng\Admin\Runtime\Cache\3c93ddd0ae430e714557f1d4b9459a4d.php 第 15 行.
+NOTIC: [8] Undefined index: mid E:\wamp\www\xingzheng\Admin\Runtime\Cache\3c93ddd0ae430e714557f1d4b9459a4d.php 第 194 行.
+NOTIC: [8] Undefined index: mid E:\wamp\www\xingzheng\Admin\Runtime\Cache\3c93ddd0ae430e714557f1d4b9459a4d.php 第 194 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.053758s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054079s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001987s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001213s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000797s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001450s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006280s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001538s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001806s ]
+
+[ 2017-06-24T10:15:39+08:00 ] 127.0.0.1 /
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\Users\beichen\Desktop\svn\taobaoke\ThinkPHP\Common\common.php 第 217 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000713s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000779s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\Users\beichen\Desktop\svn\taobaoke\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+NOTIC: [2] mysql_connect(): Access denied for user 'root'@'localhost' (using password: YES) C:\Users\beichen\Desktop\svn\taobaoke\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+ERR: Access denied for user 'root'@'localhost' (using password: YES)
+

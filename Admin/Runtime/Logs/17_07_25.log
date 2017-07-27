@@ -1,0 +1,1088 @@
+[ 2017-07-25T08:52:28+08:00 ] 127.0.0.1 /bttest/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.007307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007529s ]
+NOTIC: [2] include(wechat/wechat.class.php): failed to open stream: No such file or directory D:\wamp64\www\bttest\Admin\Lib\Action\BaseAction.class.php 第 2 行.
+NOTIC: [2] include(): Failed opening 'wechat/wechat.class.php' for inclusion (include_path='.;C:\php\pear;D:\wamp64\www\bttest\ThinkPHP/Extend/Vendor/') D:\wamp64\www\bttest\Admin\Lib\Action\BaseAction.class.php 第 2 行.
+NOTIC: [2] include(wechat/WxMchPayHelper.php): failed to open stream: No such file or directory D:\wamp64\www\bttest\Admin\Lib\Action\BaseAction.class.php 第 3 行.
+NOTIC: [2] include(): Failed opening 'wechat/WxMchPayHelper.php' for inclusion (include_path='.;C:\php\pear;D:\wamp64\www\bttest\ThinkPHP/Extend/Vendor/') D:\wamp64\www\bttest\Admin\Lib\Action\BaseAction.class.php 第 3 行.
+NOTIC: [8] Undefined index: kw D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 6 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 273 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 168 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 399 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 399 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 399 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 399 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 399 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 399 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 399 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 399 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 399 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 197 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 137 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.034607s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034748s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.007533s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.010731s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.008107s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001654s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.028413s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.009499s ]
+INFO: [ view_end ] --END-- [ RunTime:0.009612s ]
+
+[ 2017-07-25T08:52:56+08:00 ] 127.0.0.1 /bttest/index.php?s=Index%2Fsearch&kw=%E5%8F%98%E5%BD%A2%E9%87%91%E5%88%9A
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.010090s ]
+INFO: [ route_check ] --END-- [ RunTime:0.010222s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Core\Dispatcher.class.php 第 132 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000997s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001100s ]
+NOTIC: [2] include(wechat/wechat.class.php): failed to open stream: No such file or directory D:\wamp64\www\bttest\Admin\Lib\Action\BaseAction.class.php 第 2 行.
+NOTIC: [2] include(): Failed opening 'wechat/wechat.class.php' for inclusion (include_path='.;C:\php\pear;D:\wamp64\www\bttest\ThinkPHP/Extend/Vendor/') D:\wamp64\www\bttest\Admin\Lib\Action\BaseAction.class.php 第 2 行.
+NOTIC: [2] include(wechat/WxMchPayHelper.php): failed to open stream: No such file or directory D:\wamp64\www\bttest\Admin\Lib\Action\BaseAction.class.php 第 3 行.
+NOTIC: [2] include(): Failed opening 'wechat/WxMchPayHelper.php' for inclusion (include_path='.;C:\php\pear;D:\wamp64\www\bttest\ThinkPHP/Extend/Vendor/') D:\wamp64\www\bttest\Admin\Lib\Action\BaseAction.class.php 第 3 行.
+NOTIC: [8] Undefined index: p D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 18 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 50 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 50 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 69 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 69 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 88 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 88 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 107 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 107 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 126 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 126 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 145 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 145 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 164 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 164 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 183 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 183 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 202 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 202 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 221 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 221 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 240 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 240 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 259 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 259 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 278 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 278 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 297 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 297 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 316 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 316 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 335 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 335 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 354 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 354 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 373 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 373 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 392 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 392 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 411 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 411 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): End tag : expected '&gt;' in Entity, line: 478 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Unexpected end tag : g in Entity, line: 478 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 50 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 50 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 69 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 69 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 88 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 88 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 107 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 107 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 126 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 126 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 145 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 145 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 164 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 164 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 183 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 183 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 202 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 202 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 221 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 221 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 240 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 240 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 259 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 259 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 278 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 278 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 297 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 297 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 316 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 316 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 335 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 335 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 354 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 354 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 373 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 373 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 392 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 392 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 411 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 411 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): End tag : expected '&gt;' in Entity, line: 478 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Unexpected end tag : g in Entity, line: 478 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 50 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 50 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 69 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 69 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 88 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 88 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 107 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 107 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 126 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 126 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 145 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 145 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 164 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 164 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 183 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 183 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 202 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 202 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 221 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 221 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 240 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 240 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 259 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 259 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 278 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 278 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 297 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 297 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 316 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 316 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 335 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 335 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 354 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 354 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 373 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 373 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 392 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 392 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 411 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 411 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): End tag : expected '&gt;' in Entity, line: 478 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Unexpected end tag : g in Entity, line: 478 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 50 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 50 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 69 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 69 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 88 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 88 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 107 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 107 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 126 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 126 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 145 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 145 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 164 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 164 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 183 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 183 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 202 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 202 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 221 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 221 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 240 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 240 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 259 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 259 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 278 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 278 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 297 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 297 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 316 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 316 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 335 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 335 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 354 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 354 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 373 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 373 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 392 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 392 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 411 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 411 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): End tag : expected '&gt;' in Entity, line: 478 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Unexpected end tag : g in Entity, line: 478 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 50 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 50 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 69 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 69 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 88 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 88 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 107 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 107 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 126 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 126 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 145 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 145 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 164 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 164 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 183 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 183 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 202 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 202 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 221 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 221 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 240 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 240 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 259 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 259 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 278 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 278 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 297 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 297 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 316 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 316 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 335 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 335 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 354 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 354 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 373 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 373 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 392 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 392 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 411 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 411 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): End tag : expected '&gt;' in Entity, line: 478 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Unexpected end tag : g in Entity, line: 478 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 50 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 50 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 69 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 69 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 88 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 88 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 107 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 107 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 126 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 126 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 145 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 145 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 164 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 164 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 183 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 183 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 202 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 202 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 221 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 221 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 240 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 240 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 259 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 259 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 278 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 278 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 297 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 297 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 316 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 316 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 335 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 335 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 354 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 354 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 373 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 373 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 392 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 392 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 411 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 411 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): End tag : expected '&gt;' in Entity, line: 478 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Unexpected end tag : g in Entity, line: 478 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 50 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 50 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 69 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 69 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 88 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 88 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 107 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 107 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 126 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 126 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 145 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 145 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 164 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 164 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 183 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 183 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 202 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 202 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 221 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 221 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 240 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 240 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 259 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 259 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 278 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 278 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 297 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 297 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 316 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 316 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 335 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 335 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 354 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 354 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 373 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 373 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 392 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 392 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 411 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 411 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): End tag : expected '&gt;' in Entity, line: 478 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Unexpected end tag : g in Entity, line: 478 D:\wamp64\www\bttest\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [8] Undefined offset: 60 D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 40 行.
+NOTIC: [8] Undefined offset: 61 D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 42 行.
+NOTIC: [8] Undefined offset: 62 D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 44 行.
+NOTIC: [8] Undefined index: info D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 63 D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 40 行.
+NOTIC: [8] Undefined offset: 64 D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 42 行.
+NOTIC: [8] Undefined offset: 65 D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 44 行.
+NOTIC: [8] Undefined index: info D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 66 D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 40 行.
+NOTIC: [8] Undefined offset: 67 D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 42 行.
+NOTIC: [8] Undefined offset: 68 D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 44 行.
+NOTIC: [8] Undefined index: info D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 69 D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 40 行.
+NOTIC: [8] Undefined offset: 70 D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 42 行.
+NOTIC: [8] Undefined offset: 71 D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 44 行.
+NOTIC: [8] Undefined index: info D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 72 D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 40 行.
+NOTIC: [8] Undefined offset: 73 D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 42 行.
+NOTIC: [8] Undefined offset: 74 D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 44 行.
+NOTIC: [8] Undefined index: info D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 75 D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 40 行.
+NOTIC: [8] Undefined offset: 76 D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 42 行.
+NOTIC: [8] Undefined offset: 77 D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 44 行.
+NOTIC: [8] Undefined index: info D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 78 D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 40 行.
+NOTIC: [8] Undefined offset: 79 D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 42 行.
+NOTIC: [8] Undefined offset: 80 D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 44 行.
+NOTIC: [8] Undefined index: info D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 81 D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 40 行.
+NOTIC: [8] Undefined offset: 82 D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 42 行.
+NOTIC: [8] Undefined offset: 83 D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 44 行.
+NOTIC: [8] Undefined index: info D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 84 D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 40 行.
+NOTIC: [8] Undefined offset: 85 D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 42 行.
+NOTIC: [8] Undefined offset: 86 D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 44 行.
+NOTIC: [8] Undefined index: info D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 87 D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 40 行.
+NOTIC: [8] Undefined offset: 88 D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 42 行.
+NOTIC: [8] Undefined offset: 89 D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 44 行.
+NOTIC: [8] Undefined index: info D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 90 D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 40 行.
+NOTIC: [8] Undefined offset: 91 D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 42 行.
+NOTIC: [8] Undefined offset: 92 D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 44 行.
+NOTIC: [8] Undefined index: info D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 93 D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 40 行.
+NOTIC: [8] Undefined offset: 94 D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 42 行.
+NOTIC: [8] Undefined offset: 95 D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 44 行.
+NOTIC: [8] Undefined index: info D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 96 D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 40 行.
+NOTIC: [8] Undefined offset: 97 D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 42 行.
+NOTIC: [8] Undefined offset: 98 D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 44 行.
+NOTIC: [8] Undefined index: info D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 99 D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 40 行.
+NOTIC: [8] Undefined offset: 100 D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 42 行.
+NOTIC: [8] Undefined offset: 101 D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 44 行.
+NOTIC: [8] Undefined index: info D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 102 D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 40 行.
+NOTIC: [8] Undefined offset: 103 D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 42 行.
+NOTIC: [8] Undefined offset: 104 D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 44 行.
+NOTIC: [8] Undefined index: info D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 105 D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 40 行.
+NOTIC: [8] Undefined offset: 106 D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 42 行.
+NOTIC: [8] Undefined offset: 107 D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 44 行.
+NOTIC: [8] Undefined index: info D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 108 D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 40 行.
+NOTIC: [8] Undefined offset: 109 D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 42 行.
+NOTIC: [8] Undefined offset: 110 D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 44 行.
+NOTIC: [8] Undefined index: info D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 111 D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 40 行.
+NOTIC: [8] Undefined offset: 112 D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 42 行.
+NOTIC: [8] Undefined offset: 113 D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 44 行.
+NOTIC: [8] Undefined index: info D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 114 D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 40 行.
+NOTIC: [8] Undefined offset: 115 D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 42 行.
+NOTIC: [8] Undefined offset: 116 D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 44 行.
+NOTIC: [8] Undefined index: info D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 117 D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 40 行.
+NOTIC: [8] Undefined offset: 118 D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 42 行.
+NOTIC: [8] Undefined offset: 119 D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 44 行.
+NOTIC: [8] Undefined index: info D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 120 D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 40 行.
+NOTIC: [8] Undefined offset: 121 D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 42 行.
+NOTIC: [8] Undefined offset: 122 D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 44 行.
+NOTIC: [8] Undefined index: info D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 123 D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 40 行.
+NOTIC: [8] Undefined offset: 124 D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 42 行.
+NOTIC: [8] Undefined offset: 125 D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 44 行.
+NOTIC: [8] Undefined index: info D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 126 D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 40 行.
+NOTIC: [8] Undefined offset: 127 D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 42 行.
+NOTIC: [8] Undefined offset: 128 D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 44 行.
+NOTIC: [8] Undefined index: info D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 129 D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 40 行.
+NOTIC: [8] Undefined offset: 130 D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 42 行.
+NOTIC: [8] Undefined offset: 131 D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 44 行.
+NOTIC: [8] Undefined index: info D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 132 D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 40 行.
+NOTIC: [8] Undefined offset: 133 D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 42 行.
+NOTIC: [8] Undefined offset: 134 D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 44 行.
+NOTIC: [8] Undefined index: info D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 135 D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 40 行.
+NOTIC: [8] Undefined offset: 136 D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 42 行.
+NOTIC: [8] Undefined offset: 137 D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 44 行.
+NOTIC: [8] Undefined index: info D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 138 D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 40 行.
+NOTIC: [8] Undefined offset: 139 D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 42 行.
+NOTIC: [8] Undefined offset: 140 D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 44 行.
+NOTIC: [8] Undefined index: info D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 141 D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 40 行.
+NOTIC: [8] Undefined offset: 142 D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 42 行.
+NOTIC: [8] Undefined offset: 143 D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 44 行.
+NOTIC: [8] Undefined index: info D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 144 D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 40 行.
+NOTIC: [8] Undefined offset: 145 D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 42 行.
+NOTIC: [8] Undefined offset: 146 D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 44 行.
+NOTIC: [8] Undefined index: info D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 147 D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 40 行.
+NOTIC: [8] Undefined offset: 148 D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 42 行.
+NOTIC: [8] Undefined offset: 149 D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 44 行.
+NOTIC: [8] Undefined index: info D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 150 D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 40 行.
+NOTIC: [8] Undefined offset: 151 D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 42 行.
+NOTIC: [8] Undefined offset: 152 D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 44 行.
+NOTIC: [8] Undefined index: info D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 153 D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 40 行.
+NOTIC: [8] Undefined offset: 154 D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 42 行.
+NOTIC: [8] Undefined offset: 155 D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 44 行.
+NOTIC: [8] Undefined index: info D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 156 D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 40 行.
+NOTIC: [8] Undefined offset: 157 D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 42 行.
+NOTIC: [8] Undefined offset: 158 D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 44 行.
+NOTIC: [8] Undefined index: info D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 159 D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 40 行.
+NOTIC: [8] Undefined offset: 160 D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 42 行.
+NOTIC: [8] Undefined offset: 161 D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 44 行.
+NOTIC: [8] Undefined index: info D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 162 D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 40 行.
+NOTIC: [8] Undefined offset: 163 D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 42 行.
+NOTIC: [8] Undefined offset: 164 D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 44 行.
+NOTIC: [8] Undefined index: info D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 165 D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 40 行.
+NOTIC: [8] Undefined offset: 166 D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 42 行.
+NOTIC: [8] Undefined offset: 167 D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 44 行.
+NOTIC: [8] Undefined index: info D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 168 D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 40 行.
+NOTIC: [8] Undefined offset: 169 D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 42 行.
+NOTIC: [8] Undefined offset: 170 D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 44 行.
+NOTIC: [8] Undefined index: info D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 171 D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 40 行.
+NOTIC: [8] Undefined offset: 172 D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 42 行.
+NOTIC: [8] Undefined offset: 173 D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 44 行.
+NOTIC: [8] Undefined index: info D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 174 D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 40 行.
+NOTIC: [8] Undefined offset: 175 D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 42 行.
+NOTIC: [8] Undefined offset: 176 D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 44 行.
+NOTIC: [8] Undefined index: info D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 177 D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 40 行.
+NOTIC: [8] Undefined offset: 178 D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 42 行.
+NOTIC: [8] Undefined offset: 179 D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 44 行.
+NOTIC: [8] Undefined index: info D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 1 D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 57 行.
+NOTIC: [8] Undefined offset: 1 D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 57 行.
+NOTIC: [8] Undefined offset: 1 D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 57 行.
+NOTIC: [8] Undefined offset: 1 D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 57 行.
+NOTIC: [8] Undefined offset: 1 D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 57 行.
+NOTIC: [8] Undefined offset: 1 D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 57 行.
+NOTIC: [8] Undefined offset: 1 D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 57 行.
+NOTIC: [8] Undefined offset: 1 D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 57 行.
+NOTIC: [8] Undefined offset: 1 D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 57 行.
+NOTIC: [8] Undefined offset: 1 D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 57 行.
+NOTIC: [8] Undefined offset: 1 D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 57 行.
+NOTIC: [8] Undefined offset: 1 D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 57 行.
+NOTIC: [8] Undefined offset: 1 D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 57 行.
+NOTIC: [8] Undefined offset: 1 D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 57 行.
+NOTIC: [8] Undefined offset: 1 D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 57 行.
+NOTIC: [8] Undefined offset: 1 D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 57 行.
+NOTIC: [8] Undefined offset: 1 D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 57 行.
+NOTIC: [8] Undefined offset: 1 D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 57 行.
+NOTIC: [8] Undefined offset: 1 D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 57 行.
+NOTIC: [8] Undefined offset: 1 D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 57 行.
+NOTIC: [8] Undefined variable: pagestr D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 65 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 273 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 168 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 273 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 168 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 399 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 399 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 399 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 399 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 399 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 399 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 399 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 399 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 399 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 197 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 273 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 168 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 399 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 399 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 399 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 399 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 399 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 399 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 399 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 399 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 399 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 197 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 399 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 399 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 399 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 399 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 399 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 399 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 399 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 399 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 399 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 197 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 137 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\wamp64\www\bttest\Admin\Runtime\Cache\9d14c8923dce1ce12cc9e21509932034.php 第 25 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\wamp64\www\bttest\Admin\Runtime\Cache\9d14c8923dce1ce12cc9e21509932034.php 第 25 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\wamp64\www\bttest\Admin\Runtime\Cache\9d14c8923dce1ce12cc9e21509932034.php 第 25 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\wamp64\www\bttest\Admin\Runtime\Cache\9d14c8923dce1ce12cc9e21509932034.php 第 25 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\wamp64\www\bttest\Admin\Runtime\Cache\9d14c8923dce1ce12cc9e21509932034.php 第 25 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\wamp64\www\bttest\Admin\Runtime\Cache\9d14c8923dce1ce12cc9e21509932034.php 第 25 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\wamp64\www\bttest\Admin\Runtime\Cache\9d14c8923dce1ce12cc9e21509932034.php 第 25 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\wamp64\www\bttest\Admin\Runtime\Cache\9d14c8923dce1ce12cc9e21509932034.php 第 25 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\wamp64\www\bttest\Admin\Runtime\Cache\9d14c8923dce1ce12cc9e21509932034.php 第 25 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\wamp64\www\bttest\Admin\Runtime\Cache\9d14c8923dce1ce12cc9e21509932034.php 第 25 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\wamp64\www\bttest\Admin\Runtime\Cache\9d14c8923dce1ce12cc9e21509932034.php 第 25 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\wamp64\www\bttest\Admin\Runtime\Cache\9d14c8923dce1ce12cc9e21509932034.php 第 25 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\wamp64\www\bttest\Admin\Runtime\Cache\9d14c8923dce1ce12cc9e21509932034.php 第 25 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\wamp64\www\bttest\Admin\Runtime\Cache\9d14c8923dce1ce12cc9e21509932034.php 第 25 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\wamp64\www\bttest\Admin\Runtime\Cache\9d14c8923dce1ce12cc9e21509932034.php 第 25 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\wamp64\www\bttest\Admin\Runtime\Cache\9d14c8923dce1ce12cc9e21509932034.php 第 25 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\wamp64\www\bttest\Admin\Runtime\Cache\9d14c8923dce1ce12cc9e21509932034.php 第 25 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\wamp64\www\bttest\Admin\Runtime\Cache\9d14c8923dce1ce12cc9e21509932034.php 第 25 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\wamp64\www\bttest\Admin\Runtime\Cache\9d14c8923dce1ce12cc9e21509932034.php 第 25 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\wamp64\www\bttest\Admin\Runtime\Cache\9d14c8923dce1ce12cc9e21509932034.php 第 25 行.
+NOTIC: [8] Undefined index: filenum D:\wamp64\www\bttest\Admin\Runtime\Cache\9d14c8923dce1ce12cc9e21509932034.php 第 44 行.
+NOTIC: [8] Undefined index: creattime D:\wamp64\www\bttest\Admin\Runtime\Cache\9d14c8923dce1ce12cc9e21509932034.php 第 45 行.
+NOTIC: [8] Undefined index: filenum D:\wamp64\www\bttest\Admin\Runtime\Cache\9d14c8923dce1ce12cc9e21509932034.php 第 44 行.
+NOTIC: [8] Undefined index: creattime D:\wamp64\www\bttest\Admin\Runtime\Cache\9d14c8923dce1ce12cc9e21509932034.php 第 45 行.
+NOTIC: [8] Undefined index: filenum D:\wamp64\www\bttest\Admin\Runtime\Cache\9d14c8923dce1ce12cc9e21509932034.php 第 44 行.
+NOTIC: [8] Undefined index: creattime D:\wamp64\www\bttest\Admin\Runtime\Cache\9d14c8923dce1ce12cc9e21509932034.php 第 45 行.
+NOTIC: [8] Undefined index: filenum D:\wamp64\www\bttest\Admin\Runtime\Cache\9d14c8923dce1ce12cc9e21509932034.php 第 44 行.
+NOTIC: [8] Undefined index: creattime D:\wamp64\www\bttest\Admin\Runtime\Cache\9d14c8923dce1ce12cc9e21509932034.php 第 45 行.
+NOTIC: [8] Undefined index: filenum D:\wamp64\www\bttest\Admin\Runtime\Cache\9d14c8923dce1ce12cc9e21509932034.php 第 44 行.
+NOTIC: [8] Undefined index: creattime D:\wamp64\www\bttest\Admin\Runtime\Cache\9d14c8923dce1ce12cc9e21509932034.php 第 45 行.
+NOTIC: [8] Undefined index: filenum D:\wamp64\www\bttest\Admin\Runtime\Cache\9d14c8923dce1ce12cc9e21509932034.php 第 44 行.
+NOTIC: [8] Undefined index: creattime D:\wamp64\www\bttest\Admin\Runtime\Cache\9d14c8923dce1ce12cc9e21509932034.php 第 45 行.
+NOTIC: [8] Undefined index: filenum D:\wamp64\www\bttest\Admin\Runtime\Cache\9d14c8923dce1ce12cc9e21509932034.php 第 44 行.
+NOTIC: [8] Undefined index: creattime D:\wamp64\www\bttest\Admin\Runtime\Cache\9d14c8923dce1ce12cc9e21509932034.php 第 45 行.
+NOTIC: [8] Undefined index: filenum D:\wamp64\www\bttest\Admin\Runtime\Cache\9d14c8923dce1ce12cc9e21509932034.php 第 44 行.
+NOTIC: [8] Undefined index: creattime D:\wamp64\www\bttest\Admin\Runtime\Cache\9d14c8923dce1ce12cc9e21509932034.php 第 45 行.
+NOTIC: [8] Undefined index: filenum D:\wamp64\www\bttest\Admin\Runtime\Cache\9d14c8923dce1ce12cc9e21509932034.php 第 44 行.
+NOTIC: [8] Undefined index: creattime D:\wamp64\www\bttest\Admin\Runtime\Cache\9d14c8923dce1ce12cc9e21509932034.php 第 45 行.
+NOTIC: [8] Undefined index: filenum D:\wamp64\www\bttest\Admin\Runtime\Cache\9d14c8923dce1ce12cc9e21509932034.php 第 44 行.
+NOTIC: [8] Undefined index: creattime D:\wamp64\www\bttest\Admin\Runtime\Cache\9d14c8923dce1ce12cc9e21509932034.php 第 45 行.
+NOTIC: [8] Undefined index: filenum D:\wamp64\www\bttest\Admin\Runtime\Cache\9d14c8923dce1ce12cc9e21509932034.php 第 44 行.
+NOTIC: [8] Undefined index: creattime D:\wamp64\www\bttest\Admin\Runtime\Cache\9d14c8923dce1ce12cc9e21509932034.php 第 45 行.
+NOTIC: [8] Undefined index: filenum D:\wamp64\www\bttest\Admin\Runtime\Cache\9d14c8923dce1ce12cc9e21509932034.php 第 44 行.
+NOTIC: [8] Undefined index: creattime D:\wamp64\www\bttest\Admin\Runtime\Cache\9d14c8923dce1ce12cc9e21509932034.php 第 45 行.
+NOTIC: [8] Undefined index: filenum D:\wamp64\www\bttest\Admin\Runtime\Cache\9d14c8923dce1ce12cc9e21509932034.php 第 44 行.
+NOTIC: [8] Undefined index: creattime D:\wamp64\www\bttest\Admin\Runtime\Cache\9d14c8923dce1ce12cc9e21509932034.php 第 45 行.
+NOTIC: [8] Undefined index: filenum D:\wamp64\www\bttest\Admin\Runtime\Cache\9d14c8923dce1ce12cc9e21509932034.php 第 44 行.
+NOTIC: [8] Undefined index: creattime D:\wamp64\www\bttest\Admin\Runtime\Cache\9d14c8923dce1ce12cc9e21509932034.php 第 45 行.
+NOTIC: [8] Undefined index: filenum D:\wamp64\www\bttest\Admin\Runtime\Cache\9d14c8923dce1ce12cc9e21509932034.php 第 44 行.
+NOTIC: [8] Undefined index: creattime D:\wamp64\www\bttest\Admin\Runtime\Cache\9d14c8923dce1ce12cc9e21509932034.php 第 45 行.
+NOTIC: [8] Undefined index: filenum D:\wamp64\www\bttest\Admin\Runtime\Cache\9d14c8923dce1ce12cc9e21509932034.php 第 44 行.
+NOTIC: [8] Undefined index: creattime D:\wamp64\www\bttest\Admin\Runtime\Cache\9d14c8923dce1ce12cc9e21509932034.php 第 45 行.
+NOTIC: [8] Undefined index: filenum D:\wamp64\www\bttest\Admin\Runtime\Cache\9d14c8923dce1ce12cc9e21509932034.php 第 44 行.
+NOTIC: [8] Undefined index: creattime D:\wamp64\www\bttest\Admin\Runtime\Cache\9d14c8923dce1ce12cc9e21509932034.php 第 45 行.
+NOTIC: [8] Undefined index: filenum D:\wamp64\www\bttest\Admin\Runtime\Cache\9d14c8923dce1ce12cc9e21509932034.php 第 44 行.
+NOTIC: [8] Undefined index: creattime D:\wamp64\www\bttest\Admin\Runtime\Cache\9d14c8923dce1ce12cc9e21509932034.php 第 45 行.
+NOTIC: [8] Undefined index: filenum D:\wamp64\www\bttest\Admin\Runtime\Cache\9d14c8923dce1ce12cc9e21509932034.php 第 44 行.
+NOTIC: [8] Undefined index: creattime D:\wamp64\www\bttest\Admin\Runtime\Cache\9d14c8923dce1ce12cc9e21509932034.php 第 45 行.
+NOTIC: [8] Undefined index: filenum D:\wamp64\www\bttest\Admin\Runtime\Cache\9d14c8923dce1ce12cc9e21509932034.php 第 44 行.
+NOTIC: [8] Undefined index: creattime D:\wamp64\www\bttest\Admin\Runtime\Cache\9d14c8923dce1ce12cc9e21509932034.php 第 45 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.037813s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037922s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001126s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002618s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000674s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000938s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005766s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003568s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003771s ]
+
+[ 2017-07-25T08:53:22+08:00 ] 127.0.0.1 /bttest/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000933s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001095s ]
+NOTIC: [2] include(wechat/wechat.class.php): failed to open stream: No such file or directory D:\wamp64\www\bttest\Admin\Lib\Action\BaseAction.class.php 第 2 行.
+NOTIC: [2] include(): Failed opening 'wechat/wechat.class.php' for inclusion (include_path='.;C:\php\pear;D:\wamp64\www\bttest\ThinkPHP/Extend/Vendor/') D:\wamp64\www\bttest\Admin\Lib\Action\BaseAction.class.php 第 2 行.
+NOTIC: [2] include(wechat/WxMchPayHelper.php): failed to open stream: No such file or directory D:\wamp64\www\bttest\Admin\Lib\Action\BaseAction.class.php 第 3 行.
+NOTIC: [2] include(): Failed opening 'wechat/WxMchPayHelper.php' for inclusion (include_path='.;C:\php\pear;D:\wamp64\www\bttest\ThinkPHP/Extend/Vendor/') D:\wamp64\www\bttest\Admin\Lib\Action\BaseAction.class.php 第 3 行.
+NOTIC: [8] Undefined index: kw D:\wamp64\www\bttest\Admin\Lib\Action\IndexAction.class.php 第 6 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 273 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 168 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 399 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 399 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 399 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 399 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 399 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 399 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 399 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 399 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 399 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 197 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\bttest\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 137 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012178s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012309s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000845s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000787s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000768s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001960s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004803s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001335s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001514s ]
+

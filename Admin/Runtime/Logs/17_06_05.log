@@ -1,0 +1,1363 @@
+[ 2017-06-05T18:07:41+08:00 ] 127.0.0.1 /bc_admini_sys/index.php?s=Index/public_header
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-05T18:08:04+08:00 ] 127.0.0.1 /bc_admini_sys/index.php?s=/administration/go_out.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: username D:\phpStudy\WWW\bc_admini_sys\Admin\Lib\Action\AdministrationAction.class.php 第 123 行.
+NOTIC: [8] Undefined index: applydate D:\phpStudy\WWW\bc_admini_sys\Admin\Lib\Action\AdministrationAction.class.php 第 127 行.
+NOTIC: [8] Undefined variable: and D:\phpStudy\WWW\bc_admini_sys\Admin\Lib\Action\AdministrationAction.class.php 第 137 行.
+NOTIC: [8] Undefined index: partid D:\phpStudy\WWW\bc_admini_sys\Admin\Lib\Action\AdministrationAction.class.php 第 139 行.
+SQL: SELECT COUNT(*) AS tp_count FROM s_employeesinfo a,s_goout b WHERE ( b.eid = a.id  and b.applydate >= '2017-06-01'  and b.applydate <= '2017-06-31' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM s_employeesinfo a,s_goout b WHERE ( b.eid = a.id  and b.applydate >= '2017-06-01'  and b.applydate <= '2017-06-31' ) LIMIT 0,20   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: msg D:\phpStudy\WWW\bc_admini_sys\Admin\Runtime\Cache\9d64f8dea5ccd494906a59dfa4be8bbf.php 第 258 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-05T18:08:04+08:00 ] 127.0.0.1 /bc_admini_sys/index.php?s=Index/public_header
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-05T18:08:05+08:00 ] 127.0.0.1 /bc_admini_sys/index.php?s=/administration/go_out.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: username D:\phpStudy\WWW\bc_admini_sys\Admin\Lib\Action\AdministrationAction.class.php 第 123 行.
+NOTIC: [8] Undefined index: applydate D:\phpStudy\WWW\bc_admini_sys\Admin\Lib\Action\AdministrationAction.class.php 第 127 行.
+NOTIC: [8] Undefined variable: and D:\phpStudy\WWW\bc_admini_sys\Admin\Lib\Action\AdministrationAction.class.php 第 137 行.
+NOTIC: [8] Undefined index: partid D:\phpStudy\WWW\bc_admini_sys\Admin\Lib\Action\AdministrationAction.class.php 第 139 行.
+SQL: SELECT COUNT(*) AS tp_count FROM s_employeesinfo a,s_goout b WHERE ( b.eid = a.id  and b.applydate >= '2017-06-01'  and b.applydate <= '2017-06-31' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM s_employeesinfo a,s_goout b WHERE ( b.eid = a.id  and b.applydate >= '2017-06-01'  and b.applydate <= '2017-06-31' ) LIMIT 0,20   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: msg D:\phpStudy\WWW\bc_admini_sys\Admin\Runtime\Cache\9d64f8dea5ccd494906a59dfa4be8bbf.php 第 258 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-05T18:08:05+08:00 ] 127.0.0.1 /bc_admini_sys/index.php?s=Index/public_header
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.003000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-05T18:08:09+08:00 ] 127.0.0.1 /bc_admini_sys/index.php?s=Administration/go_out
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: username D:\phpStudy\WWW\bc_admini_sys\Admin\Lib\Action\AdministrationAction.class.php 第 123 行.
+NOTIC: [8] Undefined variable: and D:\phpStudy\WWW\bc_admini_sys\Admin\Lib\Action\AdministrationAction.class.php 第 131 行.
+SQL: SELECT COUNT(*) AS tp_count FROM s_employeesinfo a,s_goout b WHERE ( b.eid = a.id  and b.applydate >= '2017-05-01'  and b.applydate <= '2017-05-31' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM s_employeesinfo a,s_goout b WHERE ( b.eid = a.id  and b.applydate >= '2017-05-01'  and b.applydate <= '2017-05-31' ) LIMIT 0,20   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: msg D:\phpStudy\WWW\bc_admini_sys\Admin\Runtime\Cache\9d64f8dea5ccd494906a59dfa4be8bbf.php 第 258 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-05T18:08:09+08:00 ] 127.0.0.1 /bc_admini_sys/index.php?s=Index/public_header
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.003000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-05T18:08:28+08:00 ] 127.0.0.1 /bc_admini_sys/index.php?s=Administration/go_outadd
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `s_employeesinfo` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `s_employeesinfo` WHERE ( name = '张乐' )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: worknumber D:\phpStudy\WWW\bc_admini_sys\Admin\Lib\Action\AdministrationAction.class.php 第 159 行.
+NOTIC: [8] Undefined index: adress D:\phpStudy\WWW\bc_admini_sys\Admin\Lib\Action\AdministrationAction.class.php 第 160 行.
+NOTIC: [8] Undefined index: remark D:\phpStudy\WWW\bc_admini_sys\Admin\Lib\Action\AdministrationAction.class.php 第 161 行.
+NOTIC: [8] Undefined index: starttime D:\phpStudy\WWW\bc_admini_sys\Admin\Lib\Action\AdministrationAction.class.php 第 162 行.
+NOTIC: [8] Undefined index: endtime D:\phpStudy\WWW\bc_admini_sys\Admin\Lib\Action\AdministrationAction.class.php 第 163 行.
+NOTIC: [8] Undefined index: timelength D:\phpStudy\WWW\bc_admini_sys\Admin\Lib\Action\AdministrationAction.class.php 第 164 行.
+NOTIC: [8] Undefined index: applydate D:\phpStudy\WWW\bc_admini_sys\Admin\Lib\Action\AdministrationAction.class.php 第 165 行.
+NOTIC: [8] Undefined index: approver D:\phpStudy\WWW\bc_admini_sys\Admin\Lib\Action\AdministrationAction.class.php 第 166 行.
+SQL: SHOW COLUMNS FROM `s_goout` [ RunTime:0.003000s ]
+SQL: INSERT INTO `s_goout` (`eid`,`adress`,`remark`,`starttime`,`endtime`,`timelength`,`applydate`,`approver`,`createtime`) VALUES (2,null,null,null,null,null,null,null,'2017-06-05') [ RunTime:0.030000s ]
+
+[ 2017-06-05T18:09:29+08:00 ] 127.0.0.1 /bc_admini_sys/index.php?s=Administration/go_outadd
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `s_employeesinfo` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `s_employeesinfo` WHERE ( name = '张乐' )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: worknumber D:\phpStudy\WWW\bc_admini_sys\Admin\Lib\Action\AdministrationAction.class.php 第 159 行.
+SQL: SHOW COLUMNS FROM `s_goout` [ RunTime:0.004000s ]
+SQL: INSERT INTO `s_goout` (`eid`,`adress`,`remark`,`starttime`,`endtime`,`timelength`,`applydate`,`approver`,`createtime`) VALUES (2,'长沙玉兰路55号','喝茶','2017-06-01','2017-06-06','7天','2017-06-01','伍健','2017-06-05') [ RunTime:0.051000s ]
+
+[ 2017-06-05T18:09:34+08:00 ] 127.0.0.1 /bc_admini_sys/index.php?s=Administration/go_out
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: username D:\phpStudy\WWW\bc_admini_sys\Admin\Lib\Action\AdministrationAction.class.php 第 123 行.
+NOTIC: [8] Undefined variable: and D:\phpStudy\WWW\bc_admini_sys\Admin\Lib\Action\AdministrationAction.class.php 第 131 行.
+SQL: SELECT COUNT(*) AS tp_count FROM s_employeesinfo a,s_goout b WHERE ( b.eid = a.id  and b.applydate >= '2017-05-01'  and b.applydate <= '2017-05-31' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM s_employeesinfo a,s_goout b WHERE ( b.eid = a.id  and b.applydate >= '2017-05-01'  and b.applydate <= '2017-05-31' ) LIMIT 0,20   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-05T18:09:34+08:00 ] 127.0.0.1 /bc_admini_sys/index.php?s=Index/public_header
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-05T18:09:35+08:00 ] 127.0.0.1 /bc_admini_sys/index.php?s=Administration/go_out
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: username D:\phpStudy\WWW\bc_admini_sys\Admin\Lib\Action\AdministrationAction.class.php 第 123 行.
+NOTIC: [8] Undefined variable: and D:\phpStudy\WWW\bc_admini_sys\Admin\Lib\Action\AdministrationAction.class.php 第 131 行.
+SQL: SELECT COUNT(*) AS tp_count FROM s_employeesinfo a,s_goout b WHERE ( b.eid = a.id  and b.applydate >= '2017-05-01'  and b.applydate <= '2017-05-31' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM s_employeesinfo a,s_goout b WHERE ( b.eid = a.id  and b.applydate >= '2017-05-01'  and b.applydate <= '2017-05-31' ) LIMIT 0,20   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: msg D:\phpStudy\WWW\bc_admini_sys\Admin\Runtime\Cache\9d64f8dea5ccd494906a59dfa4be8bbf.php 第 258 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-05T18:09:35+08:00 ] 127.0.0.1 /bc_admini_sys/index.php?s=Index/public_header
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.003000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-05T18:09:35+08:00 ] 127.0.0.1 /bc_admini_sys/index.php?s=Administration/go_out
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: username D:\phpStudy\WWW\bc_admini_sys\Admin\Lib\Action\AdministrationAction.class.php 第 123 行.
+NOTIC: [8] Undefined variable: and D:\phpStudy\WWW\bc_admini_sys\Admin\Lib\Action\AdministrationAction.class.php 第 131 行.
+SQL: SELECT COUNT(*) AS tp_count FROM s_employeesinfo a,s_goout b WHERE ( b.eid = a.id  and b.applydate >= '2017-05-01'  and b.applydate <= '2017-05-31' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM s_employeesinfo a,s_goout b WHERE ( b.eid = a.id  and b.applydate >= '2017-05-01'  and b.applydate <= '2017-05-31' ) LIMIT 0,20   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: msg D:\phpStudy\WWW\bc_admini_sys\Admin\Runtime\Cache\9d64f8dea5ccd494906a59dfa4be8bbf.php 第 258 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-05T18:09:35+08:00 ] 127.0.0.1 /bc_admini_sys/index.php?s=Index/public_header
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-05T18:09:50+08:00 ] 127.0.0.1 /bc_admini_sys/index.php?s=Administration/go_out
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: username D:\phpStudy\WWW\bc_admini_sys\Admin\Lib\Action\AdministrationAction.class.php 第 123 行.
+NOTIC: [8] Undefined index: applydate D:\phpStudy\WWW\bc_admini_sys\Admin\Lib\Action\AdministrationAction.class.php 第 127 行.
+NOTIC: [8] Undefined variable: and D:\phpStudy\WWW\bc_admini_sys\Admin\Lib\Action\AdministrationAction.class.php 第 137 行.
+NOTIC: [8] Undefined index: partid D:\phpStudy\WWW\bc_admini_sys\Admin\Lib\Action\AdministrationAction.class.php 第 139 行.
+SQL: SELECT COUNT(*) AS tp_count FROM s_employeesinfo a,s_goout b WHERE ( b.eid = a.id  and b.applydate >= '2017-06-01'  and b.applydate <= '2017-06-31' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM s_employeesinfo a,s_goout b WHERE ( b.eid = a.id  and b.applydate >= '2017-06-01'  and b.applydate <= '2017-06-31' ) LIMIT 0,20   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: msg D:\phpStudy\WWW\bc_admini_sys\Admin\Runtime\Cache\9d64f8dea5ccd494906a59dfa4be8bbf.php 第 258 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-05T18:09:50+08:00 ] 127.0.0.1 /bc_admini_sys/index.php?s=Index/public_header
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.003000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-05T18:12:42+08:00 ] 127.0.0.1 /bc_admini_sys/index.php?s=Administration/go_out
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: username D:\phpStudy\WWW\bc_admini_sys\Admin\Lib\Action\AdministrationAction.class.php 第 123 行.
+NOTIC: [8] Undefined index: applydate D:\phpStudy\WWW\bc_admini_sys\Admin\Lib\Action\AdministrationAction.class.php 第 127 行.
+NOTIC: [8] Undefined variable: and D:\phpStudy\WWW\bc_admini_sys\Admin\Lib\Action\AdministrationAction.class.php 第 137 行.
+NOTIC: [8] Undefined index: partid D:\phpStudy\WWW\bc_admini_sys\Admin\Lib\Action\AdministrationAction.class.php 第 139 行.
+SQL: SELECT COUNT(*) AS tp_count FROM s_employeesinfo a,s_goout b WHERE ( b.eid = a.id  and b.applydate >= '2017-06-01'  and b.applydate <= '2017-06-31' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM s_employeesinfo a,s_goout b WHERE ( b.eid = a.id  and b.applydate >= '2017-06-01'  and b.applydate <= '2017-06-31' ) LIMIT 0,20   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: msg D:\phpStudy\WWW\bc_admini_sys\Admin\Runtime\Cache\9d64f8dea5ccd494906a59dfa4be8bbf.php 第 258 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-05T18:12:42+08:00 ] 127.0.0.1 /bc_admini_sys/index.php?s=Index/public_header
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.003000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-05T18:12:43+08:00 ] 127.0.0.1 /bc_admini_sys/index.php?s=Administration/go_out
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: username D:\phpStudy\WWW\bc_admini_sys\Admin\Lib\Action\AdministrationAction.class.php 第 123 行.
+NOTIC: [8] Undefined index: applydate D:\phpStudy\WWW\bc_admini_sys\Admin\Lib\Action\AdministrationAction.class.php 第 127 行.
+NOTIC: [8] Undefined variable: and D:\phpStudy\WWW\bc_admini_sys\Admin\Lib\Action\AdministrationAction.class.php 第 137 行.
+NOTIC: [8] Undefined index: partid D:\phpStudy\WWW\bc_admini_sys\Admin\Lib\Action\AdministrationAction.class.php 第 139 行.
+SQL: SELECT COUNT(*) AS tp_count FROM s_employeesinfo a,s_goout b WHERE ( b.eid = a.id  and b.applydate >= '2017-06-01'  and b.applydate <= '2017-06-31' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM s_employeesinfo a,s_goout b WHERE ( b.eid = a.id  and b.applydate >= '2017-06-01'  and b.applydate <= '2017-06-31' ) LIMIT 0,20   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: msg D:\phpStudy\WWW\bc_admini_sys\Admin\Runtime\Cache\9d64f8dea5ccd494906a59dfa4be8bbf.php 第 258 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-05T18:12:43+08:00 ] 127.0.0.1 /bc_admini_sys/index.php?s=Index/public_header
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-05T18:12:47+08:00 ] 127.0.0.1 /bc_admini_sys/index.php?s=Administration/go_outadd
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `s_employeesinfo` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `s_employeesinfo` WHERE ( name = '张乐' )  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: worknumber D:\phpStudy\WWW\bc_admini_sys\Admin\Lib\Action\AdministrationAction.class.php 第 159 行.
+NOTIC: [8] Undefined index: adress D:\phpStudy\WWW\bc_admini_sys\Admin\Lib\Action\AdministrationAction.class.php 第 160 行.
+NOTIC: [8] Undefined index: remark D:\phpStudy\WWW\bc_admini_sys\Admin\Lib\Action\AdministrationAction.class.php 第 161 行.
+NOTIC: [8] Undefined index: starttime D:\phpStudy\WWW\bc_admini_sys\Admin\Lib\Action\AdministrationAction.class.php 第 162 行.
+NOTIC: [8] Undefined index: endtime D:\phpStudy\WWW\bc_admini_sys\Admin\Lib\Action\AdministrationAction.class.php 第 163 行.
+NOTIC: [8] Undefined index: timelength D:\phpStudy\WWW\bc_admini_sys\Admin\Lib\Action\AdministrationAction.class.php 第 164 行.
+NOTIC: [8] Undefined index: applydate D:\phpStudy\WWW\bc_admini_sys\Admin\Lib\Action\AdministrationAction.class.php 第 165 行.
+NOTIC: [8] Undefined index: approver D:\phpStudy\WWW\bc_admini_sys\Admin\Lib\Action\AdministrationAction.class.php 第 166 行.
+SQL: SHOW COLUMNS FROM `s_goout` [ RunTime:0.004000s ]
+SQL: INSERT INTO `s_goout` (`eid`,`adress`,`remark`,`starttime`,`endtime`,`timelength`,`applydate`,`approver`,`createtime`) VALUES (2,null,null,null,null,null,null,null,'2017-06-05') [ RunTime:0.030000s ]
+
+[ 2017-06-05T18:13:01+08:00 ] 127.0.0.1 /bc_admini_sys/index.php?s=Administration/go_outadd
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `s_employeesinfo` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `s_employeesinfo` WHERE ( name = '张乐' )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: worknumber D:\phpStudy\WWW\bc_admini_sys\Admin\Lib\Action\AdministrationAction.class.php 第 159 行.
+SQL: SHOW COLUMNS FROM `s_goout` [ RunTime:0.003000s ]
+SQL: INSERT INTO `s_goout` (`eid`,`adress`,`remark`,`starttime`,`endtime`,`timelength`,`applydate`,`approver`,`createtime`) VALUES (2,'喊饭不喝酒','发生的','2017-06-01','2017-06-06','7天','2017-06-01','伍健','2017-06-05') [ RunTime:0.026000s ]
+
+[ 2017-06-05T18:13:01+08:00 ] 127.0.0.1 /bc_admini_sys/index.php?s=Administration/go_out
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: username D:\phpStudy\WWW\bc_admini_sys\Admin\Lib\Action\AdministrationAction.class.php 第 123 行.
+NOTIC: [8] Undefined index: applydate D:\phpStudy\WWW\bc_admini_sys\Admin\Lib\Action\AdministrationAction.class.php 第 127 行.
+NOTIC: [8] Undefined variable: and D:\phpStudy\WWW\bc_admini_sys\Admin\Lib\Action\AdministrationAction.class.php 第 137 行.
+NOTIC: [8] Undefined index: partid D:\phpStudy\WWW\bc_admini_sys\Admin\Lib\Action\AdministrationAction.class.php 第 139 行.
+SQL: SELECT COUNT(*) AS tp_count FROM s_employeesinfo a,s_goout b WHERE ( b.eid = a.id  and b.applydate >= '2017-06-01'  and b.applydate <= '2017-06-31' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM s_employeesinfo a,s_goout b WHERE ( b.eid = a.id  and b.applydate >= '2017-06-01'  and b.applydate <= '2017-06-31' ) LIMIT 0,20   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-05T18:13:01+08:00 ] 127.0.0.1 /bc_admini_sys/index.php?s=Index/public_header
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-05T18:15:05+08:00 ] 127.0.0.1 /bc_admini_sys/index.php?s=Administration/go_out
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: username D:\phpStudy\WWW\bc_admini_sys\Admin\Lib\Action\AdministrationAction.class.php 第 123 行.
+NOTIC: [8] Undefined index: applydate D:\phpStudy\WWW\bc_admini_sys\Admin\Lib\Action\AdministrationAction.class.php 第 127 行.
+NOTIC: [8] Undefined variable: and D:\phpStudy\WWW\bc_admini_sys\Admin\Lib\Action\AdministrationAction.class.php 第 137 行.
+NOTIC: [8] Undefined index: partid D:\phpStudy\WWW\bc_admini_sys\Admin\Lib\Action\AdministrationAction.class.php 第 139 行.
+SQL: SELECT COUNT(*) AS tp_count FROM s_employeesinfo a,s_goout b WHERE ( b.eid = a.id  and b.applydate >= '2017-06-01'  and b.applydate <= '2017-06-31' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM s_employeesinfo a,s_goout b WHERE ( b.eid = a.id  and b.applydate >= '2017-06-01'  and b.applydate <= '2017-06-31' ) LIMIT 0,20   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: msg D:\phpStudy\WWW\bc_admini_sys\Admin\Runtime\Cache\9d64f8dea5ccd494906a59dfa4be8bbf.php 第 258 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-05T18:15:05+08:00 ] 127.0.0.1 /bc_admini_sys/index.php?s=Index/public_header
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-05T18:15:05+08:00 ] 127.0.0.1 /bc_admini_sys/index.php?s=Administration/go_out
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: username D:\phpStudy\WWW\bc_admini_sys\Admin\Lib\Action\AdministrationAction.class.php 第 123 行.
+NOTIC: [8] Undefined index: applydate D:\phpStudy\WWW\bc_admini_sys\Admin\Lib\Action\AdministrationAction.class.php 第 127 行.
+NOTIC: [8] Undefined variable: and D:\phpStudy\WWW\bc_admini_sys\Admin\Lib\Action\AdministrationAction.class.php 第 137 行.
+NOTIC: [8] Undefined index: partid D:\phpStudy\WWW\bc_admini_sys\Admin\Lib\Action\AdministrationAction.class.php 第 139 行.
+SQL: SELECT COUNT(*) AS tp_count FROM s_employeesinfo a,s_goout b WHERE ( b.eid = a.id  and b.applydate >= '2017-06-01'  and b.applydate <= '2017-06-31' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM s_employeesinfo a,s_goout b WHERE ( b.eid = a.id  and b.applydate >= '2017-06-01'  and b.applydate <= '2017-06-31' ) LIMIT 0,20   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: msg D:\phpStudy\WWW\bc_admini_sys\Admin\Runtime\Cache\9d64f8dea5ccd494906a59dfa4be8bbf.php 第 258 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-05T18:15:05+08:00 ] 127.0.0.1 /bc_admini_sys/index.php?s=Index/public_header
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.003000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-05T18:15:06+08:00 ] 127.0.0.1 /bc_admini_sys/index.php?s=Administration/go_out
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: username D:\phpStudy\WWW\bc_admini_sys\Admin\Lib\Action\AdministrationAction.class.php 第 123 行.
+NOTIC: [8] Undefined index: applydate D:\phpStudy\WWW\bc_admini_sys\Admin\Lib\Action\AdministrationAction.class.php 第 127 行.
+NOTIC: [8] Undefined variable: and D:\phpStudy\WWW\bc_admini_sys\Admin\Lib\Action\AdministrationAction.class.php 第 137 行.
+NOTIC: [8] Undefined index: partid D:\phpStudy\WWW\bc_admini_sys\Admin\Lib\Action\AdministrationAction.class.php 第 139 行.
+SQL: SELECT COUNT(*) AS tp_count FROM s_employeesinfo a,s_goout b WHERE ( b.eid = a.id  and b.applydate >= '2017-06-01'  and b.applydate <= '2017-06-31' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM s_employeesinfo a,s_goout b WHERE ( b.eid = a.id  and b.applydate >= '2017-06-01'  and b.applydate <= '2017-06-31' ) LIMIT 0,20   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: msg D:\phpStudy\WWW\bc_admini_sys\Admin\Runtime\Cache\9d64f8dea5ccd494906a59dfa4be8bbf.php 第 258 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-05T18:15:06+08:00 ] 127.0.0.1 /bc_admini_sys/index.php?s=Index/public_header
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-05T18:15:09+08:00 ] 127.0.0.1 /bc_admini_sys/index.php?s=Administration/gooutjudgment
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `s_employeesinfo` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `s_employeesinfo` WHERE ( name = '但是 ' )  [ RunTime:0.000000s ]
+
+[ 2017-06-05T18:15:12+08:00 ] 127.0.0.1 /bc_admini_sys/index.php?s=Administration/gooutjudgment
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `s_employeesinfo` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `s_employeesinfo` WHERE ( name = '张乐' )  [ RunTime:0.000000s ]
+
+[ 2017-06-05T18:15:28+08:00 ] 127.0.0.1 /bc_admini_sys/index.php?s=Administration/go_outadd
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `s_employeesinfo` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `s_employeesinfo` WHERE ( name = '张乐' )  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: worknumber D:\phpStudy\WWW\bc_admini_sys\Admin\Lib\Action\AdministrationAction.class.php 第 168 行.
+SQL: SHOW COLUMNS FROM `s_goout` [ RunTime:0.004000s ]
+SQL: INSERT INTO `s_goout` (`eid`,`adress`,`remark`,`starttime`,`endtime`,`timelength`,`applydate`,`approver`,`createtime`) VALUES (2,'涨价放','发顺丰 ','2017-06-01','2017-06-04','5','2017-06-01','伍健','2017-06-05') [ RunTime:0.027000s ]
+
+[ 2017-06-05T18:15:28+08:00 ] 127.0.0.1 /bc_admini_sys/index.php?s=Administration/go_out
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: username D:\phpStudy\WWW\bc_admini_sys\Admin\Lib\Action\AdministrationAction.class.php 第 123 行.
+NOTIC: [8] Undefined index: applydate D:\phpStudy\WWW\bc_admini_sys\Admin\Lib\Action\AdministrationAction.class.php 第 127 行.
+NOTIC: [8] Undefined variable: and D:\phpStudy\WWW\bc_admini_sys\Admin\Lib\Action\AdministrationAction.class.php 第 137 行.
+NOTIC: [8] Undefined index: partid D:\phpStudy\WWW\bc_admini_sys\Admin\Lib\Action\AdministrationAction.class.php 第 139 行.
+SQL: SELECT COUNT(*) AS tp_count FROM s_employeesinfo a,s_goout b WHERE ( b.eid = a.id  and b.applydate >= '2017-06-01'  and b.applydate <= '2017-06-31' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM s_employeesinfo a,s_goout b WHERE ( b.eid = a.id  and b.applydate >= '2017-06-01'  and b.applydate <= '2017-06-31' ) LIMIT 0,20   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: msg D:\phpStudy\WWW\bc_admini_sys\Admin\Runtime\Cache\9d64f8dea5ccd494906a59dfa4be8bbf.php 第 258 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-05T18:15:28+08:00 ] 127.0.0.1 /bc_admini_sys/index.php?s=Index/public_header
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-05T18:16:17+08:00 ] 127.0.0.1 /bc_admini_sys/index.php?s=Administration/go_out
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: username D:\phpStudy\WWW\bc_admini_sys\Admin\Lib\Action\AdministrationAction.class.php 第 123 行.
+NOTIC: [8] Undefined index: applydate D:\phpStudy\WWW\bc_admini_sys\Admin\Lib\Action\AdministrationAction.class.php 第 127 行.
+NOTIC: [8] Undefined variable: and D:\phpStudy\WWW\bc_admini_sys\Admin\Lib\Action\AdministrationAction.class.php 第 137 行.
+NOTIC: [8] Undefined index: partid D:\phpStudy\WWW\bc_admini_sys\Admin\Lib\Action\AdministrationAction.class.php 第 139 行.
+SQL: SELECT COUNT(*) AS tp_count FROM s_employeesinfo a,s_goout b WHERE ( b.eid = a.id  and b.applydate >= '2017-06-01'  and b.applydate <= '2017-06-31' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM s_employeesinfo a,s_goout b WHERE ( b.eid = a.id  and b.applydate >= '2017-06-01'  and b.applydate <= '2017-06-31' ) LIMIT 0,20   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: msg D:\phpStudy\WWW\bc_admini_sys\Admin\Runtime\Cache\9d64f8dea5ccd494906a59dfa4be8bbf.php 第 258 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-05T18:16:17+08:00 ] 127.0.0.1 /bc_admini_sys/index.php?s=Index/public_header
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-05T18:16:18+08:00 ] 127.0.0.1 /bc_admini_sys/index.php?s=Administration/go_out
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: username D:\phpStudy\WWW\bc_admini_sys\Admin\Lib\Action\AdministrationAction.class.php 第 123 行.
+NOTIC: [8] Undefined index: applydate D:\phpStudy\WWW\bc_admini_sys\Admin\Lib\Action\AdministrationAction.class.php 第 127 行.
+NOTIC: [8] Undefined variable: and D:\phpStudy\WWW\bc_admini_sys\Admin\Lib\Action\AdministrationAction.class.php 第 137 行.
+NOTIC: [8] Undefined index: partid D:\phpStudy\WWW\bc_admini_sys\Admin\Lib\Action\AdministrationAction.class.php 第 139 行.
+SQL: SELECT COUNT(*) AS tp_count FROM s_employeesinfo a,s_goout b WHERE ( b.eid = a.id  and b.applydate >= '2017-06-01'  and b.applydate <= '2017-06-31' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM s_employeesinfo a,s_goout b WHERE ( b.eid = a.id  and b.applydate >= '2017-06-01'  and b.applydate <= '2017-06-31' ) LIMIT 0,20   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: msg D:\phpStudy\WWW\bc_admini_sys\Admin\Runtime\Cache\9d64f8dea5ccd494906a59dfa4be8bbf.php 第 258 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-05T18:16:18+08:00 ] 127.0.0.1 /bc_admini_sys/index.php?s=Index/public_header
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.003000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-05T18:16:21+08:00 ] 127.0.0.1 /bc_admini_sys/index.php?s=Administration/gooutjudgment
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `s_employeesinfo` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `s_employeesinfo` WHERE ( name = '张乐' )  [ RunTime:0.001000s ]
+
+[ 2017-06-05T18:16:34+08:00 ] 127.0.0.1 /bc_admini_sys/index.php?s=Administration/go_outadd
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `s_employeesinfo` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `s_employeesinfo` WHERE ( name = '张乐' )  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: worknumber D:\phpStudy\WWW\bc_admini_sys\Admin\Lib\Action\AdministrationAction.class.php 第 168 行.
+SQL: SHOW COLUMNS FROM `s_goout` [ RunTime:0.002000s ]
+SQL: INSERT INTO `s_goout` (`eid`,`adress`,`remark`,`starttime`,`endtime`,`timelength`,`applydate`,`approver`,`createtime`) VALUES (2,'你的介绍','辅导教师你好','2017-06-01','2017-06-02','245 ','2017-06-01','伍健','2017-06-05') [ RunTime:0.030000s ]
+
+[ 2017-06-05T18:16:34+08:00 ] 127.0.0.1 /bc_admini_sys/index.php?s=Administration/go_out
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: username D:\phpStudy\WWW\bc_admini_sys\Admin\Lib\Action\AdministrationAction.class.php 第 123 行.
+NOTIC: [8] Undefined index: applydate D:\phpStudy\WWW\bc_admini_sys\Admin\Lib\Action\AdministrationAction.class.php 第 127 行.
+NOTIC: [8] Undefined variable: and D:\phpStudy\WWW\bc_admini_sys\Admin\Lib\Action\AdministrationAction.class.php 第 137 行.
+NOTIC: [8] Undefined index: partid D:\phpStudy\WWW\bc_admini_sys\Admin\Lib\Action\AdministrationAction.class.php 第 139 行.
+SQL: SELECT COUNT(*) AS tp_count FROM s_employeesinfo a,s_goout b WHERE ( b.eid = a.id  and b.applydate >= '2017-06-01'  and b.applydate <= '2017-06-31' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM s_employeesinfo a,s_goout b WHERE ( b.eid = a.id  and b.applydate >= '2017-06-01'  and b.applydate <= '2017-06-31' ) LIMIT 0,20   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: msg D:\phpStudy\WWW\bc_admini_sys\Admin\Runtime\Cache\9d64f8dea5ccd494906a59dfa4be8bbf.php 第 258 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-05T18:16:34+08:00 ] 127.0.0.1 /bc_admini_sys/index.php?s=Index/public_header
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-05T18:17:24+08:00 ] 127.0.0.1 /bc_admini_sys/index.php?s=Administration/go_out
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: username D:\phpStudy\WWW\bc_admini_sys\Admin\Lib\Action\AdministrationAction.class.php 第 123 行.
+NOTIC: [8] Undefined index: applydate D:\phpStudy\WWW\bc_admini_sys\Admin\Lib\Action\AdministrationAction.class.php 第 127 行.
+NOTIC: [8] Undefined variable: and D:\phpStudy\WWW\bc_admini_sys\Admin\Lib\Action\AdministrationAction.class.php 第 137 行.
+NOTIC: [8] Undefined index: partid D:\phpStudy\WWW\bc_admini_sys\Admin\Lib\Action\AdministrationAction.class.php 第 139 行.
+SQL: SELECT COUNT(*) AS tp_count FROM s_employeesinfo a,s_goout b WHERE ( b.eid = a.id  and b.applydate >= '2017-06-01'  and b.applydate <= '2017-06-31' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM s_employeesinfo a,s_goout b WHERE ( b.eid = a.id  and b.applydate >= '2017-06-01'  and b.applydate <= '2017-06-31' ) LIMIT 0,20   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: msg D:\phpStudy\WWW\bc_admini_sys\Admin\Runtime\Cache\9d64f8dea5ccd494906a59dfa4be8bbf.php 第 258 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-05T18:17:24+08:00 ] 127.0.0.1 /bc_admini_sys/index.php?s=Index/public_header
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-05T18:17:24+08:00 ] 127.0.0.1 /bc_admini_sys/index.php?s=Administration/go_out
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: username D:\phpStudy\WWW\bc_admini_sys\Admin\Lib\Action\AdministrationAction.class.php 第 123 行.
+NOTIC: [8] Undefined index: applydate D:\phpStudy\WWW\bc_admini_sys\Admin\Lib\Action\AdministrationAction.class.php 第 127 行.
+NOTIC: [8] Undefined variable: and D:\phpStudy\WWW\bc_admini_sys\Admin\Lib\Action\AdministrationAction.class.php 第 137 行.
+NOTIC: [8] Undefined index: partid D:\phpStudy\WWW\bc_admini_sys\Admin\Lib\Action\AdministrationAction.class.php 第 139 行.
+SQL: SELECT COUNT(*) AS tp_count FROM s_employeesinfo a,s_goout b WHERE ( b.eid = a.id  and b.applydate >= '2017-06-01'  and b.applydate <= '2017-06-31' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM s_employeesinfo a,s_goout b WHERE ( b.eid = a.id  and b.applydate >= '2017-06-01'  and b.applydate <= '2017-06-31' ) LIMIT 0,20   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: msg D:\phpStudy\WWW\bc_admini_sys\Admin\Runtime\Cache\9d64f8dea5ccd494906a59dfa4be8bbf.php 第 258 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-05T18:17:24+08:00 ] 127.0.0.1 /bc_admini_sys/index.php?s=Index/public_header
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.003000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-05T18:17:24+08:00 ] 127.0.0.1 /bc_admini_sys/index.php?s=Administration/go_out
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: username D:\phpStudy\WWW\bc_admini_sys\Admin\Lib\Action\AdministrationAction.class.php 第 123 行.
+NOTIC: [8] Undefined index: applydate D:\phpStudy\WWW\bc_admini_sys\Admin\Lib\Action\AdministrationAction.class.php 第 127 行.
+NOTIC: [8] Undefined variable: and D:\phpStudy\WWW\bc_admini_sys\Admin\Lib\Action\AdministrationAction.class.php 第 137 行.
+NOTIC: [8] Undefined index: partid D:\phpStudy\WWW\bc_admini_sys\Admin\Lib\Action\AdministrationAction.class.php 第 139 行.
+SQL: SELECT COUNT(*) AS tp_count FROM s_employeesinfo a,s_goout b WHERE ( b.eid = a.id  and b.applydate >= '2017-06-01'  and b.applydate <= '2017-06-31' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM s_employeesinfo a,s_goout b WHERE ( b.eid = a.id  and b.applydate >= '2017-06-01'  and b.applydate <= '2017-06-31' ) LIMIT 0,20   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: msg D:\phpStudy\WWW\bc_admini_sys\Admin\Runtime\Cache\9d64f8dea5ccd494906a59dfa4be8bbf.php 第 258 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-05T18:17:24+08:00 ] 127.0.0.1 /bc_admini_sys/index.php?s=Index/public_header
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.003000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-05T18:17:27+08:00 ] 127.0.0.1 /bc_admini_sys/index.php?s=Administration/gooutjudgment
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `s_employeesinfo` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `s_employeesinfo` WHERE ( name = '张乐' )  [ RunTime:0.001000s ]
+
+[ 2017-06-05T18:17:40+08:00 ] 127.0.0.1 /bc_admini_sys/index.php?s=Administration/go_outadd
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `s_employeesinfo` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `s_employeesinfo` WHERE ( name = '张乐' )  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: worknumber D:\phpStudy\WWW\bc_admini_sys\Admin\Lib\Action\AdministrationAction.class.php 第 168 行.
+SQL: SHOW COLUMNS FROM `s_goout` [ RunTime:0.004000s ]
+SQL: INSERT INTO `s_goout` (`eid`,`adress`,`remark`,`starttime`,`endtime`,`timelength`,`applydate`,`approver`,`createtime`) VALUES (2,'发来的没看附件的不能急','发看你的放','2017-06-01','2017-06-02','地方','2017-06-01','伍健','2017-06-05') [ RunTime:0.040000s ]
+
+[ 2017-06-05T18:17:40+08:00 ] 127.0.0.1 /bc_admini_sys/index.php?s=Administration/go_out
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: username D:\phpStudy\WWW\bc_admini_sys\Admin\Lib\Action\AdministrationAction.class.php 第 123 行.
+NOTIC: [8] Undefined index: applydate D:\phpStudy\WWW\bc_admini_sys\Admin\Lib\Action\AdministrationAction.class.php 第 127 行.
+NOTIC: [8] Undefined variable: and D:\phpStudy\WWW\bc_admini_sys\Admin\Lib\Action\AdministrationAction.class.php 第 137 行.
+NOTIC: [8] Undefined index: partid D:\phpStudy\WWW\bc_admini_sys\Admin\Lib\Action\AdministrationAction.class.php 第 139 行.
+SQL: SELECT COUNT(*) AS tp_count FROM s_employeesinfo a,s_goout b WHERE ( b.eid = a.id  and b.applydate >= '2017-06-01'  and b.applydate <= '2017-06-31' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM s_employeesinfo a,s_goout b WHERE ( b.eid = a.id  and b.applydate >= '2017-06-01'  and b.applydate <= '2017-06-31' ) LIMIT 0,20   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: msg D:\phpStudy\WWW\bc_admini_sys\Admin\Runtime\Cache\9d64f8dea5ccd494906a59dfa4be8bbf.php 第 258 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-05T18:17:40+08:00 ] 127.0.0.1 /bc_admini_sys/index.php?s=Index/public_header
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-05T18:17:57+08:00 ] 127.0.0.1 /bc_admini_sys/index.php?s=Administration/go_out
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: username D:\phpStudy\WWW\bc_admini_sys\Admin\Lib\Action\AdministrationAction.class.php 第 123 行.
+NOTIC: [8] Undefined index: applydate D:\phpStudy\WWW\bc_admini_sys\Admin\Lib\Action\AdministrationAction.class.php 第 127 行.
+NOTIC: [8] Undefined variable: and D:\phpStudy\WWW\bc_admini_sys\Admin\Lib\Action\AdministrationAction.class.php 第 137 行.
+NOTIC: [8] Undefined index: partid D:\phpStudy\WWW\bc_admini_sys\Admin\Lib\Action\AdministrationAction.class.php 第 139 行.
+SQL: SELECT COUNT(*) AS tp_count FROM s_employeesinfo a,s_goout b WHERE ( b.eid = a.id  and b.applydate >= '2017-06-01'  and b.applydate <= '2017-06-31' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM s_employeesinfo a,s_goout b WHERE ( b.eid = a.id  and b.applydate >= '2017-06-01'  and b.applydate <= '2017-06-31' ) LIMIT 0,20   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: msg D:\phpStudy\WWW\bc_admini_sys\Admin\Runtime\Cache\9d64f8dea5ccd494906a59dfa4be8bbf.php 第 258 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-05T18:17:57+08:00 ] 127.0.0.1 /bc_admini_sys/index.php?s=Index/public_header
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-05T18:17:57+08:00 ] 127.0.0.1 /bc_admini_sys/index.php?s=Administration/go_out
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: username D:\phpStudy\WWW\bc_admini_sys\Admin\Lib\Action\AdministrationAction.class.php 第 123 行.
+NOTIC: [8] Undefined index: applydate D:\phpStudy\WWW\bc_admini_sys\Admin\Lib\Action\AdministrationAction.class.php 第 127 行.
+NOTIC: [8] Undefined variable: and D:\phpStudy\WWW\bc_admini_sys\Admin\Lib\Action\AdministrationAction.class.php 第 137 行.
+NOTIC: [8] Undefined index: partid D:\phpStudy\WWW\bc_admini_sys\Admin\Lib\Action\AdministrationAction.class.php 第 139 行.
+SQL: SELECT COUNT(*) AS tp_count FROM s_employeesinfo a,s_goout b WHERE ( b.eid = a.id  and b.applydate >= '2017-06-01'  and b.applydate <= '2017-06-31' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM s_employeesinfo a,s_goout b WHERE ( b.eid = a.id  and b.applydate >= '2017-06-01'  and b.applydate <= '2017-06-31' ) LIMIT 0,20   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: msg D:\phpStudy\WWW\bc_admini_sys\Admin\Runtime\Cache\9d64f8dea5ccd494906a59dfa4be8bbf.php 第 258 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-05T18:17:58+08:00 ] 127.0.0.1 /bc_admini_sys/index.php?s=Index/public_header
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.003000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-05T18:17:58+08:00 ] 127.0.0.1 /bc_admini_sys/index.php?s=Administration/go_out
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: username D:\phpStudy\WWW\bc_admini_sys\Admin\Lib\Action\AdministrationAction.class.php 第 123 行.
+NOTIC: [8] Undefined index: applydate D:\phpStudy\WWW\bc_admini_sys\Admin\Lib\Action\AdministrationAction.class.php 第 127 行.
+NOTIC: [8] Undefined variable: and D:\phpStudy\WWW\bc_admini_sys\Admin\Lib\Action\AdministrationAction.class.php 第 137 行.
+NOTIC: [8] Undefined index: partid D:\phpStudy\WWW\bc_admini_sys\Admin\Lib\Action\AdministrationAction.class.php 第 139 行.
+SQL: SELECT COUNT(*) AS tp_count FROM s_employeesinfo a,s_goout b WHERE ( b.eid = a.id  and b.applydate >= '2017-06-01'  and b.applydate <= '2017-06-31' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM s_employeesinfo a,s_goout b WHERE ( b.eid = a.id  and b.applydate >= '2017-06-01'  and b.applydate <= '2017-06-31' ) LIMIT 0,20   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: msg D:\phpStudy\WWW\bc_admini_sys\Admin\Runtime\Cache\9d64f8dea5ccd494906a59dfa4be8bbf.php 第 258 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-05T18:17:58+08:00 ] 127.0.0.1 /bc_admini_sys/index.php?s=Index/public_header
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-05T18:18:01+08:00 ] 127.0.0.1 /bc_admini_sys/index.php?s=Administration/gooutjudgment
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `s_employeesinfo` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `s_employeesinfo` WHERE ( name = '技术部你家的' )  [ RunTime:0.001000s ]
+
+[ 2017-06-05T18:18:05+08:00 ] 127.0.0.1 /bc_admini_sys/index.php?s=Administration/gooutjudgment
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `s_employeesinfo` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `s_employeesinfo` WHERE ( name = '张乐' )  [ RunTime:0.001000s ]
+
+[ 2017-06-05T18:18:19+08:00 ] 127.0.0.1 /bc_admini_sys/index.php?s=Administration/go_outadd
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `s_employeesinfo` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `s_employeesinfo` WHERE ( name = '张乐' )  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: worknumber D:\phpStudy\WWW\bc_admini_sys\Admin\Lib\Action\AdministrationAction.class.php 第 168 行.
+SQL: SHOW COLUMNS FROM `s_goout` [ RunTime:0.003000s ]
+SQL: INSERT INTO `s_goout` (`eid`,`adress`,`remark`,`starttime`,`endtime`,`timelength`,`applydate`,`approver`,`createtime`) VALUES (2,'发你的就ds','放，你 ','2017-06-01','2017-06-02','是','2017-06-01','伍健','2017-06-05') [ RunTime:0.025000s ]
+
+[ 2017-06-05T18:18:22+08:00 ] 127.0.0.1 /bc_admini_sys/index.php?s=Administration/go_out
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: username D:\phpStudy\WWW\bc_admini_sys\Admin\Lib\Action\AdministrationAction.class.php 第 123 行.
+NOTIC: [8] Undefined index: applydate D:\phpStudy\WWW\bc_admini_sys\Admin\Lib\Action\AdministrationAction.class.php 第 127 行.
+NOTIC: [8] Undefined variable: and D:\phpStudy\WWW\bc_admini_sys\Admin\Lib\Action\AdministrationAction.class.php 第 137 行.
+NOTIC: [8] Undefined index: partid D:\phpStudy\WWW\bc_admini_sys\Admin\Lib\Action\AdministrationAction.class.php 第 139 行.
+SQL: SELECT COUNT(*) AS tp_count FROM s_employeesinfo a,s_goout b WHERE ( b.eid = a.id  and b.applydate >= '2017-06-01'  and b.applydate <= '2017-06-31' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM s_employeesinfo a,s_goout b WHERE ( b.eid = a.id  and b.applydate >= '2017-06-01'  and b.applydate <= '2017-06-31' ) LIMIT 0,20   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: msg D:\phpStudy\WWW\bc_admini_sys\Admin\Runtime\Cache\9d64f8dea5ccd494906a59dfa4be8bbf.php 第 258 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-05T18:18:22+08:00 ] 127.0.0.1 /bc_admini_sys/index.php?s=Index/public_header
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+

@@ -1,0 +1,1329 @@
+[ 2017-07-14T10:56:18+08:00 ] 127.0.0.1 /taobaoke/index.php?s=Operational/getdailiinfo&id=
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000998s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001157s ]
+NOTIC: [8] Undefined index: day D:\wamp64\www\taobaoke\Admin\Lib\Action\OperationalAction.class.php 第 145 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SELECT count(*) as count,FORMAT(sum(a.eff_yugu),2) as yugu,DATE_FORMAT(a.add_time,'%Y-%m-%d') as add_time FROM s_adorder a,s_ad b,s_shopper c,s_daili d,s_fans e WHERE ( a.ad_id = b.adnameid and b.sid = c.id and b.id = d.adid and d.openid = e.openid and c.statustype = 4 and a.order_status != '订单失效' and a.add_time >= '2017-07-07 00:00:00' and a.add_time <= '2017-07-14 23:59:59' ) GROUP BY DATE_FORMAT(a.add_time,'%Y-%m-%d')  [ RunTime:0.064726s ]
+
+[ 2017-07-14T10:56:57+08:00 ] 127.0.0.1 /taobaoke/index.php?s=Operational/getdailiinfo&id=
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001565s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001722s ]
+NOTIC: [8] Undefined index: day D:\wamp64\www\taobaoke\Admin\Lib\Action\OperationalAction.class.php 第 145 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SELECT count(*) as count,FORMAT(sum(a.eff_yugu),2) as yugu,DATE_FORMAT(a.add_time,'%Y-%m-%d') as add_time FROM s_adorder a,s_ad b,s_shopper c,s_daili d,s_fans e WHERE ( a.ad_id = b.adnameid and b.sid = c.id and b.id = d.adid and d.openid = e.openid and c.statustype = 4 and a.order_status != '订单失效' and a.add_time >= '2017-07-07 00:00:00' and a.add_time <= '2017-07-14 23:59:59' ) GROUP BY DATE_FORMAT(a.add_time,'%Y-%m-%d')  [ RunTime:0.091549s ]
+
+[ 2017-07-14T17:34:34+08:00 ] 127.0.0.1 /taobaoke/index.php?s=Operational/getdailiinfo&id=
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000769s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000911s ]
+NOTIC: [8] Undefined index: day D:\wamp64\www\taobaoke\Admin\Lib\Action\OperationalAction.class.php 第 145 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SELECT count(*) as count,FORMAT(sum(a.eff_yugu),2) as yugu,DATE_FORMAT(a.add_time,'%Y-%m-%d') as add_time FROM s_adorder a,s_ad b,s_shopper c,s_daili d,s_fans e WHERE ( a.ad_id = b.adnameid and b.sid = c.id and b.id = d.adid and d.openid = e.openid and c.statustype = 4 and a.order_status != '订单失效' and a.add_time >= '2017-07-07 00:00:00' and a.add_time <= '2017-07-14 23:59:59' ) GROUP BY DATE_FORMAT(a.add_time,'%Y-%m-%d')  [ RunTime:0.084710s ]
+
+[ 2017-07-14T17:34:43+08:00 ] 127.0.0.1 /taobaoke/index.php?s=Proxy/getproxyanalysis&sdate=&edate=
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001087s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001247s ]
+NOTIC: [8] Undefined index: adname D:\wamp64\www\taobaoke\Admin\Lib\Action\ProxyAction.class.php 第 1099 行.
+NOTIC: [8] Undefined variable: page D:\wamp64\www\taobaoke\Admin\Lib\Action\ProxyAction.class.php 第 1106 行.
+NOTIC: [8] Trying to get property of non-object D:\wamp64\www\taobaoke\Admin\Lib\Action\ProxyAction.class.php 第 1106 行.
+NOTIC: [8] Undefined variable: page D:\wamp64\www\taobaoke\Admin\Lib\Action\ProxyAction.class.php 第 1106 行.
+NOTIC: [8] Trying to get property of non-object D:\wamp64\www\taobaoke\Admin\Lib\Action\ProxyAction.class.php 第 1106 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SELECT count(*) as count,FORMAT(sum(a.eff_yugu),2) as eyugu,FORMAT(sum(a.income_yugu),2) as iyugu,FORMAT(sum(a.pay_price),2) as price,b.adname,DATE_FORMAT(a.add_time,'%Y-%m-%d') as add_time FROM s_adorder a,s_ad b,s_shopper c,s_user d WHERE ( a.ad_id = b.adnameid and b.sid = c.id and b.userid = d.id and c.statustype = 4 and a.order_status != '订单失效' ) GROUP BY DATE_FORMAT(a.add_time,'%Y-%m-%d') ORDER BY add_time asc  [ RunTime:0.124355s ]
+
+[ 2017-07-14T17:34:46+08:00 ] 127.0.0.1 /taobaoke/index.php?s=Proxy/getproxyanalysis&sdate=&edate=
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001193s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001399s ]
+NOTIC: [8] Undefined index: adname D:\wamp64\www\taobaoke\Admin\Lib\Action\ProxyAction.class.php 第 1099 行.
+NOTIC: [8] Undefined variable: page D:\wamp64\www\taobaoke\Admin\Lib\Action\ProxyAction.class.php 第 1106 行.
+NOTIC: [8] Trying to get property of non-object D:\wamp64\www\taobaoke\Admin\Lib\Action\ProxyAction.class.php 第 1106 行.
+NOTIC: [8] Undefined variable: page D:\wamp64\www\taobaoke\Admin\Lib\Action\ProxyAction.class.php 第 1106 行.
+NOTIC: [8] Trying to get property of non-object D:\wamp64\www\taobaoke\Admin\Lib\Action\ProxyAction.class.php 第 1106 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SELECT count(*) as count,FORMAT(sum(a.eff_yugu),2) as eyugu,FORMAT(sum(a.income_yugu),2) as iyugu,FORMAT(sum(a.pay_price),2) as price,b.adname,DATE_FORMAT(a.add_time,'%Y-%m-%d') as add_time FROM s_adorder a,s_ad b,s_shopper c,s_user d WHERE ( a.ad_id = b.adnameid and b.sid = c.id and b.userid = d.id and c.statustype = 4 and a.order_status != '订单失效' ) GROUP BY DATE_FORMAT(a.add_time,'%Y-%m-%d') ORDER BY add_time asc  [ RunTime:0.117082s ]
+
+[ 2017-07-14T17:36:23+08:00 ] 127.0.0.1 /taobaoke/index.php?s=Proxy/getproxyanalysis&sdate=&edate=
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001607s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001910s ]
+NOTIC: [8] Undefined index: adname D:\wamp64\www\taobaoke\Admin\Lib\Action\ProxyAction.class.php 第 1099 行.
+NOTIC: [8] Undefined variable: page D:\wamp64\www\taobaoke\Admin\Lib\Action\ProxyAction.class.php 第 1106 行.
+NOTIC: [8] Trying to get property of non-object D:\wamp64\www\taobaoke\Admin\Lib\Action\ProxyAction.class.php 第 1106 行.
+NOTIC: [8] Undefined variable: page D:\wamp64\www\taobaoke\Admin\Lib\Action\ProxyAction.class.php 第 1106 行.
+NOTIC: [8] Trying to get property of non-object D:\wamp64\www\taobaoke\Admin\Lib\Action\ProxyAction.class.php 第 1106 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SELECT count(*) as count,FORMAT(sum(a.eff_yugu),2) as eyugu,FORMAT(sum(a.income_yugu),2) as iyugu,FORMAT(sum(a.pay_price),2) as price,b.adname,DATE_FORMAT(a.add_time,'%Y-%m-%d') as add_time FROM s_adorder a,s_ad b,s_shopper c,s_user d WHERE ( a.ad_id = b.adnameid and b.sid = c.id and b.userid = d.id and c.statustype = 4 and a.order_status != '订单失效' ) GROUP BY DATE_FORMAT(a.add_time,'%Y-%m-%d') ORDER BY add_time asc  [ RunTime:0.125143s ]
+
+[ 2017-07-14T17:37:36+08:00 ] 127.0.0.1 /taobaoke/index.php?s=Proxy/getproxyanalysis&sdate=&edate=
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000917s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001075s ]
+NOTIC: [8] Undefined index: adname D:\wamp64\www\taobaoke\Admin\Lib\Action\ProxyAction.class.php 第 1099 行.
+NOTIC: [8] Undefined variable: page D:\wamp64\www\taobaoke\Admin\Lib\Action\ProxyAction.class.php 第 1106 行.
+NOTIC: [8] Trying to get property of non-object D:\wamp64\www\taobaoke\Admin\Lib\Action\ProxyAction.class.php 第 1106 行.
+NOTIC: [8] Undefined variable: page D:\wamp64\www\taobaoke\Admin\Lib\Action\ProxyAction.class.php 第 1106 行.
+NOTIC: [8] Trying to get property of non-object D:\wamp64\www\taobaoke\Admin\Lib\Action\ProxyAction.class.php 第 1106 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SELECT count(*) as count,FORMAT(sum(a.eff_yugu),2) as eyugu,FORMAT(sum(a.income_yugu),2) as iyugu,FORMAT(sum(a.pay_price),2) as price,b.adname,DATE_FORMAT(a.add_time,'%Y-%m-%d') as add_time FROM s_adorder a,s_ad b,s_shopper c,s_user d WHERE ( a.ad_id = b.adnameid and b.sid = c.id and b.userid = d.id and c.statustype = 4 and a.order_status != '订单失效' ) GROUP BY DATE_FORMAT(a.add_time,'%Y-%m-%d') ORDER BY add_time asc  [ RunTime:0.128458s ]
+
+[ 2017-07-14T17:37:54+08:00 ] 127.0.0.1 /taobaoke/index.php?s=Proxy/getproxyanalysis&sdate=&edate=
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000949s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001082s ]
+NOTIC: [8] Undefined index: adname D:\wamp64\www\taobaoke\Admin\Lib\Action\ProxyAction.class.php 第 1099 行.
+NOTIC: [8] Undefined variable: page D:\wamp64\www\taobaoke\Admin\Lib\Action\ProxyAction.class.php 第 1106 行.
+NOTIC: [8] Trying to get property of non-object D:\wamp64\www\taobaoke\Admin\Lib\Action\ProxyAction.class.php 第 1106 行.
+NOTIC: [8] Undefined variable: page D:\wamp64\www\taobaoke\Admin\Lib\Action\ProxyAction.class.php 第 1106 行.
+NOTIC: [8] Trying to get property of non-object D:\wamp64\www\taobaoke\Admin\Lib\Action\ProxyAction.class.php 第 1106 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SELECT count(*) as count,FORMAT(sum(a.eff_yugu),2) as eyugu,FORMAT(sum(a.income_yugu),2) as iyugu,FORMAT(sum(a.pay_price),2) as price,b.adname,DATE_FORMAT(a.add_time,'%Y-%m-%d') as add_time FROM s_adorder a,s_ad b,s_shopper c,s_user d WHERE ( a.ad_id = b.adnameid and b.sid = c.id and b.userid = d.id and c.statustype = 4 and a.order_status != '订单失效' ) GROUP BY DATE_FORMAT(a.add_time,'%Y-%m-%d') ORDER BY add_time asc  [ RunTime:0.116340s ]
+
+[ 2017-07-14T17:38:45+08:00 ] 127.0.0.1 /taobaoke/index.php?s=Proxy/getproxyanalysis&sdate=&edate=
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001193s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001354s ]
+NOTIC: [8] Undefined index: adname D:\wamp64\www\taobaoke\Admin\Lib\Action\ProxyAction.class.php 第 1099 行.
+NOTIC: [8] Undefined variable: page D:\wamp64\www\taobaoke\Admin\Lib\Action\ProxyAction.class.php 第 1106 行.
+NOTIC: [8] Trying to get property of non-object D:\wamp64\www\taobaoke\Admin\Lib\Action\ProxyAction.class.php 第 1106 行.
+NOTIC: [8] Undefined variable: page D:\wamp64\www\taobaoke\Admin\Lib\Action\ProxyAction.class.php 第 1106 行.
+NOTIC: [8] Trying to get property of non-object D:\wamp64\www\taobaoke\Admin\Lib\Action\ProxyAction.class.php 第 1106 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SELECT count(*) as count,FORMAT(sum(a.eff_yugu),2) as eyugu,FORMAT(sum(a.income_yugu),2) as iyugu,FORMAT(sum(a.pay_price),2) as price,b.adname,DATE_FORMAT(a.add_time,'%Y-%m-%d') as add_time FROM s_adorder a,s_ad b,s_shopper c,s_user d WHERE ( a.ad_id = b.adnameid and b.sid = c.id and b.userid = d.id and c.statustype = 4 and a.order_status != '订单失效' ) GROUP BY DATE_FORMAT(a.add_time,'%Y-%m-%d') ORDER BY add_time asc  [ RunTime:0.121020s ]
+
+[ 2017-07-14T17:39:33+08:00 ] 127.0.0.1 /taobaoke/index.php?s=Proxy/getproxyanalysis&sdate=&edate=
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.005005s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005179s ]
+NOTIC: [8] Undefined index: adname D:\wamp64\www\taobaoke\Admin\Lib\Action\ProxyAction.class.php 第 1099 行.
+NOTIC: [8] Undefined variable: page D:\wamp64\www\taobaoke\Admin\Lib\Action\ProxyAction.class.php 第 1106 行.
+NOTIC: [8] Trying to get property of non-object D:\wamp64\www\taobaoke\Admin\Lib\Action\ProxyAction.class.php 第 1106 行.
+NOTIC: [8] Undefined variable: page D:\wamp64\www\taobaoke\Admin\Lib\Action\ProxyAction.class.php 第 1106 行.
+NOTIC: [8] Trying to get property of non-object D:\wamp64\www\taobaoke\Admin\Lib\Action\ProxyAction.class.php 第 1106 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SELECT count(*) as count,FORMAT(sum(a.eff_yugu),2) as eyugu,FORMAT(sum(a.income_yugu),2) as iyugu,FORMAT(sum(a.pay_price),2) as price,b.adname,DATE_FORMAT(a.add_time,'%Y-%m-%d') as add_time FROM s_adorder a,s_ad b,s_shopper c,s_user d WHERE ( a.ad_id = b.adnameid and b.sid = c.id and b.userid = d.id and c.statustype = 4 and a.order_status != '订单失效' ) GROUP BY DATE_FORMAT(a.add_time,'%Y-%m-%d') ORDER BY add_time asc  [ RunTime:0.123000s ]
+
+[ 2017-07-14T17:40:07+08:00 ] 127.0.0.1 /taobaoke/index.php?s=KefuBack/getziyingdata&sdate=&edate=
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001480s ]
+NOTIC: [8] Undefined index: adname D:\wamp64\www\taobaoke\Admin\Lib\Action\KefuBackAction.class.php 第 607 行.
+NOTIC: [8] Undefined variable: page D:\wamp64\www\taobaoke\Admin\Lib\Action\KefuBackAction.class.php 第 614 行.
+NOTIC: [8] Trying to get property of non-object D:\wamp64\www\taobaoke\Admin\Lib\Action\KefuBackAction.class.php 第 614 行.
+NOTIC: [8] Undefined variable: page D:\wamp64\www\taobaoke\Admin\Lib\Action\KefuBackAction.class.php 第 614 行.
+NOTIC: [8] Trying to get property of non-object D:\wamp64\www\taobaoke\Admin\Lib\Action\KefuBackAction.class.php 第 614 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SELECT count(*) as count,FORMAT(sum(a.eff_yugu),2) as eyugu,FORMAT(sum(a.income_yugu),2) as iyugu,FORMAT(sum(a.pay_price),2) as price,b.adname,DATE_FORMAT(a.add_time,'%Y-%m-%d') as add_time FROM s_adorder a,s_ad b,s_shopper c,s_user d WHERE ( a.ad_id = b.adnameid and b.sid = c.id and b.userid = d.id and c.statustype = 1 and a.order_status != '订单失效' ) GROUP BY DATE_FORMAT(a.add_time,'%Y-%m-%d') ORDER BY add_time asc  [ RunTime:0.116256s ]
+
+[ 2017-07-14T17:40:30+08:00 ] 127.0.0.1 /taobaoke/index.php?s=Proxy/getproxyanalysis&sdate=&edate=
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000927s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001086s ]
+NOTIC: [8] Undefined index: adname D:\wamp64\www\taobaoke\Admin\Lib\Action\ProxyAction.class.php 第 1099 行.
+NOTIC: [8] Undefined variable: page D:\wamp64\www\taobaoke\Admin\Lib\Action\ProxyAction.class.php 第 1106 行.
+NOTIC: [8] Trying to get property of non-object D:\wamp64\www\taobaoke\Admin\Lib\Action\ProxyAction.class.php 第 1106 行.
+NOTIC: [8] Undefined variable: page D:\wamp64\www\taobaoke\Admin\Lib\Action\ProxyAction.class.php 第 1106 行.
+NOTIC: [8] Trying to get property of non-object D:\wamp64\www\taobaoke\Admin\Lib\Action\ProxyAction.class.php 第 1106 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SELECT count(*) as count,FORMAT(sum(a.eff_yugu),2) as eyugu,FORMAT(sum(a.income_yugu),2) as iyugu,FORMAT(sum(a.pay_price),2) as price,b.adname,DATE_FORMAT(a.add_time,'%Y-%m-%d') as add_time FROM s_adorder a,s_ad b,s_shopper c,s_user d WHERE ( a.ad_id = b.adnameid and b.sid = c.id and b.userid = d.id and c.statustype = 4 and a.order_status != '订单失效' ) GROUP BY DATE_FORMAT(a.add_time,'%Y-%m-%d') ORDER BY add_time asc  [ RunTime:0.136762s ]
+
+[ 2017-07-14T17:41:48+08:00 ] 127.0.0.1 /taobaoke/index.php?s=Proxy/getproxyanalysis&sdate=&edate=
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002981s ]
+NOTIC: [8] Undefined index: adname D:\wamp64\www\taobaoke\Admin\Lib\Action\ProxyAction.class.php 第 1100 行.
+NOTIC: [8] Undefined variable: page D:\wamp64\www\taobaoke\Admin\Lib\Action\ProxyAction.class.php 第 1107 行.
+NOTIC: [8] Trying to get property of non-object D:\wamp64\www\taobaoke\Admin\Lib\Action\ProxyAction.class.php 第 1107 行.
+NOTIC: [8] Undefined variable: page D:\wamp64\www\taobaoke\Admin\Lib\Action\ProxyAction.class.php 第 1107 行.
+NOTIC: [8] Trying to get property of non-object D:\wamp64\www\taobaoke\Admin\Lib\Action\ProxyAction.class.php 第 1107 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SELECT count(*) as count,FORMAT(sum(a.eff_yugu),2) as eyugu,FORMAT(sum(a.income_yugu),2) as iyugu,FORMAT(sum(a.pay_price),2) as price,b.adname,DATE_FORMAT(a.add_time,'%Y-%m-%d') as add_time FROM s_adorder a,s_ad b,s_shopper c,s_user d WHERE ( a.ad_id = b.adnameid and b.sid = c.id and b.userid = d.id and c.statustype = 4 and a.order_status != '订单失效' ) GROUP BY DATE_FORMAT(a.add_time,'%Y-%m-%d') ORDER BY add_time asc  [ RunTime:0.144084s ]
+
+[ 2017-07-14T17:42:12+08:00 ] 127.0.0.1 /taobaoke/index.php?s=Proxy/getproxyanalysis&sdate=&edate=
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001213s ]
+NOTIC: [8] Undefined index: adname D:\wamp64\www\taobaoke\Admin\Lib\Action\ProxyAction.class.php 第 1100 行.
+NOTIC: [8] Undefined variable: page D:\wamp64\www\taobaoke\Admin\Lib\Action\ProxyAction.class.php 第 1107 行.
+NOTIC: [8] Trying to get property of non-object D:\wamp64\www\taobaoke\Admin\Lib\Action\ProxyAction.class.php 第 1107 行.
+NOTIC: [8] Undefined variable: page D:\wamp64\www\taobaoke\Admin\Lib\Action\ProxyAction.class.php 第 1107 行.
+NOTIC: [8] Trying to get property of non-object D:\wamp64\www\taobaoke\Admin\Lib\Action\ProxyAction.class.php 第 1107 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SELECT count(*) as count,FORMAT(sum(a.eff_yugu),2) as eyugu,FORMAT(sum(a.income_yugu),2) as iyugu,FORMAT(sum(a.pay_price),2) as price,b.adname,DATE_FORMAT(a.add_time,'%Y-%m-%d') as add_time FROM s_adorder a,s_ad b,s_shopper c,s_user d WHERE ( a.ad_id = b.adnameid and b.sid = c.id and b.userid = d.id and c.statustype = 4 and a.order_status != '订单失效' ) GROUP BY DATE_FORMAT(a.add_time,'%Y-%m-%d') ORDER BY add_time asc  [ RunTime:0.121660s ]
+
+[ 2017-07-14T17:42:56+08:00 ] 127.0.0.1 /taobaoke/index.php?s=Proxy/getproxyanalysis&sdate=&edate=
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001123s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001284s ]
+NOTIC: [8] Undefined index: adname D:\wamp64\www\taobaoke\Admin\Lib\Action\ProxyAction.class.php 第 1100 行.
+NOTIC: [8] Undefined variable: page D:\wamp64\www\taobaoke\Admin\Lib\Action\ProxyAction.class.php 第 1107 行.
+NOTIC: [8] Trying to get property of non-object D:\wamp64\www\taobaoke\Admin\Lib\Action\ProxyAction.class.php 第 1107 行.
+NOTIC: [8] Undefined variable: page D:\wamp64\www\taobaoke\Admin\Lib\Action\ProxyAction.class.php 第 1107 行.
+NOTIC: [8] Trying to get property of non-object D:\wamp64\www\taobaoke\Admin\Lib\Action\ProxyAction.class.php 第 1107 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SELECT count(*) as count,FORMAT(sum(a.eff_yugu),2) as eyugu,FORMAT(sum(a.income_yugu),2) as iyugu,FORMAT(sum(a.pay_price),2) as price,b.adname,DATE_FORMAT(a.add_time,'%Y-%m-%d') as add_time FROM s_adorder a,s_ad b,s_shopper c,s_user d WHERE ( a.ad_id = b.adnameid and b.sid = c.id and b.userid = d.id and c.statustype = 4 and a.order_status != '订单失效' ) GROUP BY DATE_FORMAT(a.add_time,'%Y-%m-%d') ORDER BY add_time asc  [ RunTime:0.117586s ]
+
+[ 2017-07-14T17:43:28+08:00 ] 127.0.0.1 /taobaoke/index.php?s=Proxy/getproxyanalysis&sdate=&edate=
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001081s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001292s ]
+NOTIC: [8] Undefined index: adname D:\wamp64\www\taobaoke\Admin\Lib\Action\ProxyAction.class.php 第 1100 行.
+NOTIC: [8] Undefined variable: page D:\wamp64\www\taobaoke\Admin\Lib\Action\ProxyAction.class.php 第 1107 行.
+NOTIC: [8] Trying to get property of non-object D:\wamp64\www\taobaoke\Admin\Lib\Action\ProxyAction.class.php 第 1107 行.
+NOTIC: [8] Undefined variable: page D:\wamp64\www\taobaoke\Admin\Lib\Action\ProxyAction.class.php 第 1107 行.
+NOTIC: [8] Trying to get property of non-object D:\wamp64\www\taobaoke\Admin\Lib\Action\ProxyAction.class.php 第 1107 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SELECT count(*) as count,FORMAT(sum(a.eff_yugu),2) as eyugu,FORMAT(sum(a.income_yugu),2) as iyugu,FORMAT(sum(a.pay_price),2) as price,b.adname,DATE_FORMAT(a.add_time,'%Y-%m-%d') as add_time FROM s_adorder a,s_ad b,s_shopper c,s_user d WHERE ( a.ad_id = b.adnameid and b.sid = c.id and b.userid = d.id and c.statustype = 4 and a.order_status != '订单失效' ) GROUP BY DATE_FORMAT(a.add_time,'%Y-%m-%d') ORDER BY add_time asc  [ RunTime:0.128489s ]
+
+[ 2017-07-14T17:47:54+08:00 ] 127.0.0.1 /taobaoke/index.php?s=Proxy/getproxyanalysis&sdate=&edate=
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001527s ]
+NOTIC: [8] Undefined index: adname D:\wamp64\www\taobaoke\Admin\Lib\Action\ProxyAction.class.php 第 1100 行.
+NOTIC: [8] Undefined variable: page D:\wamp64\www\taobaoke\Admin\Lib\Action\ProxyAction.class.php 第 1107 行.
+NOTIC: [8] Trying to get property of non-object D:\wamp64\www\taobaoke\Admin\Lib\Action\ProxyAction.class.php 第 1107 行.
+NOTIC: [8] Undefined variable: page D:\wamp64\www\taobaoke\Admin\Lib\Action\ProxyAction.class.php 第 1107 行.
+NOTIC: [8] Trying to get property of non-object D:\wamp64\www\taobaoke\Admin\Lib\Action\ProxyAction.class.php 第 1107 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SELECT count(*) as count,FORMAT(sum(a.eff_yugu),2) as eyugu,FORMAT(sum(a.income_yugu),2) as iyugu,FORMAT(sum(a.pay_price),2) as price,b.adname,DATE_FORMAT(a.add_time,'%Y-%m-%d') as add_time FROM s_adorder a,s_ad b,s_shopper c,s_user d WHERE ( a.ad_id = b.adnameid and b.sid = c.id and b.userid = d.id and c.statustype = 4 and a.order_status != '订单失效' ) GROUP BY DATE_FORMAT(a.add_time,'%Y-%m-%d') ORDER BY add_time asc  [ RunTime:0.125155s ]
+
+[ 2017-07-14T17:48:04+08:00 ] 127.0.0.1 /taobaoke/index.php?s=Proxy/getproxyanalysis&sdate=&edate=
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001533s ]
+NOTIC: [8] Undefined index: adname D:\wamp64\www\taobaoke\Admin\Lib\Action\ProxyAction.class.php 第 1100 行.
+NOTIC: [8] Undefined variable: page D:\wamp64\www\taobaoke\Admin\Lib\Action\ProxyAction.class.php 第 1107 行.
+NOTIC: [8] Trying to get property of non-object D:\wamp64\www\taobaoke\Admin\Lib\Action\ProxyAction.class.php 第 1107 行.
+NOTIC: [8] Undefined variable: page D:\wamp64\www\taobaoke\Admin\Lib\Action\ProxyAction.class.php 第 1107 行.
+NOTIC: [8] Trying to get property of non-object D:\wamp64\www\taobaoke\Admin\Lib\Action\ProxyAction.class.php 第 1107 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SELECT count(*) as count,FORMAT(sum(a.eff_yugu),2) as eyugu,FORMAT(sum(a.income_yugu),2) as iyugu,FORMAT(sum(a.pay_price),2) as price,b.adname,DATE_FORMAT(a.add_time,'%Y-%m-%d') as add_time FROM s_adorder a,s_ad b,s_shopper c,s_user d WHERE ( a.ad_id = b.adnameid and b.sid = c.id and b.userid = d.id and c.statustype = 4 and a.order_status != '订单失效' ) GROUP BY DATE_FORMAT(a.add_time,'%Y-%m-%d') ORDER BY add_time asc  [ RunTime:0.121762s ]
+
+[ 2017-07-14T17:53:55+08:00 ] 127.0.0.1 /taobaoke/index.php?s=DataTotal/getteamranking&sdate=&edate=&team=0&statustype=0
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001457s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SELECT a.teamname,b.tid FROM s_team a,s_team_user b WHERE ( a.id = b.tid ) GROUP BY b.tid  [ RunTime:0.025668s ]
+NOTIC: [8] Undefined variable: page D:\wamp64\www\taobaoke\Admin\Lib\Action\DataTotalAction.class.php 第 121 行.
+NOTIC: [8] Trying to get property of non-object D:\wamp64\www\taobaoke\Admin\Lib\Action\DataTotalAction.class.php 第 121 行.
+NOTIC: [8] Undefined variable: page D:\wamp64\www\taobaoke\Admin\Lib\Action\DataTotalAction.class.php 第 121 行.
+NOTIC: [8] Trying to get property of non-object D:\wamp64\www\taobaoke\Admin\Lib\Action\DataTotalAction.class.php 第 121 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT FORMAT(sum(a.eff_yugu),2) as count,c.uid,c.tid,d.realname FROM s_adorder a,s_ad b,s_team_user c,s_user d,s_shopper f WHERE ( a.ad_id = b.adnameid and b.userid = c.uid and b.userid = d.id and b.sid = f.id ) GROUP BY b.userid ORDER BY count desc  [ RunTime:0.088716s ]
+NOTIC: [8] Undefined index: data D:\wamp64\www\taobaoke\Admin\Lib\Action\DataTotalAction.class.php 第 133 行.
+
+[ 2017-07-14T17:54:07+08:00 ] 127.0.0.1 /taobaoke/index.php?s=DataTotal/getteamranking&sdate=&edate=&team=0&statustype=0
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001165s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001334s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SELECT a.teamname,b.tid FROM s_team a,s_team_user b WHERE ( a.id = b.tid ) GROUP BY b.tid  [ RunTime:0.023810s ]
+NOTIC: [8] Undefined variable: page D:\wamp64\www\taobaoke\Admin\Lib\Action\DataTotalAction.class.php 第 121 行.
+NOTIC: [8] Trying to get property of non-object D:\wamp64\www\taobaoke\Admin\Lib\Action\DataTotalAction.class.php 第 121 行.
+NOTIC: [8] Undefined variable: page D:\wamp64\www\taobaoke\Admin\Lib\Action\DataTotalAction.class.php 第 121 行.
+NOTIC: [8] Trying to get property of non-object D:\wamp64\www\taobaoke\Admin\Lib\Action\DataTotalAction.class.php 第 121 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT FORMAT(sum(a.eff_yugu),2) as count,c.uid,c.tid,d.realname FROM s_adorder a,s_ad b,s_team_user c,s_user d,s_shopper f WHERE ( a.ad_id = b.adnameid and b.userid = c.uid and b.userid = d.id and b.sid = f.id ) GROUP BY b.userid ORDER BY count desc  [ RunTime:0.079269s ]
+NOTIC: [8] Undefined index: data D:\wamp64\www\taobaoke\Admin\Lib\Action\DataTotalAction.class.php 第 133 行.
+
+[ 2017-07-14T18:03:35+08:00 ] 127.0.0.1 /taobaoke/index.php?s=Proxy/getproxyanalysis&sdate=&edate=
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001073s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001184s ]
+NOTIC: [8] Undefined index: adname D:\wamp64\www\taobaoke\Admin\Lib\Action\ProxyAction.class.php 第 1100 行.
+NOTIC: [8] Undefined variable: page D:\wamp64\www\taobaoke\Admin\Lib\Action\ProxyAction.class.php 第 1107 行.
+NOTIC: [8] Trying to get property of non-object D:\wamp64\www\taobaoke\Admin\Lib\Action\ProxyAction.class.php 第 1107 行.
+NOTIC: [8] Undefined variable: page D:\wamp64\www\taobaoke\Admin\Lib\Action\ProxyAction.class.php 第 1107 行.
+NOTIC: [8] Trying to get property of non-object D:\wamp64\www\taobaoke\Admin\Lib\Action\ProxyAction.class.php 第 1107 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SELECT count(*) as count,FORMAT(sum(a.eff_yugu),2) as eyugu,FORMAT(sum(a.income_yugu),2) as iyugu,FORMAT(sum(a.pay_price),2) as price,b.adname,DATE_FORMAT(a.add_time,'%Y-%m-%d') as add_time FROM s_adorder a,s_ad b,s_shopper c,s_user d WHERE ( a.ad_id = b.adnameid and b.sid = c.id and b.userid = d.id and c.statustype = 4 and a.order_status != '订单失效' ) GROUP BY DATE_FORMAT(a.add_time,'%Y-%m-%d') ORDER BY add_time asc  [ RunTime:0.118555s ]
+
+[ 2017-07-14T18:08:21+08:00 ] 127.0.0.1 /taobaoke/index.php?s=Proxy/getproxyanalysis&sdate=&edate=
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002612s ]
+NOTIC: [8] Undefined index: adname D:\wamp64\www\taobaoke\Admin\Lib\Action\ProxyAction.class.php 第 1126 行.
+NOTIC: [8] Undefined variable: page D:\wamp64\www\taobaoke\Admin\Lib\Action\ProxyAction.class.php 第 1133 行.
+NOTIC: [8] Trying to get property of non-object D:\wamp64\www\taobaoke\Admin\Lib\Action\ProxyAction.class.php 第 1133 行.
+NOTIC: [8] Undefined variable: page D:\wamp64\www\taobaoke\Admin\Lib\Action\ProxyAction.class.php 第 1133 行.
+NOTIC: [8] Trying to get property of non-object D:\wamp64\www\taobaoke\Admin\Lib\Action\ProxyAction.class.php 第 1133 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SELECT count(*) as count,FORMAT(sum(a.eff_yugu),2) as eyugu,FORMAT(sum(a.income_yugu),2) as iyugu,FORMAT(sum(a.pay_price),2) as price,b.adname,DATE_FORMAT(a.add_time,'%Y-%m-%d') as add_time FROM s_adorder a,s_ad b,s_shopper c,s_user d WHERE ( a.ad_id = b.adnameid and b.sid = c.id and b.userid = d.id and c.statustype = 4 and a.order_status != '订单失效' ) GROUP BY DATE_FORMAT(a.add_time,'%Y-%m-%d') ORDER BY add_time asc  [ RunTime:0.119646s ]
+
+[ 2017-07-14T18:09:19+08:00 ] 127.0.0.1 /taobaoke/index.php?s=Proxy/getproxyanalysis&sdate=&edate=
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001249s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001461s ]
+NOTIC: [8] Undefined index: adname D:\wamp64\www\taobaoke\Admin\Lib\Action\ProxyAction.class.php 第 1125 行.
+NOTIC: [8] Undefined variable: page D:\wamp64\www\taobaoke\Admin\Lib\Action\ProxyAction.class.php 第 1132 行.
+NOTIC: [8] Trying to get property of non-object D:\wamp64\www\taobaoke\Admin\Lib\Action\ProxyAction.class.php 第 1132 行.
+NOTIC: [8] Undefined variable: page D:\wamp64\www\taobaoke\Admin\Lib\Action\ProxyAction.class.php 第 1132 行.
+NOTIC: [8] Trying to get property of non-object D:\wamp64\www\taobaoke\Admin\Lib\Action\ProxyAction.class.php 第 1132 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SELECT count(*) as count,FORMAT(sum(a.eff_yugu),2) as eyugu,FORMAT(sum(a.income_yugu),2) as iyugu,FORMAT(sum(a.pay_price),2) as price,b.adname,DATE_FORMAT(a.add_time,'%Y-%m-%d') as add_time FROM s_adorder a,s_ad b,s_shopper c,s_user d WHERE ( a.ad_id = b.adnameid and b.sid = c.id and b.userid = d.id and c.statustype = 4 and a.order_status != '订单失效' ) GROUP BY DATE_FORMAT(a.add_time,'%Y-%m-%d') ORDER BY add_time asc  [ RunTime:0.138757s ]
+
+[ 2017-07-14T18:09:34+08:00 ] 127.0.0.1 /taobaoke/index.php?s=Proxy/getproxyanalysis&sdate=&edate=
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001541s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001734s ]
+NOTIC: [8] Undefined index: adname D:\wamp64\www\taobaoke\Admin\Lib\Action\ProxyAction.class.php 第 1125 行.
+NOTIC: [8] Undefined variable: page D:\wamp64\www\taobaoke\Admin\Lib\Action\ProxyAction.class.php 第 1132 行.
+NOTIC: [8] Trying to get property of non-object D:\wamp64\www\taobaoke\Admin\Lib\Action\ProxyAction.class.php 第 1132 行.
+NOTIC: [8] Undefined variable: page D:\wamp64\www\taobaoke\Admin\Lib\Action\ProxyAction.class.php 第 1132 行.
+NOTIC: [8] Trying to get property of non-object D:\wamp64\www\taobaoke\Admin\Lib\Action\ProxyAction.class.php 第 1132 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SELECT count(*) as count,FORMAT(sum(a.eff_yugu),2) as eyugu,FORMAT(sum(a.income_yugu),2) as iyugu,FORMAT(sum(a.pay_price),2) as price,b.adname,DATE_FORMAT(a.add_time,'%Y-%m-%d') as add_time FROM s_adorder a,s_ad b,s_shopper c,s_user d WHERE ( a.ad_id = b.adnameid and b.sid = c.id and b.userid = d.id and c.statustype = 4 and a.order_status != '订单失效' ) GROUP BY DATE_FORMAT(a.add_time,'%Y-%m-%d') ORDER BY add_time asc  [ RunTime:0.119730s ]
+
+[ 2017-07-14T18:11:54+08:00 ] 127.0.0.1 /taobaoke/index.php?s=Proxy/getproxyanalysis&sdate=&edate=
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001502s ]
+NOTIC: [8] Undefined index: adname D:\wamp64\www\taobaoke\Admin\Lib\Action\ProxyAction.class.php 第 1114 行.
+NOTIC: [8] Undefined variable: page D:\wamp64\www\taobaoke\Admin\Lib\Action\ProxyAction.class.php 第 1121 行.
+NOTIC: [8] Trying to get property of non-object D:\wamp64\www\taobaoke\Admin\Lib\Action\ProxyAction.class.php 第 1121 行.
+NOTIC: [8] Undefined variable: page D:\wamp64\www\taobaoke\Admin\Lib\Action\ProxyAction.class.php 第 1121 行.
+NOTIC: [8] Trying to get property of non-object D:\wamp64\www\taobaoke\Admin\Lib\Action\ProxyAction.class.php 第 1121 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SELECT count(*) as count,FORMAT(sum(a.eff_yugu),2) as eyugu,FORMAT(sum(a.income_yugu),2) as iyugu,FORMAT(sum(a.pay_price),2) as price,b.adname,DATE_FORMAT(a.add_time,'%Y-%m-%d') as add_time FROM s_adorder a,s_ad b,s_shopper c,s_user d WHERE ( a.ad_id = b.adnameid and b.sid = c.id and b.userid = d.id and c.statustype = 4 and a.order_status != '订单失效' ) GROUP BY DATE_FORMAT(a.add_time,'%Y-%m-%d') ORDER BY add_time asc  [ RunTime:0.121150s ]
+
+[ 2017-07-14T18:12:11+08:00 ] 127.0.0.1 /taobaoke/index.php?s=Proxy/getproxyranking&sdate=&edate=
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001944s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002140s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SELECT count(*) as count,FORMAT(sum(a.eff_yugu),2) as eyugu,FORMAT(sum(a.income_yugu),2) as iyugu,FORMAT(sum(a.pay_price),2) as price,d.realname FROM s_adorder a,s_ad b,s_shopper c,s_user d WHERE ( a.ad_id = b.adnameid and b.sid = c.id and b.userid = d.id and c.statustype = 4 and a.order_status != '订单失效'  ) GROUP BY d.id ORDER BY iyugu desc  [ RunTime:0.126979s ]
+
+[ 2017-07-14T18:12:58+08:00 ] 127.0.0.1 /taobaoke/index.php?s=Proxy/getproxyranking&sdate=&edate=
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001563s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001724s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SELECT count(*) as count,FORMAT(sum(a.eff_yugu),2) as eyugu,FORMAT(sum(a.income_yugu),2) as iyugu,FORMAT(sum(a.pay_price),2) as price,d.realname FROM s_adorder a,s_ad b,s_shopper c,s_user d WHERE ( a.ad_id = b.adnameid and b.sid = c.id and b.userid = d.id and c.statustype = 4 and a.order_status != '订单失效'  ) GROUP BY d.id ORDER BY iyugu desc  [ RunTime:0.123602s ]
+
+[ 2017-07-14T18:17:53+08:00 ] 127.0.0.1 /taobaoke/index.php?s=KefuBack/getfindranking&sdate=&edate=&kefu=0
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.005089s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005259s ]
+NOTIC: [8] Undefined variable: and D:\wamp64\www\taobaoke\Admin\Lib\Action\KefuBackAction.class.php 第 141 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SELECT FORMAT(sum(a.eff_yugu),2) as count,d.realname FROM s_adorder a,s_ad b,s_shopper c,s_user d WHERE ( a.ad_id = b.adnameid and b.sid = c.id and c.statustype = 2 and b.userid = d.id ) GROUP BY d.id ORDER BY count asc  [ RunTime:0.032155s ]
+
+[ 2017-07-14T18:18:46+08:00 ] 127.0.0.1 /taobaoke/index.php?s=KefuBack/getfindranking&sdate=&edate=&kefu=0
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001583s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001791s ]
+NOTIC: [8] Undefined variable: and D:\wamp64\www\taobaoke\Admin\Lib\Action\KefuBackAction.class.php 第 141 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SELECT FORMAT(sum(a.eff_yugu),2) as count,d.realname FROM s_adorder a,s_ad b,s_shopper c,s_user d WHERE ( a.ad_id = b.adnameid and b.sid = c.id and c.statustype = 2 and b.userid = d.id ) GROUP BY d.id ORDER BY count asc  [ RunTime:0.034070s ]
+
+[ 2017-07-14T18:19:43+08:00 ] 127.0.0.1 /taobaoke/index.php?s=KefuBack/getfindranking&sdate=&edate=&kefu=0
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001622s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001804s ]
+NOTIC: [8] Undefined variable: and D:\wamp64\www\taobaoke\Admin\Lib\Action\KefuBackAction.class.php 第 141 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SELECT FORMAT(sum(a.eff_yugu),2) as count,d.realname FROM s_adorder a,s_ad b,s_shopper c,s_user d WHERE ( a.ad_id = b.adnameid and b.sid = c.id and c.statustype = 2 and b.userid = d.id ) GROUP BY d.id ORDER BY count asc  [ RunTime:0.035281s ]
+
+[ 2017-07-14T18:21:40+08:00 ] 127.0.0.1 /taobaoke/index.php?s=KefuBack/getfindranking&sdate=&edate=&kefu=0
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.005683s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006515s ]
+NOTIC: [8] Undefined variable: and D:\wamp64\www\taobaoke\Admin\Lib\Action\KefuBackAction.class.php 第 141 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SELECT FORMAT(sum(a.eff_yugu),2) as count,d.realname FROM s_adorder a,s_ad b,s_shopper c,s_user d WHERE ( a.ad_id = b.adnameid and b.sid = c.id and c.statustype = 2 and b.userid = d.id ) GROUP BY d.id ORDER BY count asc  [ RunTime:0.036000s ]
+
+[ 2017-07-14T18:22:48+08:00 ] 127.0.0.1 /taobaoke/index.php?s=KefuBack/getfindranking&sdate=&edate=&kefu=0
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001678s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001914s ]
+NOTIC: [8] Undefined variable: and D:\wamp64\www\taobaoke\Admin\Lib\Action\KefuBackAction.class.php 第 141 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SELECT FORMAT(sum(a.eff_yugu),2) as count,d.realname FROM s_adorder a,s_ad b,s_shopper c,s_user d WHERE ( a.ad_id = b.adnameid and b.sid = c.id and c.statustype = 2 and b.userid = d.id ) GROUP BY d.id ORDER BY count asc  [ RunTime:0.032098s ]
+
+[ 2017-07-14T18:24:41+08:00 ] 127.0.0.1 /taobaoke/index.php?s=KefuBack/getfindranking&sdate=&edate=&kefu=0
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001954s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002147s ]
+NOTIC: [8] Undefined variable: and D:\wamp64\www\taobaoke\Admin\Lib\Action\KefuBackAction.class.php 第 155 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SELECT FORMAT(sum(a.eff_yugu),2) as count,d.realname FROM s_adorder a,s_ad b,s_shopper c,s_user d WHERE ( a.ad_id = b.adnameid and b.sid = c.id and c.statustype = 2 and b.userid = d.id ) GROUP BY d.id ORDER BY count asc  [ RunTime:0.033733s ]
+
+[ 2017-07-14T18:25:27+08:00 ] 127.0.0.1 /taobaoke/index.php?s=KefuBack/getziyingdata&sdate=&edate=
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001216s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001407s ]
+NOTIC: [8] Undefined index: adname D:\wamp64\www\taobaoke\Admin\Lib\Action\KefuBackAction.class.php 第 621 行.
+NOTIC: [8] Undefined variable: page D:\wamp64\www\taobaoke\Admin\Lib\Action\KefuBackAction.class.php 第 628 行.
+NOTIC: [8] Trying to get property of non-object D:\wamp64\www\taobaoke\Admin\Lib\Action\KefuBackAction.class.php 第 628 行.
+NOTIC: [8] Undefined variable: page D:\wamp64\www\taobaoke\Admin\Lib\Action\KefuBackAction.class.php 第 628 行.
+NOTIC: [8] Trying to get property of non-object D:\wamp64\www\taobaoke\Admin\Lib\Action\KefuBackAction.class.php 第 628 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SELECT count(*) as count,FORMAT(sum(a.eff_yugu),2) as eyugu,FORMAT(sum(a.income_yugu),2) as iyugu,FORMAT(sum(a.pay_price),2) as price,b.adname,DATE_FORMAT(a.add_time,'%Y-%m-%d') as add_time FROM s_adorder a,s_ad b,s_shopper c,s_user d WHERE ( a.ad_id = b.adnameid and b.sid = c.id and b.userid = d.id and c.statustype = 1 and a.order_status != '订单失效' ) GROUP BY DATE_FORMAT(a.add_time,'%Y-%m-%d') ORDER BY add_time asc  [ RunTime:0.116633s ]
+
+[ 2017-07-14T18:26:20+08:00 ] 127.0.0.1 /taobaoke/index.php?s=Service/getteamer/tid/23&order=asc
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001235s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SELECT a.*,b.realname,b.id as uid FROM s_team_user a,s_user b WHERE ( a.uid = b.id and a.tid = 23 )  [ RunTime:0.026117s ]
+
+[ 2017-07-14T18:26:20+08:00 ] 127.0.0.1 /taobaoke/index.php?s=Service/getteamer/tid/24&order=asc
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.006000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006217s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SELECT a.*,b.realname,b.id as uid FROM s_team_user a,s_user b WHERE ( a.uid = b.id and a.tid = 24 )  [ RunTime:0.023590s ]
+
+[ 2017-07-14T18:26:35+08:00 ] 127.0.0.1 /taobaoke/index.php?s=Service/getyteamer/tid/11&order=asc
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003712s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SELECT a.*,b.realname,b.id as uid FROM s_yteam_user a,s_user b WHERE ( a.uid = b.id and b.leaderstatus = 2 and a.tid = 11 )  [ RunTime:0.025856s ]
+
+[ 2017-07-14T18:26:35+08:00 ] 127.0.0.1 /taobaoke/index.php?s=Service/getyteamer/tid/12&order=asc
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001083s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001243s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SELECT a.*,b.realname,b.id as uid FROM s_yteam_user a,s_user b WHERE ( a.uid = b.id and b.leaderstatus = 2 and a.tid = 12 )  [ RunTime:0.027683s ]
+
+[ 2017-07-14T18:28:02+08:00 ] 127.0.0.1 /taobaoke/index.php?s=Operational/getincometrends&id=
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001545s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001805s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SELECT count(*) AS count,FORMAT(sum(a.eff_yugu),2) AS eyugu,FORMAT(sum(a.income_yugu),2) AS iyugu,FORMAT(sum(a.pay_price),2) AS price,c.medianid,DATE_FORMAT(a.add_time,'%Y-%m-%d') as add_time FROM s_adorder a,s_shopper b,s_media c,s_ad d WHERE ( a.ad_id = d.adnameid and d.sid = b.id and b.mid = c.id and a.order_status != '订单失效' and a.add_time >= '2017-07-07 00:00:00' and a.add_time <= '2017-07-14 23:59:59' ) GROUP BY DATE_FORMAT(a.add_time,'%Y-%m-%d') ORDER BY add_time asc  [ RunTime:0.157584s ]
+
+[ 2017-07-14T18:28:03+08:00 ] 127.0.0.1 /taobaoke/index.php?s=Operational/getdailiinfo&id=
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001663s ]
+NOTIC: [8] Undefined index: day D:\wamp64\www\taobaoke\Admin\Lib\Action\OperationalAction.class.php 第 145 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SELECT count(*) as count,FORMAT(sum(a.eff_yugu),2) as yugu,DATE_FORMAT(a.add_time,'%Y-%m-%d') as add_time FROM s_adorder a,s_ad b,s_shopper c,s_daili d,s_fans e WHERE ( a.ad_id = b.adnameid and b.sid = c.id and b.id = d.adid and d.openid = e.openid and c.statustype = 4 and a.order_status != '订单失效' and a.add_time >= '2017-07-07 00:00:00' and a.add_time <= '2017-07-14 23:59:59' ) GROUP BY DATE_FORMAT(a.add_time,'%Y-%m-%d')  [ RunTime:0.084894s ]
+
+[ 2017-07-14T18:28:08+08:00 ] 127.0.0.1 /taobaoke/index.php?s=Operational/getredbaginfo&id=
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001570s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001734s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SELECT count(*) as count,DATE_FORMAT(b.createtime,'%Y-%m-%d') as time FROM s_fans a,s_order b WHERE ( a.openid = b.openid and a.receivestatus = 1 and b.createtime >= '2017-07-07 00:00:00' and b.createtime <= '2017-07-14 23:59:59' ) GROUP BY DATE_FORMAT(b.createtime,'%Y-%m-%d')  [ RunTime:0.032602s ]
+
+[ 2017-07-14T18:28:16+08:00 ] 127.0.0.1 /taobaoke/index.php?s=Operational/getdailiinfo&id=
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001278s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001480s ]
+NOTIC: [8] Undefined index: day D:\wamp64\www\taobaoke\Admin\Lib\Action\OperationalAction.class.php 第 145 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SELECT count(*) as count,FORMAT(sum(a.eff_yugu),2) as yugu,DATE_FORMAT(a.add_time,'%Y-%m-%d') as add_time FROM s_adorder a,s_ad b,s_shopper c,s_daili d,s_fans e WHERE ( a.ad_id = b.adnameid and b.sid = c.id and b.id = d.adid and d.openid = e.openid and c.statustype = 4 and a.order_status != '订单失效' and a.add_time >= '2017-07-07 00:00:00' and a.add_time <= '2017-07-14 23:59:59' ) GROUP BY DATE_FORMAT(a.add_time,'%Y-%m-%d')  [ RunTime:0.088766s ]
+
+[ 2017-07-14T18:28:19+08:00 ] 127.0.0.1 /taobaoke/index.php?s=Operational/getdailimingxi&id=0&day=
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003702s ]
+NOTIC: [8] Undefined variable: andone D:\wamp64\www\taobaoke\Admin\Lib\Action\OperationalAction.class.php 第 177 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SELECT * FROM (select d.nickname,a.phone,a.http,b.adname,a.openid from s_daili a left join s_fans d on d.openid = a.openid left join s_ad b on a.adid = b.id left join s_adorder c on b.adnameid = c.ad_id where c.eff_yugu is null and d.status = 0  group by a.id) f  [ RunTime:0.157233s ]
+
+[ 2017-07-14T18:28:24+08:00 ] 127.0.0.1 /taobaoke/index.php?s=Operational/getredbaginfo&id=
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001787s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001987s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SELECT count(*) as count,DATE_FORMAT(b.createtime,'%Y-%m-%d') as time FROM s_fans a,s_order b WHERE ( a.openid = b.openid and a.receivestatus = 1 and b.createtime >= '2017-07-07 00:00:00' and b.createtime <= '2017-07-14 23:59:59' ) GROUP BY DATE_FORMAT(b.createtime,'%Y-%m-%d')  [ RunTime:0.033057s ]
+
+[ 2017-07-14T18:28:27+08:00 ] 127.0.0.1 /taobaoke/index.php?s=Operational/getredbagmingxi&time=2017-07-14
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002940s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SELECT count(*) as count,DATE_FORMAT(b.createtime,'%Y-%m-%d') as time,c.adname,d.realname FROM s_fans a,s_order b,s_ad c,s_user d WHERE ( a.openid = b.openid and a.receivestatus = 1 and a.redadid = c.adnameid and c.userid = d.id and b.createtime >= '2017-07-14 00:00:00' and b.createtime <= '2017-07-14 23:59:59' ) GROUP BY DATE_FORMAT(b.createtime,'%Y-%m-%d'),c.id ORDER BY DATE_FORMAT(b.createtime,'%Y-%m-%d') as time desc  [ RunTime:0.025588s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'as time desc' at line 1
+ [ SQL语句 ] : SELECT count(*) as count,DATE_FORMAT(b.createtime,'%Y-%m-%d') as time,c.adname,d.realname FROM s_fans a,s_order b,s_ad c,s_user d WHERE ( a.openid = b.openid and a.receivestatus = 1 and a.redadid = c.adnameid and c.userid = d.id and b.createtime >= '2017-07-14 00:00:00' and b.createtime <= '2017-07-14 23:59:59' ) GROUP BY DATE_FORMAT(b.createtime,'%Y-%m-%d'),c.id ORDER BY DATE_FORMAT(b.createtime,'%Y-%m-%d') as time desc 
+
+[ 2017-07-14T18:28:29+08:00 ] 127.0.0.1 /taobaoke/index.php?s=Operational/getredbagmingxi&time=2017-07-14
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000747s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000834s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SELECT count(*) as count,DATE_FORMAT(b.createtime,'%Y-%m-%d') as time,c.adname,d.realname FROM s_fans a,s_order b,s_ad c,s_user d WHERE ( a.openid = b.openid and a.receivestatus = 1 and a.redadid = c.adnameid and c.userid = d.id and b.createtime >= '2017-07-14 00:00:00' and b.createtime <= '2017-07-14 23:59:59' ) GROUP BY DATE_FORMAT(b.createtime,'%Y-%m-%d'),c.id ORDER BY DATE_FORMAT(b.createtime,'%Y-%m-%d') as time desc  [ RunTime:0.022192s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'as time desc' at line 1
+ [ SQL语句 ] : SELECT count(*) as count,DATE_FORMAT(b.createtime,'%Y-%m-%d') as time,c.adname,d.realname FROM s_fans a,s_order b,s_ad c,s_user d WHERE ( a.openid = b.openid and a.receivestatus = 1 and a.redadid = c.adnameid and c.userid = d.id and b.createtime >= '2017-07-14 00:00:00' and b.createtime <= '2017-07-14 23:59:59' ) GROUP BY DATE_FORMAT(b.createtime,'%Y-%m-%d'),c.id ORDER BY DATE_FORMAT(b.createtime,'%Y-%m-%d') as time desc 
+
+[ 2017-07-14T18:28:31+08:00 ] 127.0.0.1 /taobaoke/index.php?s=Operational/getredbagmingxi&time=2017-07-11
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001898s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002511s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SELECT count(*) as count,DATE_FORMAT(b.createtime,'%Y-%m-%d') as time,c.adname,d.realname FROM s_fans a,s_order b,s_ad c,s_user d WHERE ( a.openid = b.openid and a.receivestatus = 1 and a.redadid = c.adnameid and c.userid = d.id and b.createtime >= '2017-07-11 00:00:00' and b.createtime <= '2017-07-11 23:59:59' ) GROUP BY DATE_FORMAT(b.createtime,'%Y-%m-%d'),c.id ORDER BY DATE_FORMAT(b.createtime,'%Y-%m-%d') as time desc  [ RunTime:0.024223s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'as time desc' at line 1
+ [ SQL语句 ] : SELECT count(*) as count,DATE_FORMAT(b.createtime,'%Y-%m-%d') as time,c.adname,d.realname FROM s_fans a,s_order b,s_ad c,s_user d WHERE ( a.openid = b.openid and a.receivestatus = 1 and a.redadid = c.adnameid and c.userid = d.id and b.createtime >= '2017-07-11 00:00:00' and b.createtime <= '2017-07-11 23:59:59' ) GROUP BY DATE_FORMAT(b.createtime,'%Y-%m-%d'),c.id ORDER BY DATE_FORMAT(b.createtime,'%Y-%m-%d') as time desc 
+
+[ 2017-07-14T18:29:30+08:00 ] 127.0.0.1 /taobaoke/index.php?s=Operational/getredbaginfo&id=
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002115s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002393s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SELECT count(*) as count,DATE_FORMAT(b.createtime,'%Y-%m-%d') as time FROM s_fans a,s_order b WHERE ( a.openid = b.openid and a.receivestatus = 1 and b.createtime >= '2017-07-07 00:00:00' and b.createtime <= '2017-07-14 23:59:59' ) GROUP BY DATE_FORMAT(b.createtime,'%Y-%m-%d')  [ RunTime:0.029706s ]
+
+[ 2017-07-14T18:29:32+08:00 ] 127.0.0.1 /taobaoke/index.php?s=Operational/getredbagmingxi&time=2017-07-14
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000801s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000890s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SELECT count(*) as count,DATE_FORMAT(b.createtime,'%Y-%m-%d') as time,c.adname,d.realname FROM s_fans a,s_order b,s_ad c,s_user d WHERE ( a.openid = b.openid and a.receivestatus = 1 and a.redadid = c.adnameid and c.userid = d.id and b.createtime >= '2017-07-14 00:00:00' and b.createtime <= '2017-07-14 23:59:59' ) GROUP BY DATE_FORMAT(b.createtime,'%Y-%m-%d'),c.id ORDER BY DATE_FORMAT(b.createtime,'%Y-%m-%d') as time desc  [ RunTime:0.023538s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'as time desc' at line 1
+ [ SQL语句 ] : SELECT count(*) as count,DATE_FORMAT(b.createtime,'%Y-%m-%d') as time,c.adname,d.realname FROM s_fans a,s_order b,s_ad c,s_user d WHERE ( a.openid = b.openid and a.receivestatus = 1 and a.redadid = c.adnameid and c.userid = d.id and b.createtime >= '2017-07-14 00:00:00' and b.createtime <= '2017-07-14 23:59:59' ) GROUP BY DATE_FORMAT(b.createtime,'%Y-%m-%d'),c.id ORDER BY DATE_FORMAT(b.createtime,'%Y-%m-%d') as time desc 
+
+[ 2017-07-14T18:31:05+08:00 ] 127.0.0.1 /taobaoke/index.php?s=Operational/getdailiinfo&id=
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001593s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001822s ]
+NOTIC: [8] Undefined index: day D:\wamp64\www\taobaoke\Admin\Lib\Action\OperationalAction.class.php 第 145 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SELECT count(*) as count,FORMAT(sum(a.eff_yugu),2) as yugu,DATE_FORMAT(a.add_time,'%Y-%m-%d') as add_time FROM s_adorder a,s_ad b,s_shopper c,s_daili d,s_fans e WHERE ( a.ad_id = b.adnameid and b.sid = c.id and b.id = d.adid and d.openid = e.openid and c.statustype = 4 and a.order_status != '订单失效' and a.add_time >= '2017-07-07 00:00:00' and a.add_time <= '2017-07-14 23:59:59' ) GROUP BY DATE_FORMAT(a.add_time,'%Y-%m-%d')  [ RunTime:0.084065s ]
+
+[ 2017-07-14T18:31:15+08:00 ] 127.0.0.1 /taobaoke/index.php?s=Operational/getredbaginfo&id=
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001760s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001950s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SELECT count(*) as count,DATE_FORMAT(b.createtime,'%Y-%m-%d') as time FROM s_fans a,s_order b WHERE ( a.openid = b.openid and a.receivestatus = 1 and b.createtime >= '2017-07-07 00:00:00' and b.createtime <= '2017-07-14 23:59:59' ) GROUP BY DATE_FORMAT(b.createtime,'%Y-%m-%d')  [ RunTime:0.032986s ]
+
+[ 2017-07-14T18:31:34+08:00 ] 127.0.0.1 /taobaoke/index.php?s=Operational/getredbaginfo&id=
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001121s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001272s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SELECT count(*) as count,DATE_FORMAT(b.createtime,'%Y-%m-%d') as time FROM s_fans a,s_order b WHERE ( a.openid = b.openid and a.receivestatus = 1 and b.createtime >= '2017-07-07 00:00:00' and b.createtime <= '2017-07-14 23:59:59' ) GROUP BY DATE_FORMAT(b.createtime,'%Y-%m-%d')  [ RunTime:0.031164s ]
+
+[ 2017-07-14T18:31:39+08:00 ] 127.0.0.1 /taobaoke/index.php?s=Operational/getredbagmingxi&time=2017-07-14
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001933s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002141s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SELECT count(*) as count,DATE_FORMAT(b.createtime,'%Y-%m-%d') as time,c.adname,d.realname FROM s_fans a,s_order b,s_ad c,s_user d WHERE ( a.openid = b.openid and a.receivestatus = 1 and a.redadid = c.adnameid and c.userid = d.id and b.createtime >= '2017-07-14 00:00:00' and b.createtime <= '2017-07-14 23:59:59' ) GROUP BY DATE_FORMAT(b.createtime,'%Y-%m-%d'),c.id ORDER BY DATE_FORMAT(b.createtime,'%Y-%m-%d') desc  [ RunTime:2.912689s ]
+
+[ 2017-07-14T18:32:31+08:00 ] 127.0.0.1 /taobaoke/index.php?s=Operational/getredbaginfo&id=
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001637s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001921s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SELECT count(*) as count,DATE_FORMAT(b.createtime,'%Y-%m-%d') as time FROM s_fans a,s_order b WHERE ( a.openid = b.openid and a.receivestatus = 1 and b.createtime >= '2017-07-07 00:00:00' and b.createtime <= '2017-07-14 23:59:59' ) GROUP BY DATE_FORMAT(b.createtime,'%Y-%m-%d')  [ RunTime:0.035362s ]
+
+[ 2017-07-14T18:32:36+08:00 ] 127.0.0.1 /taobaoke/index.php?s=Operational/getredbagmingxi&time=2017-07-14
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000872s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000965s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SELECT count(*) as count,DATE_FORMAT(b.createtime,'%Y-%m-%d') as time,c.adname,d.realname FROM s_fans a,s_order b,s_ad c,s_user d WHERE ( a.openid = b.openid and a.receivestatus = 1 and a.redadid = c.adnameid and c.userid = d.id and b.createtime >= '2017-07-14 00:00:00' and b.createtime <= '2017-07-14 23:59:59' ) GROUP BY DATE_FORMAT(b.createtime,'%Y-%m-%d'),c.id ORDER BY count desc  [ RunTime:2.746566s ]
+
+[ 2017-07-14T18:32:44+08:00 ] 127.0.0.1 /taobaoke/index.php?s=Operational/getredbagmingxi&time=2017-07-13
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000806s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000894s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SELECT count(*) as count,DATE_FORMAT(b.createtime,'%Y-%m-%d') as time,c.adname,d.realname FROM s_fans a,s_order b,s_ad c,s_user d WHERE ( a.openid = b.openid and a.receivestatus = 1 and a.redadid = c.adnameid and c.userid = d.id and b.createtime >= '2017-07-13 00:00:00' and b.createtime <= '2017-07-13 23:59:59' ) GROUP BY DATE_FORMAT(b.createtime,'%Y-%m-%d'),c.id ORDER BY count desc  [ RunTime:2.928830s ]
+
+[ 2017-07-14T18:32:50+08:00 ] 127.0.0.1 /taobaoke/index.php?s=Operational/getfansinfo&id=
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001730s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002031s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `s_fans` [ RunTime:0.024535s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT count(*) as count,DATE_FORMAT(create_time,'%Y-%m-%d') as createtime FROM `s_fans` WHERE ( userid = -1 and status = 0 and create_time >= '2017-07-07' and create_time <= '2017-07-14' ) GROUP BY DATE_FORMAT(create_time,'%Y-%m-%d')  [ RunTime:0.025233s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT count(*) as countziying,DATE_FORMAT(create_time,'%Y-%m-%d') as createtime FROM s_fans a,s_ad b,s_shopper c WHERE ( a.redadid = b.adnameid and b.sid = c.id and a.`status` = 0 and c.statustype = 1 and a.create_time >= '2017-07-07' and a.create_time <= '2017-07-14' ) GROUP BY DATE_FORMAT(create_time,'%Y-%m-%d')  [ RunTime:0.060018s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT count(*) as countdaili,DATE_FORMAT(create_time,'%Y-%m-%d') as createtime FROM s_fans a,s_ad b,s_shopper c WHERE ( a.redadid = b.adnameid and b.sid = c.id and a.`status` = 0 and c.statustype = 4 and a.create_time >= '2017-07-07' and a.create_time <= '2017-07-14' ) GROUP BY DATE_FORMAT(create_time,'%Y-%m-%d')  [ RunTime:0.072175s ]
+
+[ 2017-07-14T18:32:55+08:00 ] 127.0.0.1 /taobaoke/index.php?s=Operational/proxyChat
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000854s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000948s ]
+NOTIC: [8] Undefined index: day D:\wamp64\www\taobaoke\Admin\Lib\Action\OperationalAction.class.php 第 387 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SELECT count(1) count,`jointime` FROM s_daili a WHERE ( 1=1  and a.jointime >= '2017-07-07 00:00:00' and a.jointime <= '2017-07-14 23:59:59' ) GROUP BY jointime  [ RunTime:0.027797s ]
+
+[ 2017-07-14T18:33:20+08:00 ] 127.0.0.1 /taobaoke/index.php?s=DataTotal/getteamranking&sdate=&edate=&team=0&statustype=0
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.005062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005272s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SELECT a.teamname,b.tid FROM s_team a,s_team_user b WHERE ( a.id = b.tid ) GROUP BY b.tid  [ RunTime:0.025498s ]
+NOTIC: [8] Undefined variable: page D:\wamp64\www\taobaoke\Admin\Lib\Action\DataTotalAction.class.php 第 121 行.
+NOTIC: [8] Trying to get property of non-object D:\wamp64\www\taobaoke\Admin\Lib\Action\DataTotalAction.class.php 第 121 行.
+NOTIC: [8] Undefined variable: page D:\wamp64\www\taobaoke\Admin\Lib\Action\DataTotalAction.class.php 第 121 行.
+NOTIC: [8] Trying to get property of non-object D:\wamp64\www\taobaoke\Admin\Lib\Action\DataTotalAction.class.php 第 121 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT FORMAT(sum(a.eff_yugu),2) as count,c.uid,c.tid,d.realname FROM s_adorder a,s_ad b,s_team_user c,s_user d,s_shopper f WHERE ( a.ad_id = b.adnameid and b.userid = c.uid and b.userid = d.id and b.sid = f.id ) GROUP BY b.userid ORDER BY count desc  [ RunTime:0.080712s ]
+NOTIC: [8] Undefined index: data D:\wamp64\www\taobaoke\Admin\Lib\Action\DataTotalAction.class.php 第 133 行.
+
+[ 2017-07-14T18:35:11+08:00 ] 127.0.0.1 /taobaoke/index.php?s=Operational/getdailiinfo&id=
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000834s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000937s ]
+NOTIC: [8] Undefined index: day D:\wamp64\www\taobaoke\Admin\Lib\Action\OperationalAction.class.php 第 145 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SELECT count(*) as count,FORMAT(sum(a.eff_yugu),2) as yugu,DATE_FORMAT(a.add_time,'%Y-%m-%d') as add_time FROM s_adorder a,s_ad b,s_shopper c,s_daili d,s_fans e WHERE ( a.ad_id = b.adnameid and b.sid = c.id and b.id = d.adid and d.openid = e.openid and c.statustype = 4 and a.order_status != '订单失效' and a.add_time >= '2017-07-07 00:00:00' and a.add_time <= '2017-07-14 23:59:59' ) GROUP BY DATE_FORMAT(a.add_time,'%Y-%m-%d')  [ RunTime:0.083506s ]
+
+[ 2017-07-14T18:35:41+08:00 ] 127.0.0.1 /taobaoke/index.php?s=SystemManager/getonelevel&order=asc&_=1500028541562
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000853s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000952s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `s_menu` [ RunTime:0.022292s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT * FROM `s_menu` WHERE ( parentid = 0 ) ORDER BY id asc  [ RunTime:0.021745s ]
+
+[ 2017-07-14T18:36:20+08:00 ] 127.0.0.1 /taobaoke/index.php?s=SystemManager/addmenu
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000831s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000929s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `s_menu` [ RunTime:0.023321s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT * FROM `s_menu` WHERE ( ename = 'proxyincome' )  [ RunTime:0.023388s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT * FROM `s_menu` WHERE ( id = 252 )  [ RunTime:0.022762s ]
+SQL: INSERT INTO `s_menu` (`name`,`parentid`,`url`,`ename`) VALUES ('代理客服收益',252,'index.php?s=Proxy/proxyincome','proxyincome') [ RunTime:0.023265s ]
+
+[ 2017-07-14T18:36:22+08:00 ] 127.0.0.1 /taobaoke/index.php?s=SystemManager/getonelevel&order=asc&_=1500028582022
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000744s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000843s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `s_menu` [ RunTime:0.026105s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT * FROM `s_menu` WHERE ( parentid = 0 ) ORDER BY id asc  [ RunTime:0.025611s ]
+
+[ 2017-07-14T18:37:29+08:00 ] 127.0.0.1 /taobaoke/index.php?s=Operational/getdailiinfo&id=
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001371s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001570s ]
+NOTIC: [8] Undefined index: day D:\wamp64\www\taobaoke\Admin\Lib\Action\OperationalAction.class.php 第 145 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SELECT count(*) as count,FORMAT(sum(a.eff_yugu),2) as yugu,DATE_FORMAT(a.add_time,'%Y-%m-%d') as add_time FROM s_adorder a,s_ad b,s_shopper c,s_daili d,s_fans e WHERE ( a.ad_id = b.adnameid and b.sid = c.id and b.id = d.adid and d.openid = e.openid and c.statustype = 4 and a.order_status != '订单失效' and a.add_time >= '2017-07-07 00:00:00' and a.add_time <= '2017-07-14 23:59:59' ) GROUP BY DATE_FORMAT(a.add_time,'%Y-%m-%d')  [ RunTime:0.090924s ]
+
+[ 2017-07-14T18:49:27+08:00 ] 127.0.0.1 /taobaoke/index.php?s=Operational/getdailiinfo&id=
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000879s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001021s ]
+NOTIC: [8] Undefined index: day D:\wamp64\www\taobaoke\Admin\Lib\Action\OperationalAction.class.php 第 145 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SELECT count(*) as count,FORMAT(sum(a.eff_yugu),2) as yugu,DATE_FORMAT(a.add_time,'%Y-%m-%d') as add_time FROM s_adorder a,s_ad b,s_shopper c,s_daili d,s_fans e WHERE ( a.ad_id = b.adnameid and b.sid = c.id and b.id = d.adid and d.openid = e.openid and c.statustype = 4 and a.order_status != '订单失效' and a.add_time >= '2017-07-07 00:00:00' and a.add_time <= '2017-07-14 23:59:59' ) GROUP BY DATE_FORMAT(a.add_time,'%Y-%m-%d')  [ RunTime:0.095430s ]
+
+[ 2017-07-14T18:49:31+08:00 ] 127.0.0.1 /taobaoke/index.php?s=Operational/getdailimingxi&id=0&day=
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001471s ]
+NOTIC: [8] Undefined variable: andone D:\wamp64\www\taobaoke\Admin\Lib\Action\OperationalAction.class.php 第 177 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SELECT * FROM (select d.nickname,a.phone,a.http,b.adname,a.openid from s_daili a left join s_fans d on d.openid = a.openid left join s_ad b on a.adid = b.id left join s_adorder c on b.adnameid = c.ad_id where c.eff_yugu is null and d.status = 0  group by a.id) f  [ RunTime:0.167658s ]
+
+[ 2017-07-14T18:50:04+08:00 ] 127.0.0.1 /taobaoke/index.php?s=Operational/getdailiinfo&id=
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001150s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001309s ]
+NOTIC: [8] Undefined index: day D:\wamp64\www\taobaoke\Admin\Lib\Action\OperationalAction.class.php 第 145 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SELECT count(*) as count,FORMAT(sum(a.eff_yugu),2) as yugu,DATE_FORMAT(a.add_time,'%Y-%m-%d') as add_time FROM s_adorder a,s_ad b,s_shopper c,s_daili d,s_fans e WHERE ( a.ad_id = b.adnameid and b.sid = c.id and b.id = d.adid and d.openid = e.openid and c.statustype = 4 and a.order_status != '订单失效' and a.add_time >= '2017-07-07 00:00:00' and a.add_time <= '2017-07-14 23:59:59' ) GROUP BY DATE_FORMAT(a.add_time,'%Y-%m-%d')  [ RunTime:0.086714s ]
+
+[ 2017-07-14T18:50:27+08:00 ] 127.0.0.1 /taobaoke/index.php?s=Proxy/getdailigereninfo&id=
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001545s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001747s ]
+NOTIC: [8] Undefined index: day D:\wamp64\www\taobaoke\Admin\Lib\Action\ProxyAction.class.php 第 1268 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SELECT count(*) as count,FORMAT(sum(a.eff_yugu),2) as yugu,DATE_FORMAT(a.add_time,'%Y-%m-%d') as add_time FROM s_adorder a,s_ad b,s_shopper c,s_daili d,s_fans e WHERE ( a.ad_id = b.adnameid and b.sid = c.id and b.id = d.adid and d.openid = e.openid and c.statustype = 4 and a.order_status != '订单失效' and a.add_time >= '2017-07-07 00:00:00' and a.add_time <= '2017-07-14 23:59:59' ) GROUP BY DATE_FORMAT(a.add_time,'%Y-%m-%d')  [ RunTime:0.088004s ]
+
+[ 2017-07-14T18:50:30+08:00 ] 127.0.0.1 /taobaoke/index.php?s=Proxy/getdailigerenmingxi&id=0&day=
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000686s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000812s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SELECT * FROM (select d.nickname,a.phone,a.http,b.adname,a.openid from s_daili a left join s_fans d on d.openid = a.openid left join s_ad b on a.adid = b.id left join s_adorder c on b.adnameid = c.ad_id where c.eff_yugu is null and d.status = 0  group by a.id) f  [ RunTime:0.159687s ]
+
+[ 2017-07-14T18:51:09+08:00 ] 127.0.0.1 /taobaoke/index.php?s=SystemManager/addaccess
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000582s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000699s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `s_access` [ RunTime:0.026864s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT * FROM `s_access` WHERE ( roleid = 12 )  [ RunTime:0.026280s ]
+SQL: DELETE FROM `s_access` WHERE ( roleid = 12 ) [ RunTime:0.028064s ]
+SQL: INSERT INTO `s_access` (`roleid`,`mid`,`createtime`) VALUES (12,'259,255,253,263,256,260,261,264,265,266,1115,578748450,1118,1119,1,252,3','2017-07-14 18:51:09') [ RunTime:0.027146s ]
+
+[ 2017-07-14T18:51:31+08:00 ] 127.0.0.1 /taobaoke/index.php?s=Proxy/getdailigereninfo&id=
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000634s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000720s ]
+NOTIC: [8] Undefined index: day D:\wamp64\www\taobaoke\Admin\Lib\Action\ProxyAction.class.php 第 1268 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SELECT count(*) as count,FORMAT(sum(a.eff_yugu),2) as yugu,DATE_FORMAT(a.add_time,'%Y-%m-%d') as add_time FROM s_adorder a,s_ad b,s_shopper c,s_daili d,s_fans e WHERE ( a.ad_id = b.adnameid and b.sid = c.id and b.id = d.adid and d.openid = e.openid and c.statustype = 4 and a.order_status != '订单失效' and a.add_time >= '2017-07-07 00:00:00' and a.add_time <= '2017-07-14 23:59:59' ) GROUP BY DATE_FORMAT(a.add_time,'%Y-%m-%d')  [ RunTime:0.088762s ]
+
+[ 2017-07-14T18:51:55+08:00 ] 127.0.0.1 /taobaoke/index.php?s=Proxy/getdailigereninfo&id=
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000840s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000999s ]
+NOTIC: [8] Undefined index: day D:\wamp64\www\taobaoke\Admin\Lib\Action\ProxyAction.class.php 第 1268 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SELECT count(*) as count,FORMAT(sum(a.eff_yugu),2) as yugu,DATE_FORMAT(a.add_time,'%Y-%m-%d') as add_time FROM s_adorder a,s_ad b,s_shopper c,s_daili d,s_fans e WHERE ( a.ad_id = b.adnameid and b.sid = c.id and b.id = d.adid and d.openid = e.openid and c.statustype = 4 and a.order_status != '订单失效' and a.add_time >= '2017-07-07 00:00:00' and a.add_time <= '2017-07-14 23:59:59' ) GROUP BY DATE_FORMAT(a.add_time,'%Y-%m-%d')  [ RunTime:0.093438s ]
+
+[ 2017-07-14T18:52:41+08:00 ] 127.0.0.1 /taobaoke/index.php?s=Proxy/getdailigereninfo&id=
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001493s ]
+NOTIC: [8] Undefined index: day D:\wamp64\www\taobaoke\Admin\Lib\Action\ProxyAction.class.php 第 1268 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SELECT count(*) as count,FORMAT(sum(a.eff_yugu),2) as yugu,DATE_FORMAT(a.add_time,'%Y-%m-%d') as add_time FROM s_adorder a,s_ad b,s_shopper c,s_daili d,s_fans e WHERE ( a.ad_id = b.adnameid and b.sid = c.id and b.id = d.adid and d.openid = e.openid and c.statustype = 4 and a.order_status != '订单失效' and a.add_time >= '2017-07-07 00:00:00' and a.add_time <= '2017-07-14 23:59:59' ) GROUP BY DATE_FORMAT(a.add_time,'%Y-%m-%d')  [ RunTime:0.090232s ]
+
+[ 2017-07-14T18:53:00+08:00 ] 127.0.0.1 /taobaoke/index.php?s=Proxy/getdailigereninfo&id=
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001509s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001659s ]
+NOTIC: [8] Undefined index: day D:\wamp64\www\taobaoke\Admin\Lib\Action\ProxyAction.class.php 第 1268 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SELECT count(*) as count,FORMAT(sum(a.eff_yugu),2) as yugu,DATE_FORMAT(a.add_time,'%Y-%m-%d') as add_time FROM s_adorder a,s_ad b,s_shopper c,s_daili d,s_fans e WHERE ( a.ad_id = b.adnameid and b.sid = c.id and b.id = d.adid and d.openid = e.openid and c.statustype = 4 and a.order_status != '订单失效' and a.add_time >= '2017-07-07 00:00:00' and a.add_time <= '2017-07-14 23:59:59' and b.userid = 62 ) GROUP BY DATE_FORMAT(a.add_time,'%Y-%m-%d')  [ RunTime:0.040254s ]
+
+[ 2017-07-14T18:53:52+08:00 ] 127.0.0.1 /taobaoke/index.php?s=Proxy/getdailigereninfo&id=
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002574s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003654s ]
+NOTIC: [8] Undefined index: day D:\wamp64\www\taobaoke\Admin\Lib\Action\ProxyAction.class.php 第 1268 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SELECT count(*) as count,FORMAT(sum(a.eff_yugu),2) as yugu,DATE_FORMAT(a.add_time,'%Y-%m-%d') as add_time FROM s_adorder a,s_ad b,s_shopper c,s_daili d,s_fans e WHERE ( a.ad_id = b.adnameid and b.sid = c.id and b.id = d.adid and d.openid = e.openid and c.statustype = 4 and a.order_status != '订单失效' and a.add_time >= '2017-07-07 00:00:00' and a.add_time <= '2017-07-14 23:59:59' and b.userid = 62 ) GROUP BY DATE_FORMAT(a.add_time,'%Y-%m-%d')  [ RunTime:0.035010s ]
+
+[ 2017-07-14T18:57:21+08:00 ] 127.0.0.1 /taobaoke/index.php?s=Proxy/getproxyanalysis&sdate=&edate=
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001511s ]
+NOTIC: [8] Undefined index: adname D:\wamp64\www\taobaoke\Admin\Lib\Action\ProxyAction.class.php 第 1114 行.
+NOTIC: [8] Undefined variable: page D:\wamp64\www\taobaoke\Admin\Lib\Action\ProxyAction.class.php 第 1121 行.
+NOTIC: [8] Trying to get property of non-object D:\wamp64\www\taobaoke\Admin\Lib\Action\ProxyAction.class.php 第 1121 行.
+NOTIC: [8] Undefined variable: page D:\wamp64\www\taobaoke\Admin\Lib\Action\ProxyAction.class.php 第 1121 行.
+NOTIC: [8] Trying to get property of non-object D:\wamp64\www\taobaoke\Admin\Lib\Action\ProxyAction.class.php 第 1121 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SELECT count(*) as count,FORMAT(sum(a.eff_yugu),2) as eyugu,FORMAT(sum(a.income_yugu),2) as iyugu,FORMAT(sum(a.pay_price),2) as price,b.adname,DATE_FORMAT(a.add_time,'%Y-%m-%d') as add_time FROM s_adorder a,s_ad b,s_shopper c,s_user d WHERE ( a.ad_id = b.adnameid and b.sid = c.id and b.userid = d.id and c.statustype = 4 and a.order_status != '订单失效' ) GROUP BY DATE_FORMAT(a.add_time,'%Y-%m-%d') ORDER BY add_time asc  [ RunTime:0.126225s ]
+
+[ 2017-07-14T18:57:42+08:00 ] 127.0.0.1 /taobaoke/index.php?s=Proxy/getproxyranking&sdate=&edate=
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001090s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001281s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SELECT count(*) as count,FORMAT(sum(a.eff_yugu),2) as eyugu,FORMAT(sum(a.income_yugu),2) as iyugu,FORMAT(sum(a.pay_price),2) as price,d.realname FROM s_adorder a,s_ad b,s_shopper c,s_user d WHERE ( a.ad_id = b.adnameid and b.sid = c.id and b.userid = d.id and c.statustype = 4 and a.order_status != '订单失效'  ) GROUP BY d.id ORDER BY iyugu desc  [ RunTime:0.126145s ]
+
+[ 2017-07-14T19:09:43+08:00 ] 127.0.0.1 /taobaoke/index.php?s=Proxy/getdailigereninfo&id=
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001671s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001909s ]
+NOTIC: [8] Undefined index: day D:\wamp64\www\taobaoke\Admin\Lib\Action\ProxyAction.class.php 第 1268 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SELECT count(*) as count,FORMAT(sum(a.eff_yugu),2) as yugu,DATE_FORMAT(a.add_time,'%Y-%m-%d') as add_time FROM s_adorder a,s_ad b,s_shopper c,s_daili d,s_fans e WHERE ( a.ad_id = b.adnameid and b.sid = c.id and b.id = d.adid and d.openid = e.openid and c.statustype = 4 and a.order_status != '订单失效' and a.add_time >= '2017-07-07 00:00:00' and a.add_time <= '2017-07-14 23:59:59' ) GROUP BY DATE_FORMAT(a.add_time,'%Y-%m-%d')  [ RunTime:0.111242s ]
+
+[ 2017-07-14T19:09:45+08:00 ] 127.0.0.1 /taobaoke/index.php?s=Proxy/getdailigerenmingxi&id=0&day=
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001127s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001277s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SELECT * FROM (select d.nickname,a.phone,a.http,b.adname,a.openid from s_daili a left join s_fans d on d.openid = a.openid left join s_ad b on a.adid = b.id left join s_adorder c on b.adnameid = c.ad_id where c.eff_yugu is null and d.status = 0  group by a.id) f  [ RunTime:0.156777s ]
+
+[ 2017-07-14T19:09:47+08:00 ] 127.0.0.1 /taobaoke/index.php?s=Proxy/getdailigerenmingxi&id=1&day=
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000751s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000849s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SELECT * FROM (SELECT d.phone,FORMAT(sum(a.eff_yugu),2) as yugu,d.http,b.adname,e.nickname FROM s_adorder a,s_ad b,s_shopper c,s_daili d,s_fans e WHERE ( a.ad_id = b.adnameid and b.sid = c.id and b.id = d.adid and d.openid = e.openid and c.statustype = 4 and a.order_status != '订单失效'and a.add_time >= '2017-07-06 00:00:00' and a.add_time <= '2017-07-13 23:59:59')group by d.id) a WHERE (  a.yugu = 0 )  [ RunTime:0.103148s ]
+
+[ 2017-07-14T19:09:49+08:00 ] 127.0.0.1 /taobaoke/index.php?s=Proxy/getdailigerenmingxi&id=2&day=
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000609s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000696s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SELECT * FROM (SELECT d.phone,FORMAT(sum(a.eff_yugu),2) as yugu,d.http,b.adname,e.nickname FROM s_adorder a,s_ad b,s_shopper c,s_daili d,s_fans e WHERE ( a.ad_id = b.adnameid and b.sid = c.id and b.id = d.adid and d.openid = e.openid and c.statustype = 4 and a.order_status != '订单失效'and a.add_time >= '2017-07-06 00:00:00' and a.add_time <= '2017-07-13 23:59:59')group by d.id) a WHERE (  a.yugu = 0 )  [ RunTime:0.120517s ]
+
+[ 2017-07-14T19:09:56+08:00 ] 127.0.0.1 /taobaoke/index.php?s=Operational/getdailiinfo&id=
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001646s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001829s ]
+NOTIC: [8] Undefined index: day D:\wamp64\www\taobaoke\Admin\Lib\Action\OperationalAction.class.php 第 145 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SELECT count(*) as count,FORMAT(sum(a.eff_yugu),2) as yugu,DATE_FORMAT(a.add_time,'%Y-%m-%d') as add_time FROM s_adorder a,s_ad b,s_shopper c,s_daili d,s_fans e WHERE ( a.ad_id = b.adnameid and b.sid = c.id and b.id = d.adid and d.openid = e.openid and c.statustype = 4 and a.order_status != '订单失效' and a.add_time >= '2017-07-07 00:00:00' and a.add_time <= '2017-07-14 23:59:59' ) GROUP BY DATE_FORMAT(a.add_time,'%Y-%m-%d')  [ RunTime:0.091305s ]
+
+[ 2017-07-14T19:09:58+08:00 ] 127.0.0.1 /taobaoke/index.php?s=Operational/getdailimingxi&id=0&day=
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001107s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001471s ]
+NOTIC: [8] Undefined variable: andone D:\wamp64\www\taobaoke\Admin\Lib\Action\OperationalAction.class.php 第 177 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SELECT * FROM (select d.nickname,a.phone,a.http,b.adname,a.openid from s_daili a left join s_fans d on d.openid = a.openid left join s_ad b on a.adid = b.id left join s_adorder c on b.adnameid = c.ad_id where c.eff_yugu is null and d.status = 0  group by a.id) f  [ RunTime:0.158250s ]
+
+[ 2017-07-14T19:10:00+08:00 ] 127.0.0.1 /taobaoke/index.php?s=Operational/getdailimingxi&id=1&day=
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000620s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000715s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SELECT * FROM (SELECT d.phone,FORMAT(sum(a.eff_yugu),2) as yugu,d.http,b.adname,e.nickname FROM s_adorder a,s_ad b,s_shopper c,s_daili d,s_fans e WHERE ( a.ad_id = b.adnameid and b.sid = c.id and b.id = d.adid and d.openid = e.openid and c.statustype = 4 and a.order_status != '订单失效'and a.add_time >= '2017-07-06 00:00:00' and a.add_time <= '2017-07-13 23:59:59')group by d.id) a WHERE (  a.yugu = 0 )  [ RunTime:0.099894s ]
+
+[ 2017-07-14T19:10:01+08:00 ] 127.0.0.1 /taobaoke/index.php?s=Operational/getdailimingxi&id=2&day=
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000580s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000667s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SELECT * FROM (SELECT d.phone,FORMAT(sum(a.eff_yugu),2) as yugu,d.http,b.adname,e.nickname FROM s_adorder a,s_ad b,s_shopper c,s_daili d,s_fans e WHERE ( a.ad_id = b.adnameid and b.sid = c.id and b.id = d.adid and d.openid = e.openid and c.statustype = 4 and a.order_status != '订单失效'and a.add_time >= '2017-07-06 00:00:00' and a.add_time <= '2017-07-13 23:59:59')group by d.id) a WHERE (  a.yugu = 0 )  [ RunTime:0.100248s ]
+
+[ 2017-07-14T19:10:47+08:00 ] 127.0.0.1 /taobaoke/index.php?s=Operational/getdailiinfo&id=
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003081s ]
+NOTIC: [8] Undefined index: day D:\wamp64\www\taobaoke\Admin\Lib\Action\OperationalAction.class.php 第 145 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SELECT count(*) as count,FORMAT(sum(a.eff_yugu),2) as yugu,DATE_FORMAT(a.add_time,'%Y-%m-%d') as add_time FROM s_adorder a,s_ad b,s_shopper c,s_daili d,s_fans e WHERE ( a.ad_id = b.adnameid and b.sid = c.id and b.id = d.adid and d.openid = e.openid and c.statustype = 4 and a.order_status != '订单失效' and a.add_time >= '2017-07-07 00:00:00' and a.add_time <= '2017-07-14 23:59:59' ) GROUP BY DATE_FORMAT(a.add_time,'%Y-%m-%d')  [ RunTime:0.086290s ]
+
+[ 2017-07-14T19:10:56+08:00 ] 127.0.0.1 /taobaoke/index.php?s=Operational/getdailimingxi&id=1&day=
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000598s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000691s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SELECT * FROM (SELECT d.phone,FORMAT(sum(a.eff_yugu),2) as yugu,d.http,b.adname,e.nickname FROM s_adorder a,s_ad b,s_shopper c,s_daili d,s_fans e WHERE ( a.ad_id = b.adnameid and b.sid = c.id and b.id = d.adid and d.openid = e.openid and c.statustype = 4 and a.order_status != '订单失效'and a.add_time >= '2017-07-06 00:00:00' and a.add_time <= '2017-07-13 23:59:59')group by d.id) a WHERE (  a.yugu = 0 )  [ RunTime:0.106893s ]
+
+[ 2017-07-14T19:12:42+08:00 ] 127.0.0.1 /taobaoke/index.php?s=Operational/getdailiinfo&id=
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001606s ]
+NOTIC: [8] Undefined index: day D:\wamp64\www\taobaoke\Admin\Lib\Action\OperationalAction.class.php 第 145 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SELECT count(*) as count,FORMAT(sum(a.eff_yugu),2) as yugu,DATE_FORMAT(a.add_time,'%Y-%m-%d') as add_time FROM s_adorder a,s_ad b,s_shopper c,s_daili d,s_fans e WHERE ( a.ad_id = b.adnameid and b.sid = c.id and b.id = d.adid and d.openid = e.openid and c.statustype = 4 and a.order_status != '订单失效' and a.add_time >= '2017-07-07 00:00:00' and a.add_time <= '2017-07-14 23:59:59' ) GROUP BY DATE_FORMAT(a.add_time,'%Y-%m-%d')  [ RunTime:0.087656s ]
+
+[ 2017-07-14T19:12:45+08:00 ] 127.0.0.1 /taobaoke/index.php?s=Operational/getdailimingxi&id=1&day=
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001511s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SELECT * FROM (SELECT d.phone,FORMAT(sum(a.eff_yugu),2) as yugu,d.http,b.adname,e.nickname FROM s_adorder a,s_ad b,s_shopper c,s_daili d,s_fans e WHERE ( a.ad_id = b.adnameid and b.sid = c.id and b.id = d.adid and d.openid = e.openid and c.statustype = 4 and a.order_status != '订单失效'and a.add_time >= '2017-07-06 00:00:00' and a.add_time <= '2017-07-13 23:59:59')group by d.id) a WHERE (  a.yugu = 0 )  [ RunTime:0.107110s ]
+
+[ 2017-07-14T19:13:57+08:00 ] 127.0.0.1 /taobaoke/index.php?s=Operational/getdailiinfo&id=
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004256s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004630s ]
+NOTIC: [8] Undefined index: day D:\wamp64\www\taobaoke\Admin\Lib\Action\OperationalAction.class.php 第 145 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SELECT count(*) as count,FORMAT(sum(a.eff_yugu),2) as yugu,DATE_FORMAT(a.add_time,'%Y-%m-%d') as add_time FROM s_adorder a,s_ad b,s_shopper c,s_daili d,s_fans e WHERE ( a.ad_id = b.adnameid and b.sid = c.id and b.id = d.adid and d.openid = e.openid and c.statustype = 4 and a.order_status != '订单失效' and a.add_time >= '2017-07-07 00:00:00' and a.add_time <= '2017-07-14 23:59:59' ) GROUP BY DATE_FORMAT(a.add_time,'%Y-%m-%d')  [ RunTime:0.087031s ]
+
+[ 2017-07-14T19:14:00+08:00 ] 127.0.0.1 /taobaoke/index.php?s=Operational/getdailimingxi&id=1&day=
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000731s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000830s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SELECT * FROM (SELECT d.phone,FORMAT(sum(a.eff_yugu),2) as yugu,d.http,b.adname,e.nickname FROM s_adorder a,s_ad b,s_shopper c,s_daili d,s_fans e WHERE ( a.ad_id = b.adnameid and b.sid = c.id and b.id = d.adid and d.openid = e.openid and c.statustype = 4 and a.order_status != '订单失效'and a.add_time >= '2017-07-06 00:00:00' and a.add_time <= '2017-07-13 23:59:59')group by d.id) a WHERE (  a.yugu > 0 and a.yugu < 20 )  [ RunTime:0.106249s ]
+
+[ 2017-07-14T19:14:06+08:00 ] 127.0.0.1 /taobaoke/index.php?s=Operational/getdailimingxi&id=2&day=
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000585s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000675s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SELECT * FROM (SELECT d.phone,FORMAT(sum(a.eff_yugu),2) as yugu,d.http,b.adname,e.nickname FROM s_adorder a,s_ad b,s_shopper c,s_daili d,s_fans e WHERE ( a.ad_id = b.adnameid and b.sid = c.id and b.id = d.adid and d.openid = e.openid and c.statustype = 4 and a.order_status != '订单失效'and a.add_time >= '2017-07-06 00:00:00' and a.add_time <= '2017-07-13 23:59:59')group by d.id) a WHERE (  a.yugu >= 20 and a.yugu < 30 )  [ RunTime:0.103438s ]
+
+[ 2017-07-14T19:15:08+08:00 ] 127.0.0.1 /taobaoke/index.php?s=Operational/getdailiinfo&id=
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001125s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001301s ]
+NOTIC: [8] Undefined index: day D:\wamp64\www\taobaoke\Admin\Lib\Action\OperationalAction.class.php 第 145 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SELECT count(*) as count,FORMAT(sum(a.eff_yugu),2) as yugu,DATE_FORMAT(a.add_time,'%Y-%m-%d') as add_time FROM s_adorder a,s_ad b,s_shopper c,s_daili d,s_fans e WHERE ( a.ad_id = b.adnameid and b.sid = c.id and b.id = d.adid and d.openid = e.openid and c.statustype = 4 and a.order_status != '订单失效' and a.add_time >= '2017-07-07 00:00:00' and a.add_time <= '2017-07-14 23:59:59' ) GROUP BY DATE_FORMAT(a.add_time,'%Y-%m-%d')  [ RunTime:0.090021s ]
+
+[ 2017-07-14T19:15:10+08:00 ] 127.0.0.1 /taobaoke/index.php?s=Operational/getdailimingxi&id=2&day=
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000682s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SELECT * FROM (SELECT d.phone,FORMAT(sum(a.eff_yugu),2) as yugu,d.http,b.adname,e.nickname FROM s_adorder a,s_ad b,s_shopper c,s_daili d,s_fans e WHERE ( a.ad_id = b.adnameid and b.sid = c.id and b.id = d.adid and d.openid = e.openid and c.statustype = 4 and a.order_status != '订单失效'and a.add_time >= '2017-07-06 00:00:00' and a.add_time <= '2017-07-13 23:59:59')group by d.id) a WHERE (  a.yugu >= 20 and a.yugu < 30 )  [ RunTime:0.108919s ]
+
+[ 2017-07-14T19:15:33+08:00 ] 127.0.0.1 /taobaoke/index.php?s=Operational/getdailiinfo&id=
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001145s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001337s ]
+NOTIC: [8] Undefined index: day D:\wamp64\www\taobaoke\Admin\Lib\Action\OperationalAction.class.php 第 145 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SELECT count(*) as count,FORMAT(sum(a.eff_yugu),2) as yugu,DATE_FORMAT(a.add_time,'%Y-%m-%d') as add_time FROM s_adorder a,s_ad b,s_shopper c,s_daili d,s_fans e WHERE ( a.ad_id = b.adnameid and b.sid = c.id and b.id = d.adid and d.openid = e.openid and c.statustype = 4 and a.order_status != '订单失效' and a.add_time >= '2017-07-07 00:00:00' and a.add_time <= '2017-07-14 23:59:59' ) GROUP BY DATE_FORMAT(a.add_time,'%Y-%m-%d')  [ RunTime:0.085172s ]
+
+[ 2017-07-14T19:15:35+08:00 ] 127.0.0.1 /taobaoke/index.php?s=Operational/getdailimingxi&id=2&day=
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000590s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000675s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SELECT * FROM (SELECT d.phone,FORMAT(sum(a.eff_yugu),2) as yugu,d.http,b.adname,e.nickname FROM s_adorder a,s_ad b,s_shopper c,s_daili d,s_fans e WHERE ( a.ad_id = b.adnameid and b.sid = c.id and b.id = d.adid and d.openid = e.openid and c.statustype = 4 and a.order_status != '订单失效'and a.add_time >= '2017-07-06 00:00:00' and a.add_time <= '2017-07-13 23:59:59')group by d.id) a WHERE (  a.yugu >= 20 and a.yugu < 30 )  [ RunTime:0.120455s ]
+
+[ 2017-07-14T19:20:45+08:00 ] 127.0.0.1 /taobaoke/index.php?s=Operational/getdailiinfo&id=
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001133s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001305s ]
+NOTIC: [8] Undefined index: day D:\wamp64\www\taobaoke\Admin\Lib\Action\OperationalAction.class.php 第 145 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SELECT count(*) as count,FORMAT(sum(a.eff_yugu),2) as yugu,DATE_FORMAT(a.add_time,'%Y-%m-%d') as add_time FROM s_adorder a,s_ad b,s_shopper c,s_daili d,s_fans e WHERE ( a.ad_id = b.adnameid and b.sid = c.id and b.id = d.adid and d.openid = e.openid and c.statustype = 4 and a.order_status != '订单失效' and a.add_time >= '2017-07-07 00:00:00' and a.add_time <= '2017-07-14 23:59:59' ) GROUP BY DATE_FORMAT(a.add_time,'%Y-%m-%d')  [ RunTime:0.090930s ]
+
+[ 2017-07-14T19:20:54+08:00 ] 127.0.0.1 /taobaoke/index.php?s=Operational/getdailiinfo&id=
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001184s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001392s ]
+NOTIC: [8] Undefined index: day D:\wamp64\www\taobaoke\Admin\Lib\Action\OperationalAction.class.php 第 145 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SELECT count(*) as count,FORMAT(sum(a.eff_yugu),2) as yugu,DATE_FORMAT(a.add_time,'%Y-%m-%d') as add_time FROM s_adorder a,s_ad b,s_shopper c,s_daili d,s_fans e WHERE ( a.ad_id = b.adnameid and b.sid = c.id and b.id = d.adid and d.openid = e.openid and c.statustype = 4 and a.order_status != '订单失效' and a.add_time >= '2017-07-07 00:00:00' and a.add_time <= '2017-07-14 23:59:59' ) GROUP BY DATE_FORMAT(a.add_time,'%Y-%m-%d')  [ RunTime:0.087847s ]
+
+[ 2017-07-14T19:20:58+08:00 ] 127.0.0.1 /taobaoke/index.php?s=Operational/getdailimingxi&id=2&day=
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001188s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001379s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SELECT * FROM (SELECT d.phone,FORMAT(sum(a.eff_yugu),2) as yugu,d.http,b.adname,e.nickname FROM s_adorder a,s_ad b,s_shopper c,s_daili d,s_fans e WHERE ( a.ad_id = b.adnameid and b.sid = c.id and b.id = d.adid and d.openid = e.openid and c.statustype = 4 and a.order_status != '订单失效'  and a.add_time >= '2017-07-07 00:00:00' and a.add_time <= '2017-07-14 23:59:59')group by d.id) a WHERE (  a.yugu >= 20 and a.yugu < 30 )  [ RunTime:0.111407s ]
+
+[ 2017-07-14T19:21:12+08:00 ] 127.0.0.1 /taobaoke/index.php?s=Operational/getdailiinfo&id=3
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001637s ]
+NOTIC: [8] Undefined index: day D:\wamp64\www\taobaoke\Admin\Lib\Action\OperationalAction.class.php 第 145 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SELECT count(*) as count,FORMAT(sum(a.eff_yugu),2) as yugu,DATE_FORMAT(a.add_time,'%Y-%m-%d') as add_time FROM s_adorder a,s_ad b,s_shopper c,s_daili d,s_fans e WHERE ( a.ad_id = b.adnameid and b.sid = c.id and b.id = d.adid and d.openid = e.openid and c.statustype = 4 and a.order_status != '订单失效' and a.add_time >= '2017-07-07 00:00:00' and a.add_time <= '2017-07-14 23:59:59' ) GROUP BY DATE_FORMAT(a.add_time,'%Y-%m-%d')  [ RunTime:0.088232s ]
+
+[ 2017-07-14T19:21:19+08:00 ] 127.0.0.1 /taobaoke/index.php?s=Operational/getredbaginfo&id=
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001961s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002454s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SELECT count(*) as count,DATE_FORMAT(b.createtime,'%Y-%m-%d') as time FROM s_fans a,s_order b WHERE ( a.openid = b.openid and a.receivestatus = 1 and b.createtime >= '2017-07-07 00:00:00' and b.createtime <= '2017-07-14 23:59:59' ) GROUP BY DATE_FORMAT(b.createtime,'%Y-%m-%d')  [ RunTime:0.033587s ]
+
+[ 2017-07-14T19:21:22+08:00 ] 127.0.0.1 /taobaoke/index.php?s=Operational/getredbagmingxi&time=2017-07-11
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001085s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001260s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SELECT count(*) as count,DATE_FORMAT(b.createtime,'%Y-%m-%d') as time,c.adname,d.realname FROM s_fans a,s_order b,s_ad c,s_user d WHERE ( a.openid = b.openid and a.receivestatus = 1 and a.redadid = c.adnameid and c.userid = d.id and b.createtime >= '2017-07-11 00:00:00' and b.createtime <= '2017-07-11 23:59:59' ) GROUP BY DATE_FORMAT(b.createtime,'%Y-%m-%d'),c.id ORDER BY count desc  [ RunTime:0.372241s ]
+
+[ 2017-07-14T19:23:09+08:00 ] 127.0.0.1 /taobaoke/index.php?s=Proxy/getproxyanalysis&sdate=&edate=
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001231s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001386s ]
+NOTIC: [8] Undefined index: adname D:\wamp64\www\taobaoke\Admin\Lib\Action\ProxyAction.class.php 第 1114 行.
+NOTIC: [8] Undefined variable: page D:\wamp64\www\taobaoke\Admin\Lib\Action\ProxyAction.class.php 第 1121 行.
+NOTIC: [8] Trying to get property of non-object D:\wamp64\www\taobaoke\Admin\Lib\Action\ProxyAction.class.php 第 1121 行.
+NOTIC: [8] Undefined variable: page D:\wamp64\www\taobaoke\Admin\Lib\Action\ProxyAction.class.php 第 1121 行.
+NOTIC: [8] Trying to get property of non-object D:\wamp64\www\taobaoke\Admin\Lib\Action\ProxyAction.class.php 第 1121 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SELECT count(*) as count,FORMAT(sum(a.eff_yugu),2) as eyugu,FORMAT(sum(a.income_yugu),2) as iyugu,FORMAT(sum(a.pay_price),2) as price,b.adname,DATE_FORMAT(a.add_time,'%Y-%m-%d') as add_time FROM s_adorder a,s_ad b,s_shopper c,s_user d WHERE ( a.ad_id = b.adnameid and b.sid = c.id and b.userid = d.id and c.statustype = 4 and a.order_status != '订单失效' ) GROUP BY DATE_FORMAT(a.add_time,'%Y-%m-%d') ORDER BY add_time asc  [ RunTime:0.137112s ]
+
+[ 2017-07-14T19:23:14+08:00 ] 127.0.0.1 /taobaoke/index.php?s=Proxy/getdailigereninfo&id=
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001265s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001416s ]
+NOTIC: [8] Undefined index: day D:\wamp64\www\taobaoke\Admin\Lib\Action\ProxyAction.class.php 第 1282 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SELECT count(*) as count,FORMAT(sum(a.eff_yugu),2) as yugu,DATE_FORMAT(a.add_time,'%Y-%m-%d') as add_time FROM s_adorder a,s_ad b,s_shopper c,s_daili d,s_fans e WHERE ( a.ad_id = b.adnameid and b.sid = c.id and b.id = d.adid and d.openid = e.openid and c.statustype = 4 and a.order_status != '订单失效' and a.add_time >= '2017-07-07 00:00:00' and a.add_time <= '2017-07-14 23:59:59' ) GROUP BY DATE_FORMAT(a.add_time,'%Y-%m-%d')  [ RunTime:0.090796s ]
+
+[ 2017-07-14T19:23:17+08:00 ] 127.0.0.1 /taobaoke/index.php?s=Proxy/getdailigerenmingxi&id=0&day=
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001860s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SELECT * FROM (select d.nickname,a.phone,a.http,b.adname,a.openid from s_daili a left join s_fans d on d.openid = a.openid left join s_ad b on a.adid = b.id left join s_adorder c on b.adnameid = c.ad_id where c.eff_yugu is null and d.status = 0  and a.add_time >= '2017-07-07 00:00:00' and a.add_time <= '2017-07-14 23:59:59' group by a.id) f  [ RunTime:0.023417s ]
+ERR: 1054:Unknown column 'a.add_time' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM (select d.nickname,a.phone,a.http,b.adname,a.openid from s_daili a left join s_fans d on d.openid = a.openid left join s_ad b on a.adid = b.id left join s_adorder c on b.adnameid = c.ad_id where c.eff_yugu is null and d.status = 0  and a.add_time >= '2017-07-07 00:00:00' and a.add_time <= '2017-07-14 23:59:59' group by a.id) f 
+
+[ 2017-07-14T19:23:19+08:00 ] 127.0.0.1 /taobaoke/index.php?s=Proxy/getdailigerenmingxi&id=2&day=
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000941s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001062s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SELECT * FROM (SELECT d.phone,FORMAT(sum(a.eff_yugu),2) as yugu,d.http,b.adname,e.nickname FROM s_adorder a,s_ad b,s_shopper c,s_daili d,s_fans e WHERE ( a.ad_id = b.adnameid and b.sid = c.id and b.id = d.adid and d.openid = e.openid and c.statustype = 4 and a.order_status != '订单失效'  and a.add_time >= '2017-07-07 00:00:00' and a.add_time <= '2017-07-14 23:59:59')group by d.id) a WHERE (  a.yugu = 0 )  [ RunTime:0.114584s ]
+
+[ 2017-07-14T19:23:20+08:00 ] 127.0.0.1 /taobaoke/index.php?s=Proxy/getdailigerenmingxi&id=1&day=
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000609s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000705s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SELECT * FROM (SELECT d.phone,FORMAT(sum(a.eff_yugu),2) as yugu,d.http,b.adname,e.nickname FROM s_adorder a,s_ad b,s_shopper c,s_daili d,s_fans e WHERE ( a.ad_id = b.adnameid and b.sid = c.id and b.id = d.adid and d.openid = e.openid and c.statustype = 4 and a.order_status != '订单失效'  and a.add_time >= '2017-07-07 00:00:00' and a.add_time <= '2017-07-14 23:59:59')group by d.id) a WHERE (  a.yugu = 0 )  [ RunTime:0.115437s ]
+
+[ 2017-07-14T19:25:50+08:00 ] 127.0.0.1 /taobaoke/index.php?s=Proxy/getproxyanalysis&sdate=&edate=
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001236s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001406s ]
+NOTIC: [8] Undefined index: adname D:\wamp64\www\taobaoke\Admin\Lib\Action\ProxyAction.class.php 第 1114 行.
+NOTIC: [8] Undefined variable: page D:\wamp64\www\taobaoke\Admin\Lib\Action\ProxyAction.class.php 第 1121 行.
+NOTIC: [8] Trying to get property of non-object D:\wamp64\www\taobaoke\Admin\Lib\Action\ProxyAction.class.php 第 1121 行.
+NOTIC: [8] Undefined variable: page D:\wamp64\www\taobaoke\Admin\Lib\Action\ProxyAction.class.php 第 1121 行.
+NOTIC: [8] Trying to get property of non-object D:\wamp64\www\taobaoke\Admin\Lib\Action\ProxyAction.class.php 第 1121 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SELECT count(*) as count,FORMAT(sum(a.eff_yugu),2) as eyugu,FORMAT(sum(a.income_yugu),2) as iyugu,FORMAT(sum(a.pay_price),2) as price,b.adname,DATE_FORMAT(a.add_time,'%Y-%m-%d') as add_time FROM s_adorder a,s_ad b,s_shopper c,s_user d WHERE ( a.ad_id = b.adnameid and b.sid = c.id and b.userid = d.id and c.statustype = 4 and a.order_status != '订单失效' ) GROUP BY DATE_FORMAT(a.add_time,'%Y-%m-%d') ORDER BY add_time asc  [ RunTime:0.122800s ]
+
+[ 2017-07-14T19:25:54+08:00 ] 127.0.0.1 /taobaoke/index.php?s=Proxy/getdailigereninfo&id=
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001491s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001682s ]
+NOTIC: [8] Undefined index: day D:\wamp64\www\taobaoke\Admin\Lib\Action\ProxyAction.class.php 第 1286 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SELECT count(*) as count,FORMAT(sum(a.eff_yugu),2) as yugu,DATE_FORMAT(a.add_time,'%Y-%m-%d') as add_time FROM s_adorder a,s_ad b,s_shopper c,s_daili d,s_fans e WHERE ( a.ad_id = b.adnameid and b.sid = c.id and b.id = d.adid and d.openid = e.openid and c.statustype = 4 and a.order_status != '订单失效' and a.add_time >= '2017-07-07 00:00:00' and a.add_time <= '2017-07-14 23:59:59' ) GROUP BY DATE_FORMAT(a.add_time,'%Y-%m-%d')  [ RunTime:0.083462s ]
+
+[ 2017-07-14T19:25:57+08:00 ] 127.0.0.1 /taobaoke/index.php?s=Proxy/getdailigerenmingxi&id=2&day=
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001466s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001677s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SELECT * FROM (SELECT d.phone,FORMAT(sum(a.eff_yugu),2) as yugu,d.http,b.adname,e.nickname FROM s_adorder a,s_ad b,s_shopper c,s_daili d,s_fans e WHERE ( a.ad_id = b.adnameid and b.sid = c.id and b.id = d.adid and d.openid = e.openid and c.statustype = 4 and a.order_status != '订单失效'  and a.add_time >= '2017-07-07 00:00:00' and a.add_time <= '2017-07-14 23:59:59')group by d.id) a WHERE (  a.yugu = 0 )  [ RunTime:0.124031s ]
+
+[ 2017-07-14T19:25:59+08:00 ] 127.0.0.1 /taobaoke/index.php?s=Proxy/getdailigerenmingxi&id=0&day=
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000646s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000741s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SELECT * FROM (select d.nickname,a.phone,a.http,b.adname,a.openid from s_daili a left join s_fans d on d.openid = a.openid left join s_ad b on a.adid = b.id left join s_adorder c on b.adnameid = c.ad_id where c.eff_yugu is null and d.status = 0  and c.add_time >= '2017-07-07 00:00:00' and c.add_time <= '2017-07-14 23:59:59' group by a.id) f  [ RunTime:0.056702s ]
+
+[ 2017-07-14T19:26:30+08:00 ] 127.0.0.1 /taobaoke/index.php?s=Proxy/getdailigereninfo&id=
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001755s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001976s ]
+NOTIC: [8] Undefined index: day D:\wamp64\www\taobaoke\Admin\Lib\Action\ProxyAction.class.php 第 1286 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SELECT count(*) as count,FORMAT(sum(a.eff_yugu),2) as yugu,DATE_FORMAT(a.add_time,'%Y-%m-%d') as add_time FROM s_adorder a,s_ad b,s_shopper c,s_daili d,s_fans e WHERE ( a.ad_id = b.adnameid and b.sid = c.id and b.id = d.adid and d.openid = e.openid and c.statustype = 4 and a.order_status != '订单失效' and a.add_time >= '2017-07-07 00:00:00' and a.add_time <= '2017-07-14 23:59:59' ) GROUP BY DATE_FORMAT(a.add_time,'%Y-%m-%d')  [ RunTime:0.085785s ]
+
+[ 2017-07-14T19:26:31+08:00 ] 127.0.0.1 /taobaoke/index.php?s=Proxy/getdailigerenmingxi&id=0&day=
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002989s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004067s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SELECT * FROM (select d.nickname,a.phone,a.http,b.adname,a.openid from s_daili a left join s_fans d on d.openid = a.openid left join s_ad b on a.adid = b.id left join s_adorder c on b.adnameid = c.ad_id where c.eff_yugu is null and d.status = 0  and c.add_time >= '2017-07-07 00:00:00' and c.add_time <= '2017-07-14 23:59:59' group by a.id) f  [ RunTime:0.060314s ]
+
+[ 2017-07-14T19:30:54+08:00 ] 127.0.0.1 /taobaoke/index.php?s=Proxy/getdailigereninfo&id=
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001759s ]
+NOTIC: [8] Undefined index: day D:\wamp64\www\taobaoke\Admin\Lib\Action\ProxyAction.class.php 第 1283 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SELECT count(*) as count,FORMAT(sum(a.eff_yugu),2) as yugu,DATE_FORMAT(a.add_time,'%Y-%m-%d') as add_time FROM s_adorder a,s_ad b,s_shopper c,s_daili d,s_fans e WHERE ( a.ad_id = b.adnameid and b.sid = c.id and b.id = d.adid and d.openid = e.openid and c.statustype = 4 and a.order_status != '订单失效' and a.add_time >= '2017-07-07 00:00:00' and a.add_time <= '2017-07-14 23:59:59' ) GROUP BY DATE_FORMAT(a.add_time,'%Y-%m-%d')  [ RunTime:0.089142s ]
+
+[ 2017-07-14T19:30:56+08:00 ] 127.0.0.1 /taobaoke/index.php?s=Proxy/getdailigerenmingxi&id=1&day=
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002178s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SELECT * FROM (SELECT d.phone,FORMAT(sum(a.eff_yugu),2) as yugu,d.http,b.adname,e.nickname FROM s_adorder a,s_ad b,s_shopper c,s_daili d,s_fans e WHERE ( a.ad_id = b.adnameid and b.sid = c.id and b.id = d.adid and d.openid = e.openid and c.statustype = 4 and a.order_status != '订单失效'  and a.add_time >= '2017-07-07 00:00:00' and a.add_time <= '2017-07-14 23:59:59')group by d.id) a WHERE (  a.yugu = 0 )  [ RunTime:0.121751s ]
+
+[ 2017-07-14T19:31:40+08:00 ] 127.0.0.1 /taobaoke/index.php?s=Proxy/getdailigereninfo&id=
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001244s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001420s ]
+NOTIC: [8] Undefined index: day D:\wamp64\www\taobaoke\Admin\Lib\Action\ProxyAction.class.php 第 1283 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SELECT count(*) as count,FORMAT(sum(a.eff_yugu),2) as yugu,DATE_FORMAT(a.add_time,'%Y-%m-%d') as add_time FROM s_adorder a,s_ad b,s_shopper c,s_daili d,s_fans e WHERE ( a.ad_id = b.adnameid and b.sid = c.id and b.id = d.adid and d.openid = e.openid and c.statustype = 4 and a.order_status != '订单失效' and a.add_time >= '2017-07-07 00:00:00' and a.add_time <= '2017-07-14 23:59:59' ) GROUP BY DATE_FORMAT(a.add_time,'%Y-%m-%d')  [ RunTime:0.099597s ]
+
+[ 2017-07-14T19:31:43+08:00 ] 127.0.0.1 /taobaoke/index.php?s=Proxy/getdailigerenmingxi&id=2&day=
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001542s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SELECT * FROM (SELECT d.phone,FORMAT(sum(a.eff_yugu),2) as yugu,d.http,b.adname,e.nickname FROM s_adorder a,s_ad b,s_shopper c,s_daili d,s_fans e WHERE ( a.ad_id = b.adnameid and b.sid = c.id and b.id = d.adid and d.openid = e.openid and c.statustype = 4 and a.order_status != '订单失效'  and a.add_time >= '2017-07-07 00:00:00' and a.add_time <= '2017-07-14 23:59:59')group by d.id) a WHERE (  a.yugu >= 20 and a.yugu < 30 )  [ RunTime:0.120465s ]
+
+[ 2017-07-14T19:31:49+08:00 ] 127.0.0.1 /taobaoke/index.php?s=Proxy/getdailigerenmingxi&id=0&day=
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001225s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001409s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SELECT * FROM (select d.nickname,a.phone,a.http,b.adname,a.openid from s_daili a left join s_fans d on d.openid = a.openid left join s_ad b on a.adid = b.id left join s_adorder c on b.adnameid = c.ad_id where c.eff_yugu is null and d.status = 0  group by a.id) f  [ RunTime:0.184621s ]
+
+[ 2017-07-14T19:32:05+08:00 ] 127.0.0.1 /taobaoke/index.php?s=Proxy/getdailigereninfo&id=
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001132s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001339s ]
+NOTIC: [8] Undefined index: day D:\wamp64\www\taobaoke\Admin\Lib\Action\ProxyAction.class.php 第 1283 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SELECT count(*) as count,FORMAT(sum(a.eff_yugu),2) as yugu,DATE_FORMAT(a.add_time,'%Y-%m-%d') as add_time FROM s_adorder a,s_ad b,s_shopper c,s_daili d,s_fans e WHERE ( a.ad_id = b.adnameid and b.sid = c.id and b.id = d.adid and d.openid = e.openid and c.statustype = 4 and a.order_status != '订单失效' and a.add_time >= '2017-07-07 00:00:00' and a.add_time <= '2017-07-14 23:59:59' and b.userid = 62 ) GROUP BY DATE_FORMAT(a.add_time,'%Y-%m-%d')  [ RunTime:0.036555s ]
+
+[ 2017-07-14T19:32:07+08:00 ] 127.0.0.1 /taobaoke/index.php?s=Proxy/getdailigerenmingxi&id=2&day=
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000613s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000704s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SELECT * FROM (SELECT d.phone,FORMAT(sum(a.eff_yugu),2) as yugu,d.http,b.adname,e.nickname FROM s_adorder a,s_ad b,s_shopper c,s_daili d,s_fans e WHERE ( a.ad_id = b.adnameid and b.sid = c.id and b.id = d.adid and d.openid = e.openid and c.statustype = 4 and a.order_status != '订单失效'  and a.add_time >= '2017-07-07 00:00:00' and a.add_time <= '2017-07-14 23:59:59')group by d.id) a WHERE (  a.yugu >= 20 and a.yugu < 30 and b.userid = 62 )  [ RunTime:0.022586s ]
+ERR: 1054:Unknown column 'b.userid' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM (SELECT d.phone,FORMAT(sum(a.eff_yugu),2) as yugu,d.http,b.adname,e.nickname FROM s_adorder a,s_ad b,s_shopper c,s_daili d,s_fans e WHERE ( a.ad_id = b.adnameid and b.sid = c.id and b.id = d.adid and d.openid = e.openid and c.statustype = 4 and a.order_status != '订单失效'  and a.add_time >= '2017-07-07 00:00:00' and a.add_time <= '2017-07-14 23:59:59')group by d.id) a WHERE (  a.yugu >= 20 and a.yugu < 30 and b.userid = 62 ) 
+
+[ 2017-07-14T19:32:09+08:00 ] 127.0.0.1 /taobaoke/index.php?s=Proxy/getdailigerenmingxi&id=0&day=
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000752s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000922s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SELECT * FROM (select d.nickname,a.phone,a.http,b.adname,a.openid from s_daili a left join s_fans d on d.openid = a.openid left join s_ad b on a.adid = b.id left join s_adorder c on b.adnameid = c.ad_id where c.eff_yugu is null and d.status = 0  and d.userid = 62 group by a.id) f  [ RunTime:0.042333s ]
+
+[ 2017-07-14T19:32:15+08:00 ] 127.0.0.1 /taobaoke/index.php?s=Proxy/getdailigerenmingxi&id=3&day=
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001586s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002436s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SELECT * FROM (SELECT d.phone,FORMAT(sum(a.eff_yugu),2) as yugu,d.http,b.adname,e.nickname FROM s_adorder a,s_ad b,s_shopper c,s_daili d,s_fans e WHERE ( a.ad_id = b.adnameid and b.sid = c.id and b.id = d.adid and d.openid = e.openid and c.statustype = 4 and a.order_status != '订单失效'  and a.add_time >= '2017-07-07 00:00:00' and a.add_time <= '2017-07-14 23:59:59')group by d.id) a WHERE (  a.yugu >= 30 and b.userid = 62 )  [ RunTime:0.025734s ]
+ERR: 1054:Unknown column 'b.userid' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM (SELECT d.phone,FORMAT(sum(a.eff_yugu),2) as yugu,d.http,b.adname,e.nickname FROM s_adorder a,s_ad b,s_shopper c,s_daili d,s_fans e WHERE ( a.ad_id = b.adnameid and b.sid = c.id and b.id = d.adid and d.openid = e.openid and c.statustype = 4 and a.order_status != '订单失效'  and a.add_time >= '2017-07-07 00:00:00' and a.add_time <= '2017-07-14 23:59:59')group by d.id) a WHERE (  a.yugu >= 30 and b.userid = 62 ) 
+
+[ 2017-07-14T19:32:17+08:00 ] 127.0.0.1 /taobaoke/index.php?s=Proxy/getdailigerenmingxi&id=1&day=
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001552s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001716s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SELECT * FROM (SELECT d.phone,FORMAT(sum(a.eff_yugu),2) as yugu,d.http,b.adname,e.nickname FROM s_adorder a,s_ad b,s_shopper c,s_daili d,s_fans e WHERE ( a.ad_id = b.adnameid and b.sid = c.id and b.id = d.adid and d.openid = e.openid and c.statustype = 4 and a.order_status != '订单失效'  and a.add_time >= '2017-07-07 00:00:00' and a.add_time <= '2017-07-14 23:59:59')group by d.id) a WHERE (  a.yugu > 0 and a.yugu < 20 and b.userid = 62 )  [ RunTime:0.022575s ]
+ERR: 1054:Unknown column 'b.userid' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM (SELECT d.phone,FORMAT(sum(a.eff_yugu),2) as yugu,d.http,b.adname,e.nickname FROM s_adorder a,s_ad b,s_shopper c,s_daili d,s_fans e WHERE ( a.ad_id = b.adnameid and b.sid = c.id and b.id = d.adid and d.openid = e.openid and c.statustype = 4 and a.order_status != '订单失效'  and a.add_time >= '2017-07-07 00:00:00' and a.add_time <= '2017-07-14 23:59:59')group by d.id) a WHERE (  a.yugu > 0 and a.yugu < 20 and b.userid = 62 ) 
+
+[ 2017-07-14T19:32:18+08:00 ] 127.0.0.1 /taobaoke/index.php?s=Proxy/getdailigerenmingxi&id=1&day=
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000924s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001057s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SELECT * FROM (SELECT d.phone,FORMAT(sum(a.eff_yugu),2) as yugu,d.http,b.adname,e.nickname FROM s_adorder a,s_ad b,s_shopper c,s_daili d,s_fans e WHERE ( a.ad_id = b.adnameid and b.sid = c.id and b.id = d.adid and d.openid = e.openid and c.statustype = 4 and a.order_status != '订单失效'  and a.add_time >= '2017-07-07 00:00:00' and a.add_time <= '2017-07-14 23:59:59')group by d.id) a WHERE (  a.yugu > 0 and a.yugu < 20 and b.userid = 62 )  [ RunTime:0.021778s ]
+ERR: 1054:Unknown column 'b.userid' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM (SELECT d.phone,FORMAT(sum(a.eff_yugu),2) as yugu,d.http,b.adname,e.nickname FROM s_adorder a,s_ad b,s_shopper c,s_daili d,s_fans e WHERE ( a.ad_id = b.adnameid and b.sid = c.id and b.id = d.adid and d.openid = e.openid and c.statustype = 4 and a.order_status != '订单失效'  and a.add_time >= '2017-07-07 00:00:00' and a.add_time <= '2017-07-14 23:59:59')group by d.id) a WHERE (  a.yugu > 0 and a.yugu < 20 and b.userid = 62 ) 
+
+[ 2017-07-14T19:32:20+08:00 ] 127.0.0.1 /taobaoke/index.php?s=Proxy/getdailigerenmingxi&id=1&day=
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001723s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SELECT * FROM (SELECT d.phone,FORMAT(sum(a.eff_yugu),2) as yugu,d.http,b.adname,e.nickname FROM s_adorder a,s_ad b,s_shopper c,s_daili d,s_fans e WHERE ( a.ad_id = b.adnameid and b.sid = c.id and b.id = d.adid and d.openid = e.openid and c.statustype = 4 and a.order_status != '订单失效'  and a.add_time >= '2017-07-07 00:00:00' and a.add_time <= '2017-07-14 23:59:59')group by d.id) a WHERE (  a.yugu > 0 and a.yugu < 20 and b.userid = 62 )  [ RunTime:0.024231s ]
+ERR: 1054:Unknown column 'b.userid' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM (SELECT d.phone,FORMAT(sum(a.eff_yugu),2) as yugu,d.http,b.adname,e.nickname FROM s_adorder a,s_ad b,s_shopper c,s_daili d,s_fans e WHERE ( a.ad_id = b.adnameid and b.sid = c.id and b.id = d.adid and d.openid = e.openid and c.statustype = 4 and a.order_status != '订单失效'  and a.add_time >= '2017-07-07 00:00:00' and a.add_time <= '2017-07-14 23:59:59')group by d.id) a WHERE (  a.yugu > 0 and a.yugu < 20 and b.userid = 62 ) 
+
+[ 2017-07-14T19:32:35+08:00 ] 127.0.0.1 /taobaoke/index.php?s=Proxy/getdailigereninfo&id=
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001748s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002039s ]
+NOTIC: [8] Undefined index: day D:\wamp64\www\taobaoke\Admin\Lib\Action\ProxyAction.class.php 第 1283 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SELECT count(*) as count,FORMAT(sum(a.eff_yugu),2) as yugu,DATE_FORMAT(a.add_time,'%Y-%m-%d') as add_time FROM s_adorder a,s_ad b,s_shopper c,s_daili d,s_fans e WHERE ( a.ad_id = b.adnameid and b.sid = c.id and b.id = d.adid and d.openid = e.openid and c.statustype = 4 and a.order_status != '订单失效' and a.add_time >= '2017-07-07 00:00:00' and a.add_time <= '2017-07-14 23:59:59' and b.userid = 62 ) GROUP BY DATE_FORMAT(a.add_time,'%Y-%m-%d')  [ RunTime:0.041214s ]
+
+[ 2017-07-14T19:32:38+08:00 ] 127.0.0.1 /taobaoke/index.php?s=Proxy/getdailigerenmingxi&id=1&day=
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000666s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000759s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SELECT * FROM (SELECT d.phone,FORMAT(sum(a.eff_yugu),2) as yugu,d.http,b.adname,e.nickname FROM s_adorder a,s_ad b,s_shopper c,s_daili d,s_fans e WHERE ( a.ad_id = b.adnameid and b.sid = c.id and b.id = d.adid and d.openid = e.openid and c.statustype = 4 and a.order_status != '订单失效'  and a.add_time >= '2017-07-07 00:00:00' and a.add_time <= '2017-07-14 23:59:59')group by d.id) a WHERE (  a.yugu > 0 and a.yugu < 20 and b.userid = 62 )  [ RunTime:0.023552s ]
+ERR: 1054:Unknown column 'b.userid' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM (SELECT d.phone,FORMAT(sum(a.eff_yugu),2) as yugu,d.http,b.adname,e.nickname FROM s_adorder a,s_ad b,s_shopper c,s_daili d,s_fans e WHERE ( a.ad_id = b.adnameid and b.sid = c.id and b.id = d.adid and d.openid = e.openid and c.statustype = 4 and a.order_status != '订单失效'  and a.add_time >= '2017-07-07 00:00:00' and a.add_time <= '2017-07-14 23:59:59')group by d.id) a WHERE (  a.yugu > 0 and a.yugu < 20 and b.userid = 62 ) 
+
+[ 2017-07-14T19:32:49+08:00 ] 127.0.0.1 /taobaoke/index.php?s=Proxy/getdailigereninfo&id=
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001663s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001852s ]
+NOTIC: [8] Undefined index: day D:\wamp64\www\taobaoke\Admin\Lib\Action\ProxyAction.class.php 第 1283 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SELECT count(*) as count,FORMAT(sum(a.eff_yugu),2) as yugu,DATE_FORMAT(a.add_time,'%Y-%m-%d') as add_time FROM s_adorder a,s_ad b,s_shopper c,s_daili d,s_fans e WHERE ( a.ad_id = b.adnameid and b.sid = c.id and b.id = d.adid and d.openid = e.openid and c.statustype = 4 and a.order_status != '订单失效' and a.add_time >= '2017-07-07 00:00:00' and a.add_time <= '2017-07-14 23:59:59' and b.userid = 62 ) GROUP BY DATE_FORMAT(a.add_time,'%Y-%m-%d')  [ RunTime:0.037387s ]
+
+[ 2017-07-14T19:32:52+08:00 ] 127.0.0.1 /taobaoke/index.php?s=Proxy/getdailigerenmingxi&id=1&day=
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001241s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001438s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SELECT * FROM (SELECT d.phone,FORMAT(sum(a.eff_yugu),2) as yugu,d.http,b.adname,e.nickname FROM s_adorder a,s_ad b,s_shopper c,s_daili d,s_fans e WHERE ( a.ad_id = b.adnameid and b.sid = c.id and b.id = d.adid and d.openid = e.openid and c.statustype = 4 and a.order_status != '订单失效'  and a.add_time >= '2017-07-07 00:00:00' and a.add_time <= '2017-07-14 23:59:59')group by d.id) a WHERE (  a.yugu > 0 and a.yugu < 20 and b.userid = 62 )  [ RunTime:0.025961s ]
+ERR: 1054:Unknown column 'b.userid' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM (SELECT d.phone,FORMAT(sum(a.eff_yugu),2) as yugu,d.http,b.adname,e.nickname FROM s_adorder a,s_ad b,s_shopper c,s_daili d,s_fans e WHERE ( a.ad_id = b.adnameid and b.sid = c.id and b.id = d.adid and d.openid = e.openid and c.statustype = 4 and a.order_status != '订单失效'  and a.add_time >= '2017-07-07 00:00:00' and a.add_time <= '2017-07-14 23:59:59')group by d.id) a WHERE (  a.yugu > 0 and a.yugu < 20 and b.userid = 62 ) 
+
+[ 2017-07-14T19:35:22+08:00 ] 127.0.0.1 /taobaoke/index.php?s=Proxy/getdailigereninfo&id=
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001962s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002343s ]
+NOTIC: [8] Undefined index: day D:\wamp64\www\taobaoke\Admin\Lib\Action\ProxyAction.class.php 第 1283 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SELECT count(*) as count,FORMAT(sum(a.eff_yugu),2) as yugu,DATE_FORMAT(a.add_time,'%Y-%m-%d') as add_time FROM s_adorder a,s_ad b,s_shopper c,s_daili d,s_fans e WHERE ( a.ad_id = b.adnameid and b.sid = c.id and b.id = d.adid and d.openid = e.openid and c.statustype = 4 and a.order_status != '订单失效' and a.add_time >= '2017-07-07 00:00:00' and a.add_time <= '2017-07-14 23:59:59' and b.userid = 62 ) GROUP BY DATE_FORMAT(a.add_time,'%Y-%m-%d')  [ RunTime:0.037516s ]
+
+[ 2017-07-14T19:35:31+08:00 ] 127.0.0.1 /taobaoke/index.php?s=Proxy/getdailigerenmingxi&id=0&day=
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000995s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001140s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SELECT * FROM (select d.nickname,a.phone,a.http,b.adname,a.openid from s_daili a left join s_fans d on d.openid = a.openid left join s_ad b on a.adid = b.id left join s_adorder c on b.adnameid = c.ad_id where c.eff_yugu is null and d.status = 0  and d.userid = 62 group by a.id) f  [ RunTime:0.045516s ]
+
+[ 2017-07-14T19:35:36+08:00 ] 127.0.0.1 /taobaoke/index.php?s=Proxy/getdailigerenmingxi&id=1&day=
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000718s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000827s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SELECT * FROM (SELECT d.phone,FORMAT(sum(a.eff_yugu),2) as yugu,d.http,b.adname,e.nickname FROM s_adorder a,s_ad b,s_shopper c,s_daili d,s_fans e WHERE ( a.ad_id = b.adnameid and b.sid = c.id and b.id = d.adid and d.openid = e.openid and c.statustype = 4 and a.order_status != '订单失效'  and a.add_time >= '2017-07-07 00:00:00' and a.add_time <= '2017-07-14 23:59:59' and b.userid = 62)group by d.id) a WHERE (  a.yugu > 0 and a.yugu < 20 )  [ RunTime:0.036814s ]
+
+[ 2017-07-14T19:35:40+08:00 ] 127.0.0.1 /taobaoke/index.php?s=Proxy/getdailigerenmingxi&id=2&day=
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004466s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004677s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SELECT * FROM (SELECT d.phone,FORMAT(sum(a.eff_yugu),2) as yugu,d.http,b.adname,e.nickname FROM s_adorder a,s_ad b,s_shopper c,s_daili d,s_fans e WHERE ( a.ad_id = b.adnameid and b.sid = c.id and b.id = d.adid and d.openid = e.openid and c.statustype = 4 and a.order_status != '订单失效'  and a.add_time >= '2017-07-07 00:00:00' and a.add_time <= '2017-07-14 23:59:59' and b.userid = 62)group by d.id) a WHERE (  a.yugu >= 20 and a.yugu < 30 )  [ RunTime:0.038974s ]
+
+[ 2017-07-14T19:35:43+08:00 ] 127.0.0.1 /taobaoke/index.php?s=Proxy/getdailigerenmingxi&id=3&day=
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000807s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000919s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SELECT * FROM (SELECT d.phone,FORMAT(sum(a.eff_yugu),2) as yugu,d.http,b.adname,e.nickname FROM s_adorder a,s_ad b,s_shopper c,s_daili d,s_fans e WHERE ( a.ad_id = b.adnameid and b.sid = c.id and b.id = d.adid and d.openid = e.openid and c.statustype = 4 and a.order_status != '订单失效'  and a.add_time >= '2017-07-07 00:00:00' and a.add_time <= '2017-07-14 23:59:59' and b.userid = 62)group by d.id) a WHERE (  a.yugu >= 30 )  [ RunTime:0.040417s ]
+
+[ 2017-07-14T19:35:48+08:00 ] 127.0.0.1 /taobaoke/index.php?s=Proxy/getdailigerenmingxi&id=0&day=
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001602s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SELECT * FROM (select d.nickname,a.phone,a.http,b.adname,a.openid from s_daili a left join s_fans d on d.openid = a.openid left join s_ad b on a.adid = b.id left join s_adorder c on b.adnameid = c.ad_id where c.eff_yugu is null and d.status = 0  and d.userid = 62 group by a.id) f  [ RunTime:0.049899s ]
+
+[ 2017-07-14T19:38:52+08:00 ] 127.0.0.1 /taobaoke/index.php?s=Operational/getdailiinfo&id=
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002871s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003032s ]
+NOTIC: [8] Undefined index: day D:\wamp64\www\taobaoke\Admin\Lib\Action\OperationalAction.class.php 第 145 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SELECT count(*) as count,FORMAT(sum(a.eff_yugu),2) as yugu,DATE_FORMAT(a.add_time,'%Y-%m-%d') as add_time FROM s_adorder a,s_ad b,s_shopper c,s_daili d,s_fans e WHERE ( a.ad_id = b.adnameid and b.sid = c.id and b.id = d.adid and d.openid = e.openid and c.statustype = 4 and a.order_status != '订单失效' and a.add_time >= '2017-07-07 00:00:00' and a.add_time <= '2017-07-14 23:59:59' ) GROUP BY DATE_FORMAT(a.add_time,'%Y-%m-%d')  [ RunTime:0.100067s ]
+
+[ 2017-07-14T19:38:54+08:00 ] 127.0.0.1 /taobaoke/index.php?s=Operational/getdailimingxi&id=1&day=
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000643s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000749s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SELECT * FROM (SELECT d.phone,FORMAT(sum(a.eff_yugu),2) as yugu,d.http,b.adname,e.nickname FROM s_adorder a,s_ad b,s_shopper c,s_daili d,s_fans e WHERE ( a.ad_id = b.adnameid and b.sid = c.id and b.id = d.adid and d.openid = e.openid and c.statustype = 4 and a.order_status != '订单失效'  and a.add_time >= '2017-07-07 00:00:00' and a.add_time <= '2017-07-14 23:59:59')group by d.id) a WHERE (  a.yugu > 0 and a.yugu < 20 )  [ RunTime:0.126942s ]
+
+[ 2017-07-14T19:39:00+08:00 ] 127.0.0.1 /taobaoke/index.php?s=Operational/getdailimingxi&id=2&day=
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002248s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002585s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\taobaoke\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SELECT * FROM (SELECT d.phone,FORMAT(sum(a.eff_yugu),2) as yugu,d.http,b.adname,e.nickname FROM s_adorder a,s_ad b,s_shopper c,s_daili d,s_fans e WHERE ( a.ad_id = b.adnameid and b.sid = c.id and b.id = d.adid and d.openid = e.openid and c.statustype = 4 and a.order_status != '订单失效'  and a.add_time >= '2017-07-07 00:00:00' and a.add_time <= '2017-07-14 23:59:59')group by d.id) a WHERE (  a.yugu >= 20 and a.yugu < 30 )  [ RunTime:0.125872s ]
+
